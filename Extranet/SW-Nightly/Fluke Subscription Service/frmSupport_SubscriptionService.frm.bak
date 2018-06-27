@@ -1,0 +1,194 @@
+VERSION 5.00
+Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0"; "mscomctl.ocx"
+Begin VB.Form frmSupport_SubscriptionService 
+   BorderStyle     =   1  'Fixed Single
+   Caption         =   "Fluke Support Subscription Service"
+   ClientHeight    =   2145
+   ClientLeft      =   45
+   ClientTop       =   330
+   ClientWidth     =   7425
+   Icon            =   "frmSupport_SubscriptionService.frx":0000
+   LinkTopic       =   "Form1"
+   MaxButton       =   0   'False
+   MinButton       =   0   'False
+   ScaleHeight     =   2145
+   ScaleWidth      =   7425
+   StartUpPosition =   3  'Windows Default
+   Begin VB.TextBox txtTotalRecords 
+      Height          =   375
+      Left            =   3480
+      TabIndex        =   2
+      Top             =   120
+      Width           =   1095
+   End
+   Begin VB.TextBox txtCurrentRecord 
+      Height          =   375
+      Left            =   1440
+      TabIndex        =   1
+      Top             =   120
+      Width           =   1335
+   End
+   Begin VB.TextBox txtCurrentUser 
+      Height          =   495
+      Left            =   1440
+      TabIndex        =   3
+      Top             =   840
+      Width           =   3135
+   End
+   Begin VB.CommandButton cmdSubscription 
+      Caption         =   "Run &Subscription Service"
+      Height          =   495
+      Left            =   4920
+      TabIndex        =   5
+      Top             =   840
+      Width           =   2295
+   End
+   Begin MSComctlLib.StatusBar sbSubscription 
+      Align           =   2  'Align Bottom
+      Height          =   375
+      Left            =   0
+      TabIndex        =   0
+      Top             =   1770
+      Width           =   7425
+      _ExtentX        =   13097
+      _ExtentY        =   661
+      _Version        =   393216
+      BeginProperty Panels {8E3867A5-8586-11D1-B16A-00C0F0283628} 
+         NumPanels       =   1
+         BeginProperty Panel1 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
+         EndProperty
+      EndProperty
+   End
+   Begin VB.Label Label3 
+      Caption         =   "of"
+      Height          =   375
+      Left            =   3000
+      TabIndex        =   7
+      Top             =   120
+      Width           =   375
+   End
+   Begin VB.Label Label2 
+      Caption         =   "Processing User"
+      Height          =   495
+      Left            =   120
+      TabIndex        =   6
+      Top             =   120
+      Width           =   1215
+   End
+   Begin VB.Label Label1 
+      Caption         =   "Processing User:"
+      Height          =   495
+      Left            =   120
+      TabIndex        =   4
+      Top             =   840
+      Width           =   1215
+   End
+End
+Attribute VB_Name = "frmSupport_SubscriptionService"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Private Enum eServiceMode
+    Unattended = 0
+    Attended = 1
+End Enum
+
+Private Sub cmdSubscription_Click()
+    StartService Attended
+End Sub
+
+Private Sub Form_Load()
+    On Error GoTo EXIT_Form_Load
+    
+    Dim strCommandArgs As String
+    Dim oSubscription As clsSubscriptionSrv
+    
+    strCommandArgs = Command
+    
+    If InStr(1, UCase(strCommandArgs), "RUNINBACKGROUND") > 0 Then
+        Me.Show
+        DoEvents
+        StartService Unattended
+        Unload Me
+    Else
+        With sbSubscription
+            .Panels.Add 1, "Status", "Status: "
+            .Panels.Item(1).Width = 2000
+            .Panels.Add 2, "SubDir", "Directory: "
+            .Panels.Item(2).Width = 3000
+            .Panels.Add 3, "File", "File: "
+            .Panels.Item(3).Width = Me.Width - 1250 - 2000
+        End With
+        Me.Show
+    End If
+Exit Sub
+
+EXIT_Form_Load:
+    ErrorReport err, "Error loading form."
+End Sub
+
+Private Function StartService(eServiceMode As eServiceMode) As Boolean
+    On Error GoTo EXIT_StartService
+    
+    Dim bErrorFound As Boolean
+    Dim oSubscription As clsSubscriptionSrv
+    
+    Set oSubscription = New clsSubscriptionSrv
+    oSubscription.InitializeData FormatPath(App.Path)
+    oSubscription.InitializeControls txtCurrentRecord, txtTotalRecords, txtCurrentUser, sbSubscription
+    oSubscription.StartSubscriptionService
+    ' See if there were error trapped and we were able to continue
+    If oSubscription.GetErrorCount > 0 Then
+        bErrorFound = True
+    End If
+    Set oSubscription = Nothing
+    StartService = bErrorFound
+
+    If eServiceMode = Attended And bErrorFound Then
+        MsgBox "Error found: " & err.Description & vbCrLf & "Please check the log files for more information.", vbOKOnly, "Subscription Service"
+    End If
+Exit Function
+
+EXIT_StartService:
+    If eServiceMode = Unattended Then
+        NotifyAdmin err
+    End If
+    ErrorReport err, "Error starting subscription service."
+End Function
+
+Private Function NotifyAdmin(err As errobject)
+    Dim oMailer As Object
+    Dim oIniFile As clsIniWrapper
+    
+    'Set oMailer = CreateObject("SMTPsvg.Mailer")
+    'adding new email method
+    %>
+    <!--#include virtual="/connections/connection_email_new.asp"-->
+    <%
+
+    Set oIniFile = New clsIniWrapper
+    oIniFile.INI_FILE = FormatPath(App.Path) & "SubscriptionService.ini"
+    oIniFile.INI_APP = "SUBSCRIPTIONSERVICE_USERS"
+
+    strRemoteHost = oIniFile.GetIniString("MAILSERVER")
+    strFromAddress = oIniFile.GetIniString("SENDEREMAIL")
+    strRecipient = oIniFile.GetIniString("ADMINEMAIL")
+    
+    'oMailer.FromName = "Fluke CSS Web"
+    'oMailer.RemoteHost = strRemoteHost
+    'oMailer.FromAddress = strFromAddress
+    'oMailer.AddRecipient "", strRecipient
+
+    msg.From = """Fluke CSS Web""" & strFromAddress
+    msg.To = strRecipient
+
+    'oMailer.Subject = "Service Subscription Error Found"
+    'oMailer.BodyText = "There was an error running the nightly service subscription service. Please check the error logs for more information."
+
+    msg.Subject = "Service Subscription Error Found"
+    msg.TextBody = "There was an error running the nightly service subscription service. Please check the error logs for more information."
+
+    Set oIniFile = Nothing
+    'Set oMailer = Nothing
+End Function

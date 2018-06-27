@@ -1,0 +1,93 @@
+
+----- 1/17/2008 4:00:02 AM
+
+Handling site Calibration-Sales
+	User: Paty Ikeda 60 patricia.ikeda@fluke.com Mail sent
+
+Handling site FInd-Sales
+	User: marketing 30 gquinn@transcat.com Mail sent
+	User: DNoland 30 dnoland@martinsales.com Mail sent
+	User: dsamuels 30 dsamuels@tucker.com Mail sent
+	User: pointerdl 60 dlambeth@pointerelectric.com Mail sent
+	User: porkchop 60 rae@rae.ca Mail sent
+	User: simãogomes 14 simao@jmm.ptconflict on CMS_Region
+	User: LindaGustafson 30 gustafson@volco.net Mail sent
+	User: farmwitt 30 wittlief.r@grainger.com Mail sent
+	User: srabe@cesales.com 30 srabe@cesales.com Mail sent
+	User: apeg2sapo 14 comercial@diferencial.ptconflict on CMS_Region
+	User: caiadoleiria 14 filipeverissimo@caiadoelectric.comconflict on CMS_Region
+	User: virgiliooliveira 14 info@virgiliooliveira.comconflict on CMS_Region
+	User: reysanroman 14 numarey@coasin.com.uy Mail sent
+
+Handling site Pomona-Sales
+	User: marketing 30 gquinn@transcat.com Mail sent
+	User: ToniGolden 30 toni@emulation.com Mail sent
+	User: srabe@cesales.com 30 srabe@cesales.com Mail sent
+	User: joseph mey 30 joseph.mey@weschler.com Mail sent
+	User: dsamuels 30 dsamuels@tucker.com Mail sent
+	User: farmwitt 30 wittlief.r@grainger.com Mail sent
+
+Handling site Meterman-Sales
+	User: marketing 30 gquinn@transcat.com Mail sent
+	User: dsamuels 30 dsamuels@tucker.com Mail sent
+	User: pointerdl 60 dlambeth@pointerelectric.com Mail sent
+	User: joseph mey 30 joseph.mey@weschler.com Mail sent
+	User: srabe@cesales.com 30 srabe@cesales.com Mail sent
+	User: farmwitt 30 wittlief.r@grainger.com Mail sent
+	User: DNoland 30 dnoland@martinsales.com Mail sent
+	User: reysanroman 14 numarey@coasin.com.uy Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: Paty Ikeda 60 patricia.ikeda@fluke.com Mail sent
+	User: jromanek 14 jromanek@southernmarketing.com Mail sent
+
+Handling site Educators
+	User: gavkirk 30 gavin.kirk@fluke.com Mail sent
+	User: mercer97223e 60 mmercer@ewingfoley.com Mail sent
+	User: Blaine M. Jarrell 60 bjarrell@peabodyenergy.com Mail sent
+	User: MichelleAdame 60 michelle.adame@fluke.com Mail sent
+	User: ecoleman 14 edwardl.coleman@conagrafoods.com Mail sent
+	User: clay2275 60 ccarroll@denier.com Mail sent
+	User: rfernandez 14 rafaelfs98@hotmail.com Mail sent
+	User: Andrew Pang 60 bnpang@aapt.net.au Mail sent
+	User: Herk6754 60 thomas.giovingo@erau.edu Mail sent
+	User: mike prater 60 mprater@fourcountyvocational.org Mail sent
+	User: MICHEAL 60 mikeh@ajtraining.org Mail sent
+	User: electricalwoman 60 electricalwoman@yahoo.com Mail sent
+	User: sbilen1 14 sbilen@psu.edu Mail sent
+	User: breichenbach 60 breic@hotmail.com Mail sent
+	User: tllarson 60 todd.larson2@witc.edu Mail sent
+	User: GOTOLTC 14 steven.dekarske@gotoltc.edu Mail sent
+	User: lakatz25 60 luis.katz@fluke.com Mail sent
+	User: Esteban0969 60 ieossa@isa.com.co Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+	User: kathyse 30 kathys@appliedmc.com Mail sent
+	User: mbarnes 30 mbarnes@volco.net Mail sent
+	User: farmwittr 30 wittlief.r@grainger.com Mail sent
+	User: overtheaunthill 14 dhill@fluke.com Mail sent
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+	User: Paty Ikeda 60 patricia.ikeda@fluke.com Mail sent
+Site		Expirers	Emails
+Calibration-Sales		1	1
+FInd-Sales		13	9
+Pomona-Sales		6	6
+Meterman-Sales		8	8
+Ircon-Sales		0	0
+Hart-Sales		2	2
+Educators		18	18
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		4	4
+Amprobe-Sales		0	0
+DHI-Sales		1	1
+Total sites = 12

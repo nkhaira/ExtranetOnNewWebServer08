@@ -1,0 +1,8 @@
+lcd D:\IIS\websites\Extranet\SW-Administrator
+open ftp.fluke.com
+fluke
+KaxETa6vsg
+cd content/fluke/Test/Fluke/Download/Asset/
+prompt
+put file.txt
+bye

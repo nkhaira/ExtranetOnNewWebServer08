@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ExtranetPcat">
+</Property><Property Name="Solution File" Value="D:\IIS\websites\Extranet\SW-PCat\Extranet-Pcat\ExtranetPcat.sln">
+</Property><Property Name="Date" Value="Tuesday, November 21, 2017">
+</Property><Property Name="Time" Value="2:06:01 AM">
+</Property><Property Name="Log Number" Value="3">
+</Property></Properties><Event ErrorLevel="0" Project="ExtranetPcat" Source="ExtranetPcat\ExtranetPcat.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="3" Project="ExtranetPcat" Source="ExtranetPcat.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ExtranetPcat" Source="ExtranetPcat.csproj" Description="You have completed the first step in converting your Visual Studio .NET 2003 web project. To complete the conversion, please select your project in the Solution Explorer and choose the 'Convert to Web Application' context menu item.">
+</Event></UpgradeLog>

@@ -1,0 +1,58 @@
+
+----- 2/17/2008 4:00:01 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: cbadziktms 30 cbadzik@tmssales.com Mail sent
+	User: deweeser 14 bob@westconinc.com Mail sent
+	User: mdulion 60 mdulion@cox.net Mail sent
+	User: bayer robert 60 robert.bayer@sonepar.atconflict on CMS_Region
+
+Handling site Pomona-Sales
+	User: deweeser 14 bob@westconinc.com Mail sent
+
+Handling site Meterman-Sales
+	User: deweeser 14 bob@westconinc.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: harttms 30 cbadzik@tmssales.com Mail sent
+
+Handling site Educators
+	User: Nukemann 30 michael.mann@constellation.com Mail sent
+	User: Al Cohen 60 cohenal@aol.com Mail sent
+	User: gmaikehunter 60 maikeg@ferris.edu Mail sent
+	User: jlgintz 14 jerry.gintz@asu.edu Mail sent
+	User: ralfopper 30 r.opper@prettlus.com Mail sent
+	User: jmillion 14 jmillion@alaska.net Mail sent
+	User: generke 60 generke@cod.edu Mail sent
+	User: jsunderm 30 jsunderm@suffolk.lib.ny.us Mail sent
+	User: e.allard 60 e.allard@verizon.net Mail sent
+	User: howardl 30 lawrence.howard@tyson.com Mail sent
+	User: dbernazzani 30 dbernazzani@itelinc.com Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		4	3
+Pomona-Sales		1	1
+Meterman-Sales		1	1
+Ircon-Sales		0	0
+Hart-Sales		1	1
+Educators		11	11
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

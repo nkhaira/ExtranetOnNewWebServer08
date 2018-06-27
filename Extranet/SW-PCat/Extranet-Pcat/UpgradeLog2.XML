@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ExtranetPcat">
+</Property><Property Name="Solution File" Value="D:\IIS\websites\Extranet\SW-PCat\Extranet-Pcat\ExtranetPcat.sln">
+</Property><Property Name="User Options File" Value="D:\IIS\websites\Extranet\SW-PCat\Extranet-Pcat\ExtranetPcat.suo">
+</Property><Property Name="Date" Value="Tuesday, November 21, 2017">
+</Property><Property Name="Time" Value="1:14 AM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ExtranetPcat.sln" Description="File successfully backed up as D:\IIS\websites\Extranet\SW-PCat\Extranet-Pcat\Backup\Backup\ExtranetPcat.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ExtranetPcat.suo" Description="File successfully backed up as D:\IIS\websites\Extranet\SW-PCat\Extranet-Pcat\Backup\Backup\ExtranetPcat.suo">
+</Event><Event ErrorLevel="1" Project="ExtranetPcat" Source="http://localhost:8080/ExtranetPcat/ExtranetPcat.csproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="2" Project="http://localhost:8080/ExtranetPcat/ExtranetPcat.csproj" Source="http://localhost:8080/ExtranetPcat/ExtranetPcat.csproj" Description="ERROR: Failed to back up Web site http://localhost:8080/ExtranetPcat/ExtranetPcat.csproj">
+</Event><Event ErrorLevel="0" Project="" Source="ExtranetPcat.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ExtranetPcat.sln" Description="Converted">
+</Event></UpgradeLog>

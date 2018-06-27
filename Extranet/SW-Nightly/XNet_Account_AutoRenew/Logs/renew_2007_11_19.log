@@ -1,0 +1,68 @@
+
+----- 11/19/2007 4:00:02 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: grant chad 60 grant@prime-electronics.com.au Mail sent
+	User: Witronic 60 owinkler@witronic.chconflict on CMS_Region
+	User: servilecsa 60 dgross@servilec.chconflict on CMS_Region
+	User: harrystahel 60 stahel@recom.chconflict on CMS_Region
+	User: sintrel10 60 shuber@sintrel.chconflict on CMS_Region
+	User: elektronikbolaget 30 bo.ygfors@orbis.euconflict on CMS_Region
+
+Handling site Pomona-Sales
+
+Handling site Meterman-Sales
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: dallenbaugh 14 dallen.baugh@hartscientific.com Mail sent
+
+Handling site Educators
+	User: Stankovic 14 a.stankovic@csuohio.edu Mail sent
+	User: jsitompul 30 jsitompul@centrin.net.id Mail sent
+	User: aaronbarry73 60 Aaron.Barry@Target.com Mail sent
+	User: jim53098 60 james.morris@maryknollschool.org Mail sent
+	User: simmonsfec 60 simmonsfec@yahoo.com Mail sent
+	User: uncatalogued 60 2006@itsystems-inc.com Mail sent
+	User: megablc 60 laurie.ching@faa.gov Mail sent
+	User: smcpherson 14 mcphers@svcc.edu Mail sent
+	User: lquiggle 30 lquiggle@cnm.edu Mail sent
+	User: Katrina 30 katrina.leaf@fluke.com Mail sent
+	User: pdillard 60 mvdillard@comcast.net Mail sent
+	User: azarthenut 60 azarthenut@sbcglobal.net Mail sent
+	User: tadlwdd 30 deboeuf@linnstate.edu Mail sent
+	User: penderte 60 terry.pendergraft@pgnmail.com Mail sent
+	User: DURACOINC 30 BVASA@DURACOINC.COM Mail sent
+	User: barkley 60 jeramie.dobbins@fluke.com Mail sent
+	User: judycole 60 judycole@water.ca.gov Mail sent
+	User: qbqs@aol.com 30 qbqs@aol.com Mail sent
+	User: paulroult 30 paul.roult@msd.edu Mail sent
+	User: tuttler@unk.edu 30 tuttler@unk.edu Mail sent
+	User: passdom 14 PASSdom@aol.com Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		6	1
+Pomona-Sales		0	0
+Meterman-Sales		0	0
+Ircon-Sales		0	0
+Hart-Sales		1	1
+Educators		21	21
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

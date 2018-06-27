@@ -1,0 +1,103 @@
+
+----- 12/7/2007 4:00:02 AM
+
+Handling site Calibration-Sales
+	User: smithca1090 30 Carmen.smith@fluke.com Mail sent
+	User: akihito.ishige 30 akihito.ishige@fluke.com Mail sent
+
+Handling site FInd-Sales
+	User: BjørnClausen 60 bjocla@bd.dkconflict on CMS_Region
+	User: purchase 14 AD.HAZENBERG@DISPLAY.NLconflict on CMS_Region
+	User: rick3mcc 30 rick.mccoy@fluke.com Mail sent
+	User: tomlowell 60 tlowell@dee-inc.com Mail sent
+	User: smithca1090 30 Carmen.smith@fluke.com Mail sent
+	User: dsandlin 60 dsandlin@alltel.net Mail sent
+	User: mindymiller 30 mindy.miller@mouser.com Mail sent
+	User: cornhucker 30 vamaxwell@verizon.net Mail sent
+	User: JANET MARTIN 30 martinj@mc-mc.com Mail sent
+	User: mwsmith 30 mwsmith@arcade-electronics.com Mail sent
+	User: rammeter 60 jmarsoup@rammeter.com Mail sent
+	User: Raymond J. Revaz 30 rrevaz@exphil.com Mail sent
+
+Handling site Pomona-Sales
+	User: mwsmith 30 mwsmith@arcade-electronics.com Mail sent
+	User: rhmilestek 30 rhunt@milestek.com Mail sent
+	User: marlacelectonics 30 lleary@marlac.com Mail sent
+	User: rammeter 60 jmarsoup@rammeter.com Mail sent
+	User: Raymond J. Revaz 30 rrevaz@exphil.com Mail sent
+	User: tomlowell 60 tlowell@dee-inc.com Mail sent
+	User: smithca1090 30 Carmen.smith@fluke.com Mail sent
+	User: mindymiller 30 mindy.miller@mouser.com Mail sent
+	User: Susan Tuck 30 stuck@hammondelec.com Mail sent
+	User: rick3mcc 30 rick.mccoy@fluke.com Mail sent
+
+Handling site Meterman-Sales
+	User: mwsmith 30 mwsmith@arcade-electronics.com Mail sent
+	User: marlacelectonics 30 lleary@marlac.com Mail sent
+	User: rammeter 60 jmarsoup@rammeter.com Mail sent
+	User: Raymond J. Revaz 30 rrevaz@exphil.com Mail sent
+	User: rick4mcc 30 rick.mccoy@fluke.com Mail sent
+	User: cornhucker 30 vamaxwell@verizon.net Mail sent
+	User: tomlowell 60 tlowell@dee-inc.com Mail sent
+	User: rhmilestek 30 rhunt@milestek.com Mail sent
+	User: smithca1090 30 Carmen.smith@fluke.com Mail sent
+	User: rick3mcc 30 rick.mccoy@fluke.com Mail sent
+	User: mindymiller 30 mindy.miller@mouser.com Mail sent
+	User: JANET MARTIN 30 martinj@mc-mc.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: akihito.ishige 30 akihito.ishige@fluke.com Mail sent
+	User: aliciamata 30 amata@warddavis.com Mail sent
+
+Handling site Educators
+	User: paul oloughlin 30 paul.oloughlin@challengertafe.wa.edu.au Mail sent
+	User: livewire275 30 wmjatc@aol.com Mail sent
+	User: luckydrafter 30 chamilton@nafcs.k12.in.us Mail sent
+	User: gthomas524 30 gthomas524@yahoo.com Mail sent
+	User: jwcotton 14 jwcotton@sbcglobal.net Mail sent
+	User: schnalg 30 schnalg@sunysuffolk.edu Mail sent
+	User: leewolff 14 wolffl@pcsb.org Mail sent
+	User: bbianco 30 bbianco@wi.rr.com Mail sent
+	User: jicolema 60 jicolema@jjc.edu Mail sent
+	User: Lowell.Reith 30 Lowell.Reith@interstates.com Mail sent
+	User: saneckic 30 csanecki@aol.com Mail sent
+	User: gjl0whk 14 greg_lokitus@fpl.com Mail sent
+	User: Warout5619 30 warren.dejardin@nwtc.edu Mail sent
+	User: raydebmar 30 raydebmar@hotmail.com Mail sent
+	User: elcamino_77us 30 elcamino_77us@yahoo.com Mail sent
+	User: sergiog 30 sergio.duran@yahoo.com Mail sent
+	User: ebaltrip 60 ebaltrip@aol.com Mail sent
+	User: jimkbobtx 30 james_asher@dell.com Mail sent
+	User: kentgee 60 kentgee@byu.edu Mail sent
+	User: m674245 14 austin.mcardle@aaacooper.com Mail sent
+	User: avtarsingh 60 avtar.singh@sjsu.edu Mail sent
+	User: edemerick 60 eemerick@mtjatc.org Mail sent
+	User: JDRosson 60 jrosson@campingworld.com Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+	User: smithca1090 30 Carmen.smith@fluke.com Mail sent
+	User: akihito.ishige 30 akihito.ishige@fluke.com Mail sent
+Site		Expirers	Emails
+Calibration-Sales		2	2
+FInd-Sales		12	10
+Pomona-Sales		10	10
+Meterman-Sales		12	12
+Ircon-Sales		0	0
+Hart-Sales		2	2
+Educators		23	23
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		2	2
+Total sites = 12

@@ -1,0 +1,2286 @@
+﻿<?xml version ="1.0"?>
+<configuration xmlns="urn:microsoft-catalog:XML_Metabase_V64_0">
+<MBProperty>
+<IIS_Global	Location ="."
+		BINSchemaTimeStamp="f57044734058c601"
+		ChangeNumber="10681"
+		HistoryMajorVersionNumber="1008"
+		SessionKey="49634b62980000004c00000040000000010200000168000000a4000065ba0d37ef1f684d2d0d4f1907c99858f8119bd30f52125b5b703a04d8f04782b89940183a3ed72e96316bdfb6cc1f3f7f6a048f400bacc4c23b8e01b8a63fa630002d00f03d75243ad7a42128cb64afb91cff755b645e0cba49149a2aadf858f4ac0bd597f64bfaf265f83907b29e77240c1aad1e5c8a6081091abaff0f45c83c5664ae"
+		XMLSchemaTimeStamp="5d8d4a734058c601"
+	>
+</IIS_Global>
+<IIS_ROOT	Location ="/"
+		AdminACL="4963446210010000c8000000400000008651263a9bce09bec4118494236f7acd3363036dc16cd066d54d75e8e124ef51d05adcab629c9cdaf92e9de39d3eece3e3226d996a0cd20fb535628e05c37d3774227ef673e51c1773cf572e52f59116d58af6e424132c12f6afda96b642d6cc67b2c6ec85f3af41b25c9b207531e2512072c1c769159ca8e3cd46c70274a211a91fcd0f6b3bfb8b56bbe998c42420b8ec244b6b5a66cf5f29a28b3aec2df92fa804340cdf921921058743454ee35247efc9e23bf2cadae9fcf7402dc5bcf1363e284282797fab0fed664d9e88c59b5e11e4b47d6a23a23f845a68a3b00051769f0fc09282a96c182c7f9f4a4c1c69b69e9bb784bb1ba33537c367013d3ca8ce3e8c05a0d34fa77e"
+	>
+</IIS_ROOT>
+<IIsComputer	Location ="/LM"
+		EnableEditWhileRunning="1"
+		EnableHistory="1"
+		MaxBandwidth="4294967295"
+		MaxHistoryFiles="10"
+	>
+</IIsComputer>
+<IIsConfigObject	Location ="/LM/EventManager"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/DisplayName"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="SMTP Server"
+		Type="STRING"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{283430C9-1850-11D2-9E03-00C04FA322BA}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{76719654-05A6-11D2-9DFD-00C04FA322BA}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{84FF368A-FAB3-43D7-BCDF-692C5B46E6B1}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{93D0A538-2C1E-4B68-A7C9-D73A8AA6EE97}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{960252A3-0A3A-11D2-9E00-00C04FA322BA}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{A3ACFB0D-83FF-11D2-9E14-00C04FA322BA}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{BD0B4366-8E03-11D2-94F6-00C04F79F1D6}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{C6DF52AA-7DB0-11D2-94F4-00C04F79F1D6}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{EBF159DE-A67E-11D2-94F7-00C04F79F1D6}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{F6628C8D-0D5E-11D2-AA68-00C04FA35B82}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{F6628C8E-0D5E-11D2-AA68-00C04FA35B82}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{F6628C8F-0D5E-11D2-AA68-00C04FA35B82}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{F6628C90-0D5E-11D2-AA68-00C04FA35B82}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{F6628C91-0D5E-11D2-AA68-00C04FA35B82}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{F6628C92-0D5E-11D2-AA68-00C04FA35B82}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{F6628C93-0D5E-11D2-AA68-00C04FA35B82}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/EventTypes/{FF3CAA23-00B9-11D2-9DFB-00C04FA322BA}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/Sources"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/Sources/{1B3C0666-E470-11D0-AA67-80C04FA345F6}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/Sources/{1B3C0666-E470-11D0-AA67-80C04FA345F6}/BindingManagerMoniker"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="@SEO.SEOGenericMoniker.1: MonikerType=Event.BindingManager DatabaseManager=SEO.SEOMetaDictionary MetabasePath=LM/smtpsvc/1/EventManager"
+		Type="STRING"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/Sources/{1B3C0666-E470-11D0-AA67-80C04FA345F6}/DisplayName"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="smtpsvc 1"
+		Type="STRING"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/Sources/{1B3C0666-E470-11D3-AA67-80C04FA345F6}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/Sources/{1B3C0666-E470-11D3-AA67-80C04FA345F6}/BindingManagerMoniker"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="@SEO.SEOGenericMoniker.1: MonikerType=Event.BindingManager DatabaseManager=SEO.SEOMetaDictionary MetabasePath=LM/smtpsvc/2/EventManager"
+		Type="STRING"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes/{FB65C4DC-E468-11D1-AA67-00C04FA345F6}/Sources/{1B3C0666-E470-11D3-AA67-80C04FA345F6}/DisplayName"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="smtpsvc 2"
+		Type="STRING"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/IISADMIN"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/IISADMIN/EXTENSIONS"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/IISADMIN/EXTENSIONS/DCOMCLSIDS"
+	>
+	<Custom
+		Name="MD_IISADMIN_EXTENSIONS"
+		ID="1028"
+		Value="{61738644-F196-11D0-9953-00C04FD919C1}"
+		Type="MULTISZ"
+		UserType="IIS_MD_UT_SERVER"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/IISADMIN/PROPERTYREGISTRATION"
+	>
+	<Custom
+		Name="MD_METADATA_ID_REGISTRATION"
+		ID="1030"
+		Value="0-65535;Microsoft Reserved
+			65536-524288;Microsoft IIS Admin Objects Reserved"
+		Type="MULTISZ"
+		UserType="IIS_MD_UT_SERVER"
+		Attributes="INHERIT"
+	/>
+</IIsConfigObject>
+<IIsLogModules	Location ="/LM/Logging"
+		AdminACL="49634462a000000058000000400000008651263a9bce09be54118494d36f7acd3363036dc16cd066d54dc5e8e524ef51d05ae0abc09c98daf9299de39d3eece3d6226d99535c281274b2572f23b52da3bb217ef653e70817fbcd572e53f49113f58af6e117112c12a3cf40a9aec5c545c52cd2b00d7fc555ab619551ffab2db5f8c4febf98fa1a08e02729002ebd527f866d665708d5114638a07b93334cb437158207bd12c5f7d7"
+	>
+</IIsLogModules>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging"
+		LogCustomPropertyServicesString="W3SVC
+			MSFTPSVC
+			SMTPSVC
+			NNTPSVC"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Date"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="date"
+		LogCustomPropertyID="4013"
+		LogCustomPropertyMask="1"
+		LogCustomPropertyName="Date"
+		LogCustomPropertyNodeID="1"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyID="4013"
+		LogCustomPropertyName="Extended Properties"
+		LogCustomPropertyNodeID="3"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/Bytes Received"
+		LogCustomPropertyDataType="3"
+		LogCustomPropertyHeader="cs-bytes"
+		LogCustomPropertyMask="8192"
+		LogCustomPropertyName="Bytes Received"
+		LogCustomPropertyNodeID="17"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/Bytes Sent"
+		LogCustomPropertyDataType="3"
+		LogCustomPropertyHeader="sc-bytes"
+		LogCustomPropertyMask="4096"
+		LogCustomPropertyName="Bytes Sent"
+		LogCustomPropertyNodeID="16"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/Client IP Address"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="c-ip"
+		LogCustomPropertyMask="4"
+		LogCustomPropertyName="Client IP Address"
+		LogCustomPropertyNodeID="5"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/Cookie"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="cs(Cookie)"
+		LogCustomPropertyMask="131072"
+		LogCustomPropertyName="Cookie"
+		LogCustomPropertyNodeID="22"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/Host"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="cs-host"
+		LogCustomPropertyMask="1048576"
+		LogCustomPropertyName="Host"
+		LogCustomPropertyNodeID="20"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/Method"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="cs-method"
+		LogCustomPropertyMask="128"
+		LogCustomPropertyName="Method"
+		LogCustomPropertyNodeID="11"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/Protocol Status"
+		LogCustomPropertyDataType="3"
+		LogCustomPropertyHeader="sc-status"
+		LogCustomPropertyMask="1024"
+		LogCustomPropertyName="Protocol Status"
+		LogCustomPropertyNodeID="14"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/Protocol Substatus"
+		LogCustomPropertyDataType="3"
+		LogCustomPropertyHeader="sc-substatus"
+		LogCustomPropertyMask="2097152"
+		LogCustomPropertyName="Protocol Substatus"
+		LogCustomPropertyNodeID="32"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/Protocol Version"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="cs-version"
+		LogCustomPropertyMask="524288"
+		LogCustomPropertyName="Protocol Version"
+		LogCustomPropertyNodeID="19"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/Referer"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="cs(Referer)"
+		LogCustomPropertyMask="262144"
+		LogCustomPropertyName="Referer"
+		LogCustomPropertyNodeID="23"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/Server IP"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="s-ip"
+		LogCustomPropertyMask="64"
+		LogCustomPropertyName="Server IP Address"
+		LogCustomPropertyNodeID="9"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/Server Name"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="s-computername"
+		LogCustomPropertyMask="32"
+		LogCustomPropertyName="Server Name"
+		LogCustomPropertyNodeID="8"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/Server Port"
+		LogCustomPropertyDataType="3"
+		LogCustomPropertyHeader="s-port"
+		LogCustomPropertyMask="32768"
+		LogCustomPropertyName="Server Port"
+		LogCustomPropertyNodeID="10"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/Service Name"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="s-sitename"
+		LogCustomPropertyMask="16"
+		LogCustomPropertyName="Service Name"
+		LogCustomPropertyNodeID="7"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/Time Taken"
+		LogCustomPropertyDataType="3"
+		LogCustomPropertyHeader="time-taken"
+		LogCustomPropertyMask="16384"
+		LogCustomPropertyName="Time Taken"
+		LogCustomPropertyNodeID="18"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/URI Query"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="cs-uri-query"
+		LogCustomPropertyMask="512"
+		LogCustomPropertyName="URI Query"
+		LogCustomPropertyNodeID="13"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/URI Stem"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="cs-uri-stem"
+		LogCustomPropertyMask="256"
+		LogCustomPropertyName="URI Stem"
+		LogCustomPropertyNodeID="12"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/User Agent"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="cs(User-Agent)"
+		LogCustomPropertyMask="65536"
+		LogCustomPropertyName="User Agent"
+		LogCustomPropertyNodeID="21"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/User Name"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="cs-username"
+		LogCustomPropertyMask="8"
+		LogCustomPropertyName="User Name"
+		LogCustomPropertyNodeID="6"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/Win32 Status"
+		LogCustomPropertyDataType="3"
+		LogCustomPropertyHeader="sc-win32-status"
+		LogCustomPropertyMask="2048"
+		LogCustomPropertyName="Win32 Status"
+		LogCustomPropertyNodeID="15"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Time"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="time"
+		LogCustomPropertyID="4013"
+		LogCustomPropertyMask="2"
+		LogCustomPropertyName="Time"
+		LogCustomPropertyNodeID="2"
+	>
+</IIsCustomLogModule>
+<IIsLogModule	Location ="/LM/Logging/Microsoft IIS Log File Format"
+		LogModuleId="{FF160657-DE82-11CF-BC0A-00AA006111E0}"
+		LogModuleUiId="{31DCAB87-BB3E-11d0-9299-00C04FB6678B}"
+	>
+</IIsLogModule>
+<IIsLogModule	Location ="/LM/Logging/NCSA Common Log File Format"
+		LogModuleId="{FF16065F-DE82-11CF-BC0A-00AA006111E0}"
+		LogModuleUiId="{31DCAB85-BB3E-11d0-9299-00C04FB6678B}"
+	>
+</IIsLogModule>
+<IIsLogModule	Location ="/LM/Logging/ODBC Logging"
+		LogModuleId="{FF16065B-DE82-11CF-BC0A-00AA006111E0}"
+		LogModuleUiId="{31DCAB86-BB3E-11d0-9299-00C04FB6678B}"
+	>
+</IIsLogModule>
+<IIsLogModule	Location ="/LM/Logging/W3C Extended Log File Format"
+		LogModuleId="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		LogModuleUiId="{31DCAB88-BB3E-11d0-9299-00C04FB6678B}"
+	>
+</IIsLogModule>
+<IIsMimeMap	Location ="/LM/MimeMap"
+		MimeMap=".323,text/h323
+			.aaf,application/octet-stream
+			.aca,application/octet-stream
+			.acx,application/internet-property-stream
+			.afm,application/octet-stream
+			.ai,application/postscript
+			.aif,audio/x-aiff
+			.aifc,audio/aiff
+			.aiff,audio/aiff
+			.application,application/x-ms-application
+			.art,image/x-jg
+			.asd,application/octet-stream
+			.asf,video/x-ms-asf
+			.asi,application/octet-stream
+			.asm,text/plain
+			.asr,video/x-ms-asf
+			.asx,video/x-ms-asf
+			.atom,application/atom+xml
+			.au,audio/basic
+			.avi,video/x-msvideo
+			.axs,application/olescript
+			.bas,text/plain
+			.bcpio,application/x-bcpio
+			.bin,application/octet-stream
+			.bmp,image/bmp
+			.c,text/plain
+			.cab,application/octet-stream
+			.cat,application/vnd.ms-pki.seccat
+			.cdf,application/x-cdf
+			.chm,application/octet-stream
+			.class,application/x-java-applet
+			.clp,application/x-msclip
+			.cmx,image/x-cmx
+			.cnf,text/plain
+			.cod,image/cis-cod
+			.cpio,application/x-cpio
+			.cpp,text/plain
+			.crd,application/x-mscardfile
+			.crl,application/pkix-crl
+			.crt,application/x-x509-ca-cert
+			.csh,application/x-csh
+			.css,text/css
+			.csv,application/octet-stream
+			.cur,application/octet-stream
+			.dcr,application/x-director
+			.deploy,application/octet-stream
+			.der,application/x-x509-ca-cert
+			.dib,image/bmp
+			.dir,application/x-director
+			.disco,text/xml
+			.dll,application/x-msdownload
+			.dlm,text/dlm
+			.doc,application/msword
+			.dot,application/msword
+			.dsp,application/octet-stream
+			.dtd,text/xml
+			.dvi,application/x-dvi
+			.dwf,drawing/x-dwf
+			.dwp,application/octet-stream
+			.dxr,application/x-director
+			.eml,message/rfc822
+			.emz,application/octet-stream
+			.eot,application/octet-stream
+			.eps,application/postscript
+			.etx,text/x-setext
+			.evy,application/envoy
+			.exe,application/octet-stream
+			.fdf,application/vnd.fdf
+			.fif,application/fractals
+			.fla,application/octet-stream
+			.flr,x-world/x-vrml
+			.gif,image/gif
+			.gtar,application/x-gtar
+			.gz,application/x-gzip
+			.h,text/plain
+			.hdf,application/x-hdf
+			.hdml,text/x-hdml
+			.hhc,application/x-oleobject
+			.hhk,application/octet-stream
+			.hhp,application/octet-stream
+			.hlp,application/winhlp
+			.hqx,application/mac-binhex40
+			.hta,application/hta
+			.htc,text/x-component
+			.htm,text/html
+			.html,text/html
+			.htt,text/webviewhtml
+			.hxt,text/html
+			.ico,image/x-icon
+			.ics,application/octet-stream
+			.ief,image/ief
+			.iii,application/x-iphone
+			.inf,application/octet-stream
+			.ins,application/x-internet-signup
+			.isp,application/x-internet-signup
+			.IVF,video/x-ivf
+			.jar,application/java-archive
+			.java,application/octet-stream
+			.jck,application/liquidmotion
+			.jcz,application/liquidmotion
+			.jfif,image/pjpeg
+			.jpb,application/octet-stream
+			.jpe,image/jpeg
+			.jpeg,image/jpeg
+			.jpg,image/jpeg
+			.js,application/x-javascript
+			.KDW,application/octet-stream
+			.latex,application/x-latex
+			.lit,application/x-ms-reader
+			.lpk,application/octet-stream
+			.lsf,video/x-la-asf
+			.lsx,video/x-la-asf
+			.lzh,application/octet-stream
+			.m13,application/x-msmediaview
+			.m14,application/x-msmediaview
+			.m1v,video/mpeg
+			.m3u,audio/x-mpegurl
+			.man,application/x-troff-man
+			.manifest,application/x-ms-manifest
+			.map,text/plain
+			.mdb,application/x-msaccess
+			.mdp,application/octet-stream
+			.me,application/x-troff-me
+			.mht,message/rfc822
+			.mhtml,message/rfc822
+			.mid,audio/mid
+			.midi,audio/mid
+			.mix,application/octet-stream
+			.mmf,application/x-smaf
+			.mno,text/xml
+			.mny,application/x-msmoney
+			.mov,video/quicktime
+			.movie,video/x-sgi-movie
+			.mp2,video/mpeg
+			.mp3,audio/mpeg
+			.mpa,video/mpeg
+			.mpe,video/mpeg
+			.mpeg,video/mpeg
+			.mpg,video/mpeg
+			.mpp,application/vnd.ms-project
+			.mpv2,video/mpeg
+			.ms,application/x-troff-ms
+			.msi,application/octet-stream
+			.mso,application/octet-stream
+			.mvb,application/x-msmediaview
+			.mvc,application/x-miva-compiled
+			.nc,application/x-netcdf
+			.nsc,video/x-ms-asf
+			.nws,message/rfc822
+			.ocx,application/octet-stream
+			.oda,application/oda
+			.ods,application/oleobject
+			.p10,application/pkcs10
+			.p12,application/x-pkcs12
+			.p7b,application/x-pkcs7-certificates
+			.p7c,application/pkcs7-mime
+			.p7m,application/pkcs7-mime
+			.p7r,application/x-pkcs7-certreqresp
+			.p7s,application/pkcs7-signature
+			.pbm,image/x-portable-bitmap
+			.pcx,application/octet-stream
+			.pcz,application/octet-stream
+			.pdf,application/pdf
+			.pfb,application/octet-stream
+			.pfm,application/octet-stream
+			.pfx,application/x-pkcs12
+			.pgm,image/x-portable-graymap
+			.pko,application/vnd.ms-pki.pko
+			.pma,application/x-perfmon
+			.pmc,application/x-perfmon
+			.pml,application/x-perfmon
+			.pmr,application/x-perfmon
+			.pmw,application/x-perfmon
+			.png,image/png
+			.pnm,image/x-portable-anymap
+			.pnz,image/png
+			.pot,application/vnd.ms-powerpoint
+			.ppm,image/x-portable-pixmap
+			.pps,application/vnd.ms-pps
+			.ppt,application/vnd.ms-powerpoint
+			.prf,application/pics-rules
+			.prm,application/octet-stream
+			.prx,application/octet-stream
+			.ps,application/postscript
+			.psd,application/octet-stream
+			.psm,application/octet-stream
+			.psp,application/octet-stream
+			.pub,application/x-mspublisher
+			.qt,video/quicktime
+			.qtl,application/x-quicktimeplayer
+			.qxd,application/octet-stream
+			.ra,audio/x-pn-realaudio
+			.ram,audio/x-pn-realaudio
+			.rar,application/octet-stream
+			.ras,image/x-cmu-raster
+			.rf,image/vnd.rn-realflash
+			.rgb,image/x-rgb
+			.rm,application/vnd.rn-realmedia
+			.rmi,audio/mid
+			.roff,application/x-troff
+			.rpm,audio/x-pn-realaudio-plugin
+			.rtf,application/rtf
+			.rtx,text/richtext
+			.scd,application/x-msschedule
+			.sct,text/scriptlet
+			.sea,application/octet-stream
+			.setpay,application/set-payment-initiation
+			.setreg,application/set-registration-initiation
+			.sgml,text/sgml
+			.sh,application/x-sh
+			.shar,application/x-shar
+			.sit,application/x-stuffit
+			.smd,audio/x-smd
+			.smi,application/octet-stream
+			.smx,audio/x-smd
+			.smz,audio/x-smd
+			.snd,audio/basic
+			.snp,application/octet-stream
+			.spc,application/x-pkcs7-certificates
+			.spl,application/futuresplash
+			.src,application/x-wais-source
+			.ssm,application/streamingmedia
+			.sst,application/vnd.ms-pki.certstore
+			.stl,application/vnd.ms-pki.stl
+			.sv4cpio,application/x-sv4cpio
+			.sv4crc,application/x-sv4crc
+			.swf,application/x-shockwave-flash
+			.t,application/x-troff
+			.tar,application/x-tar
+			.tcl,application/x-tcl
+			.tex,application/x-tex
+			.texi,application/x-texinfo
+			.texinfo,application/x-texinfo
+			.tgz,application/x-compressed
+			.thn,application/octet-stream
+			.tif,image/tiff
+			.tiff,image/tiff
+			.toc,application/octet-stream
+			.tr,application/x-troff
+			.trm,application/x-msterminal
+			.tsv,text/tab-separated-values
+			.ttf,application/octet-stream
+			.txt,text/plain
+			.u32,application/octet-stream
+			.uls,text/iuls
+			.ustar,application/x-ustar
+			.vbs,text/vbscript
+			.vcf,text/x-vcard
+			.vcs,text/plain
+			.vdx,application/vnd.visio
+			.vml,text/xml
+			.vsd,application/vnd.visio
+			.vss,application/vnd.visio
+			.vst,application/vnd.visio
+			.vsw,application/vnd.visio
+			.vsx,application/vnd.visio
+			.vtx,application/vnd.visio
+			.wav,audio/wav
+			.wax,audio/x-ms-wax
+			.wbmp,image/vnd.wap.wbmp
+			.wcm,application/vnd.ms-works
+			.wdb,application/vnd.ms-works
+			.wks,application/vnd.ms-works
+			.wm,video/x-ms-wm
+			.wma,audio/x-ms-wma
+			.wmd,application/x-ms-wmd
+			.wmf,application/x-msmetafile
+			.wml,text/vnd.wap.wml
+			.wmlc,application/vnd.wap.wmlc
+			.wmls,text/vnd.wap.wmlscript
+			.wmlsc,application/vnd.wap.wmlscriptc
+			.wmp,video/x-ms-wmp
+			.wmv,video/x-ms-wmv
+			.wmx,video/x-ms-wmx
+			.wmz,application/x-ms-wmz
+			.wps,application/vnd.ms-works
+			.wri,application/x-mswrite
+			.wrl,x-world/x-vrml
+			.wrz,x-world/x-vrml
+			.wsdl,text/xml
+			.wvx,video/x-ms-wvx
+			.x,application/directx
+			.xaf,x-world/x-vrml
+			.xbm,image/x-xbitmap
+			.xdr,text/plain
+			.xla,application/vnd.ms-excel
+			.xlc,application/vnd.ms-excel
+			.xlm,application/vnd.ms-excel
+			.xls,application/vnd.ms-excel
+			.xlt,application/vnd.ms-excel
+			.xlw,application/vnd.ms-excel
+			.xml,text/xml
+			.xof,x-world/x-vrml
+			.xpm,image/x-xpixmap
+			.xsd,text/xml
+			.xsf,text/xml
+			.xsl,text/xml
+			.xslt,text/xml
+			.xsn,application/octet-stream
+			.xwd,image/x-xwindowdump
+			.z,application/x-compress
+			.zip,application/x-zip-compressed"
+	>
+</IIsMimeMap>
+<IIsFtpService	Location ="/LM/MSFTPSVC"
+		AdminACL="49634462a000000058000000400000008651263a9bce09be54118494d36f7acd3363036dc16cd066d54dc5e8e524ef51d05ae0abc09c98daf9299de39d3eece3d6226d99535c281274b2572f23b52da3bb217ef653e70817fbcd572e53f49113f58af6e117112c12a3cf40a9aec5c545c52cd2b00d7fc555ab619551ffab2db5f8c4febf98fa1a08e02729002ebd527f866d665708d5114638a07b93334cb437158207bd12c5f7d7"
+		AllowAnonymous="TRUE"
+		AnonymousOnly="FALSE"
+		AnonymousUserName="IUSR_DTMEVTVSDV15"
+		AnonymousUserPass="496344627000000022000000400000008651263aebce363e4d11c094dd6f2fcd72633c6d9b6c8666f14d8ce8d324d751d05a49004e00440085f8a0ce699dfee6e02f3d1e586f1f124f0fc4ce4d2cc11330418760a4bf896302357f2b220b686da7edd3def7dcb1ef3d54819e5200d32e84d7c4e0223f5fbd"
+		ConnectionTimeout="120"
+		DownlevelAdminInstance="1"
+		ExitMessage=" "
+		LogAnonymous="FALSE"
+		LogExtFileFlags="LogExtFileTime | LogExtFileClientIp | LogExtFileMethod | LogExtFileUriStem | LogExtFileHttpStatus | LogExtFileWin32Status"
+		LogFileDirectory="C:\WINDOWS\system32\LogFiles"
+		LogFilePeriod="1"
+		LogFileTruncateSize="20971520"
+		LogNonAnonymous="FALSE"
+		LogOdbcDataSource="TSLOG"
+		LogOdbcPassword="496344626000000012000000400000008651263ae9ce7f3e0c11e894f86f1dcd3363320032003400cffe127f1c4a2320f0c24cff476a294354d69fbba63ebe4c8405321262e0db07e6f415809b0921e9ae42e8ae34964c79e626e80fddacc0a39f7bb0f20fd1402a"
+		LogOdbcTableName="FTPLog"
+		LogOdbcUserName="InternetAdmin"
+		LogPluginClsid="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		LogType="1"
+		MSDOSDirOutput="TRUE"
+		MaxClientsMessage=" "
+		MaxConnections="100000"
+	>
+</IIsFtpService>
+<IIsFtpServer	Location ="/LM/MSFTPSVC/1"
+		ServerAutoStart="FALSE"
+		ServerBindings=":21:"
+		ServerComment="Default FTP Site"
+		ServerSize="1"
+	>
+</IIsFtpServer>
+<IIsFtpVirtualDir	Location ="/LM/MSFTPSVC/1/ROOT"
+		AccessFlags="AccessRead"
+		Path="c:\inetpub\ftproot"
+	>
+</IIsFtpVirtualDir>
+<IIsFtpServer	Location ="/LM/MSFTPSVC/189174876"
+		AllowAnonymous="FALSE"
+		AnonymousUserName="DANAHERTM\!ftpextranetpod"
+		AnonymousUserPass="496344626000000016000000400000008651263ab9ce563e3411d694d66f2acd0363676dd56c3400d130b69347a822aaa064d763ef6b87c4cdfd18bd6e355d66d2fa6d2e25fa8d2113e1a243a42044905e6c6fb1b3f5f2670e15f749735fed29ef39148e1db4790c"
+		BannerMessage="Print on Demand Services PDF Files"
+		LogPluginClsid="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		MaxConnections="10"
+		ServerAutoStart="TRUE"
+		ServerBindings="129.196.128.182:21:"
+		ServerComment="Assets-POD"
+		UserIsolationMode="0"
+	>
+	<Custom
+		Name="AuthFlags"
+		ID="6000"
+		Value="0"
+		Type="DWORD"
+		UserType="IIS_MD_UT_FILE"
+		Attributes="INHERIT"
+	/>
+</IIsFtpServer>
+<IIsFtpVirtualDir	Location ="/LM/MSFTPSVC/189174876/root"
+		AccessFlags="AccessRead"
+		Path="\\dtmevtvsdv16.danahertm.com\assets-pod$"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f2acd0363676dd56c3400d130b69347a822aaa064d763ef6b87c4cdfd18bd6e355d66d2fa6d2e25fa8d2113e1a243a42044905e6c6fb1b3f5f2670e15f749735fed29ef39148e1db4790c"
+		UNCUserName="danahertm\!ftpextranetpod"
+	>
+</IIsFtpVirtualDir>
+<IIsFtpInfo	Location ="/LM/MSFTPSVC/Info"
+		LogModuleList="Microsoft IIS Log File Format,W3C Extended Log File Format,ODBC Logging"
+		MD_SERVER_CAPABILITIES="80831"
+		MD_SERVER_PLATFORM="1"
+		MajorIIsVersionNumber="6"
+		MinorIIsVersionNumber="0"
+	>
+</IIsFtpInfo>
+<IIsConfigObject	Location ="/LM/MSFTPSVC/Info/Templates"
+	>
+</IIsConfigObject>
+<IIsFtpServer	Location ="/LM/MSFTPSVC/Info/Templates/Public FTP Site"
+		AllowAnonymous="TRUE"
+		AnonymousOnly="TRUE"
+		IPSecurity=""
+		ServerComment="Allows all users to download files via FTP."
+	>
+</IIsFtpServer>
+<IIsFtpServer	Location ="/LM/MSFTPSVC/Info/Templates/Public FTP Site/Root"
+		AccessFlags="AccessRead"
+	>
+</IIsFtpServer>
+<IIsSmtpService	Location ="/LM/SmtpSvc"
+		AdminACL="49634462e000000094000000400000008651263a9bce09be10118494176f7acd3363036dc16cd066d54db9e8e724ef51d05ae0abc09c98daf9299de39d3eece3d6226d99535c281275b0432fabb52da69a207ef673e50812e9cf572e53f485165d8af6e136122c12f6afce932b42d6cc66b3c6ec85f3af44a65c9b207531c651a972c1c769129ca8e3cd46c73774a211904f3712aabcce2a70cdb90c0a2720b8cc26536b000000004ddaa6eb769cf23a09221ae05c6f0e8544fd84b3ffe655cefdc111b45b89742da98b57b6650272a796df676a36045216a429e238628515d064025cb4ab13ca46"
+		AuthFlags="AuthAnonymous"
+		ConnectionTimeout="600"
+		DefaultDomain="DTMEVTVSDV15.danahertm.com"
+		DomainRouting=""
+		EnableReverseDnsLookup="FALSE"
+		FullyQualifiedDomainName="DTMEVTVSDV15.danahertm.com"
+		HopCount="15"
+		LocalRetryAttempts="48"
+		LocalRetryInterval="60"
+		LogFileDirectory="C:\WINDOWS\System32\LogFiles"
+		LogFilePeriod="1"
+		LogFileTruncateSize="20480000"
+		LogPluginClsid="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		LogType="0"
+		MaxBatchedMessages="20"
+		MaxConnections="2000000000"
+		MaxMessageSize="2097152"
+		MaxOutConnections="1000"
+		MaxOutConnectionsPerDomain="100"
+		MaxRecipients="100"
+		MaxSessionSize="10485760"
+		MaxSmtpErrors="20"
+		NTAuthenticationProviders="GSSAPI,NTLM"
+		RelayForAuth="1"
+		RelayIpList="18000080200000803c00008044000080010000004c00000000000000000000000100000001000000020000000200000004000000000000004c00008000000000000000000000000000000000ffffffff00000000"
+		RemoteRetryAttempts="48"
+		RemoteRetryInterval="60"
+		RemoteTimeout="600"
+		RoutingDll="C:\WINDOWS\System32\inetsrv\routeldp.dll"
+		ShouldDeliver="FALSE"
+		SmartHost=""
+		SmartHostType="0"
+		SmtpAdvQueueDll="C:\WINDOWS\system32\inetsrv\aqueue.dll"
+		SmtpDSNLanguageID="0"
+		SmtpDSNOptions="0"
+		SmtpInboundCommandSupportOptions="7697601"
+		SmtpLocalDelayExpireMinutes="720"
+		SmtpLocalNDRExpireMinutes="2880"
+		SmtpOutboundCommandSupportOptions="7"
+		SmtpRemoteDelayExpireMinutes="720"
+		SmtpRemoteNDRExpireMinutes="2880"
+		SmtpRemoteProgressiveRetry="15,30,60,240"
+		SmtpRemoteRetryThreshold="3"
+		SmtpServiceVersion="5"
+	>
+</IIsSmtpService>
+<IIsSmtpServer	Location ="/LM/SmtpSvc/1"
+		AccessSSLFlags="0"
+		AdminACL="49634462b802000070020000400000008651263a9bce09be2c138494cb6d7acd3363036dc16cd066d54dddeae724ef51d05ae0abc09c98daf9299de39d3eece3d6226d99535c281275b0432f88b529a69a207ef673e50812e9cf572e53f485167e8af2e136122c12f6afce932b42d6cc62b3c6ecfdb2af44a65c9b2055a1c651a972c1c769109ca8e2cd46c21374a211cc0c3712abbece2a515db9092a2720b8ed24536bf066cb5f2ca08b3a6c6cf92a8804340c70831921048543454fe35242cec9e23bd6c8dae979b4402dc5bcf13387394282597dab0f1d6f824225668f6f97de0e6fae8c5dc0b0ce7708fefb1c35da71ab4ac93c2b166a1464a7bb147e36b486198cb654740fd8b3bb1b92d5e6d2d19220575a8323c74bb4dc8a6d734f12e367a42bf8305ce2ad844e0d9c8bfef3f580d438f4380b9cf186e9a172c31601acc83fb7a520df0b825fe58114a604eb7e2b31fcaa3e5599e6b33148d38eb15ced8aa85dd54295e5a3c87d860414bc70ea9544b48cc27cb3d3a4a8919131e9d4b899bbf65e7b86ce2dd66c17bf0d17ac32eef7e5628ab594a66e403c14d6dd2ec533d1a5485357e4f8d5a52bb1363a949e732ef09708f8f0c307aa2e7c3624fa634f7f7d20071616284e8b5752892daa79e140c7e92e035d27d37dfd4a9210f4dae7a5a994b614e31c43e805b11407d41808bee86650592e12b66ee2b2db1c0aedf00c9d998982779517edd46bf8c5586bfbdeff2caf6b927e8923d3dc1a12472f3fe58718d6366a1125e62dde3da951ff677e77f428ad7dd1aec21f7c66a2cd9da2b54bfa5cf9dd7873b806c4f71d7f6b16f4e5d392fca4845ec1f947396922dd62e1aec9f96e730dd015b2668258f0eb82c062aceea4b83f0ec808ef0177def19348c210d7b9c90af63e9bb7487ec8f8e091385fccc5753604e4d4e2196685718413f7c59d972c7eeb08629c790b0050828e4c70b262dc3f0b6e584911d02d"
+		AuthFlags="AuthBasic | AuthAnonymous | AuthNTLM"
+		BadMailDirectory="C:\Inetpub\mailroot\Badmail"
+		ConnectionTimeout="600"
+		DoMasquerade="FALSE"
+		DropDirectory="C:\Inetpub\mailroot\Drop"
+		EnableReverseDnsLookup="FALSE"
+		EtrnDays="12"
+		FullyQualifiedDomainName="DTMEVTVSDV15.danahertm.com"
+		HopCount="15"
+		IPSecurity="1800008020000080280000803000008001000000380000000000000000000000000000000000000000000000000000000000000000000000"
+		LogFileDirectory="C:\WINDOWS\System32\LogFiles"
+		LogFilePeriod="1"
+		LogFileTruncateSize="20480000"
+		LogPluginClsid="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		LogType="0"
+		MasqueradeDomain=""
+		MaxBatchedMessages="20"
+		MaxConnections="2000000000"
+		MaxOutConnections="1000"
+		MaxOutConnectionsPerDomain="100"
+		NTAuthenticationProviders="GSSAPI,NTLM"
+		PickupDirectory="C:\Inetpub\mailroot\Pickup"
+		QueueDirectory="C:\Inetpub\mailroot\Queue"
+		RelayForAuth="4294967295"
+		RelayIpList="18000080200000803c00008044000080010000004c00000000000000000000000100000001000000020000000200000004000000000000004c00008000000000000000000000000000000000ffffffff00000000"
+		RemoteSmtpPort="25"
+		RemoteSmtpSecurePort="465"
+		RemoteTimeout="600"
+		RouteAction="0"
+		RouteUserName=""
+		RoutingDll="C:\WINDOWS\System32\inetsrv\routeldp.dll"
+		SaslLogonDomain=""
+		SecureBindings=""
+		SendBadTo="Postmaster"
+		SendNdrTo=""
+		ServerAutoStart="TRUE"
+		ServerBindings=":25:"
+		ServerComment="Default SMTP Virtual Server"
+		SmartHost="mail.tc.fluke.com"
+		SmartHostType="1"
+		SmtpInboundCommandSupportOptions="7697601"
+		SmtpLocalDelayExpireMinutes="720"
+		SmtpLocalNDRExpireMinutes="2880"
+		SmtpRemoteDelayExpireMinutes="720"
+		SmtpRemoteNDRExpireMinutes="2880"
+		SmtpRemoteProgressiveRetry="15,30,60,240"
+	>
+	<Custom
+		Name="ServerCommand"
+		ID="1012"
+		Value="1"
+		Type="DWORD"
+		UserType="IIS_MD_UT_SERVER"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsSmtpServer>
+<IIsSmtpAlias	Location ="/LM/SmtpSvc/1/Alias"
+	>
+</IIsSmtpAlias>
+<IIsSmtpDL	Location ="/LM/SmtpSvc/1/DL"
+	>
+</IIsSmtpDL>
+<IIsSmtpDomain	Location ="/LM/SmtpSvc/1/Domain"
+	>
+</IIsSmtpDomain>
+<IIsConfigObject	Location ="/LM/SmtpSvc/1/EventManager"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/1/EventManager/EventTypes"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/1/EventManager/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/1/EventManager/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}/Bindings"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/1/EventManager/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}/Bindings/{609B7E3A-C918-11D1-AA5E-00C04FA35B82}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/1/EventManager/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}/Bindings/{609B7E3A-C918-11D1-AA5E-00C04FA35B82}/DisplayName"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="Exchange Ntfs Store Driver"
+		Type="STRING"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/1/EventManager/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}/Bindings/{609B7E3A-C918-11D1-AA5E-00C04FA35B82}/SinkClass"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="Exchange.NtfsDrv"
+		Type="STRING"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/1/EventManager/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}/Bindings/{609B7E3A-C918-11D1-AA5E-00C04FA35B82}/SourceProperties"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/1/EventManager/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}/Bindings/{609B7E3A-C918-11D1-AA5E-00C04FA35B82}/SourceProperties/priority"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="28000"
+		Type="DWORD"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsSmtpRoutingSource	Location ="/LM/SmtpSvc/1/RoutingSources"
+		SmtpDsAccount=""
+		SmtpDsBindType="None"
+		SmtpDsDomain=""
+		SmtpDsFlags="9"
+		SmtpDsHost=""
+		SmtpDsNamingContext=""
+		SmtpDsPassword="496344625000000006000000400000008651263a9ace3200d1a242dc7d7a530a833f995b7e5caf0c78a50f18d7efe00c6a99218b84df510756d0f28be410e6c701565606923a85c5fdf5e08ca6ab551fd7b56387eebf8f6b"
+		SmtpDsSchemaType="NT5"
+		SmtpDsUseCat="0"
+	>
+</IIsSmtpRoutingSource>
+<IIsSmtpSessions	Location ="/LM/SmtpSvc/1/Sessions"
+	>
+</IIsSmtpSessions>
+<IIsSmtpUser	Location ="/LM/SmtpSvc/1/User"
+	>
+</IIsSmtpUser>
+<IIsSmtpServer	Location ="/LM/SmtpSvc/2"
+		AccessSSLFlags="0"
+		AuthFlags="AuthAnonymous"
+		BadMailDirectory="C:\Inetpub\mailroot\Badmail"
+		ConnectionTimeout="600"
+		DefaultDomain="mail.evt.danahertm.com"
+		DoMasquerade="FALSE"
+		DropDirectory="C:\Inetpub\mailroot\Drop"
+		EnableReverseDnsLookup="FALSE"
+		FullyQualifiedDomainName="mail.evt.danahertm.com"
+		HopCount="15"
+		LogType="0"
+		MaxBatchedMessages="20"
+		MaxConnections="2000000000"
+		MaxMessageSize="2097152"
+		MaxOutConnections="2000000000"
+		MaxOutConnectionsPerDomain="0"
+		MaxRecipients="100"
+		MaxSessionSize="10485760"
+		NTAuthenticationProviders="GSSAPI,NTLM"
+		PickupDirectory="C:\Inetpub\mailroot\Pickup"
+		QueueDirectory="C:\Inetpub\mailroot\Queue"
+		RelayForAuth="1"
+		RemoteSmtpPort="25"
+		RemoteSmtpSecurePort="465"
+		RemoteTimeout="600"
+		RouteAction="0"
+		ServerAutoStart="TRUE"
+		ServerBindings="129.196.128.182:25:"
+		ServerComment="dtmevtvsdv15"
+		SmartHostType="0"
+		SmtpInboundCommandSupportOptions="7697601"
+		SmtpLocalDelayExpireMinutes="720"
+		SmtpLocalNDRExpireMinutes="2880"
+		SmtpRemoteDelayExpireMinutes="720"
+		SmtpRemoteNDRExpireMinutes="2880"
+		SmtpRemoteProgressiveRetry="15,30,60,240"
+	>
+	<Custom
+		Name="ServerCommand"
+		ID="1012"
+		Value="1"
+		Type="DWORD"
+		UserType="IIS_MD_UT_SERVER"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsSmtpServer>
+<IIsSmtpDomain	Location ="/LM/SmtpSvc/2/Domain"
+	>
+</IIsSmtpDomain>
+<IIsConfigObject	Location ="/LM/SmtpSvc/2/EventManager"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/2/EventManager/EventTypes"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/2/EventManager/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/2/EventManager/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}/Bindings"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/2/EventManager/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}/Bindings/{609B7E3A-C918-11D1-AA5E-00C04FA35B82}"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/2/EventManager/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}/Bindings/{609B7E3A-C918-11D1-AA5E-00C04FA35B82}/DisplayName"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="Exchange Ntfs Store Driver"
+		Type="STRING"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/2/EventManager/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}/Bindings/{609B7E3A-C918-11D1-AA5E-00C04FA35B82}/SinkClass"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="Exchange.NtfsDrv"
+		Type="STRING"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/2/EventManager/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}/Bindings/{609B7E3A-C918-11D1-AA5E-00C04FA35B82}/SourceProperties"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/SmtpSvc/2/EventManager/EventTypes/{59175850-E533-11D1-AA67-00C04FA345F6}/Bindings/{609B7E3A-C918-11D1-AA5E-00C04FA35B82}/SourceProperties/priority"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="28000"
+		Type="DWORD"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsSmtpVirtualDir	Location ="/LM/SmtpSvc/2/Root"
+	>
+</IIsSmtpVirtualDir>
+<IIsSmtpRoutingSource	Location ="/LM/SmtpSvc/2/RoutingSources"
+		SmtpDsAccount=""
+		SmtpDsBindType=""
+		SmtpDsDataDirectory=""
+		SmtpDsDefaultMailRoot=""
+		SmtpDsDomain=""
+		SmtpDsFlags="9"
+		SmtpDsHost=""
+		SmtpDsNamingContext=""
+		SmtpDsPassword="496344625000000006000000400000008651263a9ace3200d1a242dc7d7a530a833f995b7e5caf0c78a50f18d7efe00c6a99218b84df510756d0f28be410e6c701565606923a85c5fdf5e08ca6ab551fd7b56387eebf8f6b"
+		SmtpDsPort="0"
+		SmtpDsSchemaType=""
+		SmtpDsUseCat="0"
+		SmtpRoutingTableType="LDAP"
+	>
+</IIsSmtpRoutingSource>
+<IIsSmtpSessions	Location ="/LM/SmtpSvc/2/Sessions"
+	>
+</IIsSmtpSessions>
+<IIsSmtpInfo	Location ="/LM/SmtpSvc/Info"
+		LogModuleList="NCSA Common Log File Format,ODBC Logging,Microsoft IIS Log File Format,W3C Extended Log File Format"
+		MD_SERVER_CAPABILITIES="80831"
+		MD_SERVER_PLATFORM="1"
+		MajorIIsVersionNumber="6"
+		MinorIIsVersionNumber="0"
+	>
+</IIsSmtpInfo>
+<IIsWebService	Location ="/LM/W3SVC"
+		AccessFlags="AccessRead | AccessScript"
+		AllowKeepAlive="TRUE"
+		AnonymousUserName="DANAHERTM\!supportextranet"
+		AnonymousUserPass="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56c3400bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		AppAllowClientDebug="TRUE"
+		AppAllowDebugging="TRUE"
+		AppPoolId="DefaultAppPool"
+		ApplicationDependencies="Active Server Pages;ASP
+			Internet Data Connector;HTTPODBC
+			Server Side Includes;SSINC
+			WebDAV;WEBDAV
+			ASP.NET v1.1.4322;ASP.NET v1.1.4322
+			ASP.NET v2.0.50727;ASP.NET v2.0.50727"
+		AspAllowOutOfProcComponents="TRUE"
+		AspAllowSessionState="TRUE"
+		AspAppServiceFlags="0"
+		AspBufferingLimit="4194304"
+		AspBufferingOn="TRUE"
+		AspCalcLineNumber="TRUE"
+		AspCodepage="0"
+		AspDiskTemplateCacheDirectory="%windir%\system32\inetsrv\ASP Compiled Templates"
+		AspEnableApplicationRestart="TRUE"
+		AspEnableAspHtmlFallback="FALSE"
+		AspEnableChunkedEncoding="TRUE"
+		AspEnableParentPaths="FALSE"
+		AspEnableTypelibCache="TRUE"
+		AspErrorsToNTLog="FALSE"
+		AspExceptionCatchEnable="TRUE"
+		AspExecuteInMTA="0"
+		AspKeepSessionIDSecure="0"
+		AspLCID="2048"
+		AspLogErrorRequests="TRUE"
+		AspMaxDiskTemplateCacheFiles="2000"
+		AspMaxRequestEntityAllowed="204800"
+		AspProcessorThreadMax="25"
+		AspQueueConnectionTestTime="3"
+		AspQueueTimeout="4294967295"
+		AspRequestQueueMax="3000"
+		AspRunOnEndAnonymously="TRUE"
+		AspScriptEngineCacheMax="250"
+		AspScriptErrorMessage="An error occurred on the server when processing the URL.  Please contact the system administrator."
+		AspScriptErrorSentToBrowser="TRUE"
+		AspScriptFileCacheSize="500"
+		AspScriptLanguage="VBScript"
+		AspScriptTimeout="90"
+		AspSessionMax="4294967295"
+		AspSessionTimeout="20"
+		AspTrackThreadingModel="FALSE"
+		AuthChangeURL="/iisadmpwd/achg.asp"
+		AuthExpiredURL="/iisadmpwd/aexp.asp"
+		AuthExpiredUnsecureURL="/iisadmpwd/aexp3.asp"
+		AuthFlags="AuthAnonymous | AuthNTLM"
+		AuthNotifyPwdExpURL="/iisadmpwd/anot.asp"
+		AuthNotifyPwdExpUnsecureURL="/iisadmpwd/anot3.asp"
+		CGITimeout="300"
+		CacheISAPI="TRUE"
+		CentralBinaryLoggingEnabled="FALSE"
+		ConnectionTimeout="900"
+		ContentIndexed="TRUE"
+		DefaultDoc="Default.asp,Default.htm,index.htm,Default.aspx"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		DownlevelAdminInstance="1"
+		HttpCustomHeaders="X-Powered-By: ASP.NET"
+		HttpErrors="400,*,FILE,C:\WINDOWS\help\iisHelp\common\400.htm
+			401,1,FILE,C:\WINDOWS\help\iisHelp\common\401-1.htm
+			401,2,FILE,C:\WINDOWS\help\iisHelp\common\401-2.htm
+			401,3,FILE,C:\WINDOWS\help\iisHelp\common\401-3.htm
+			401,4,FILE,C:\WINDOWS\help\iisHelp\common\401-4.htm
+			401,5,FILE,C:\WINDOWS\help\iisHelp\common\401-5.htm
+			401,7,FILE,C:\WINDOWS\help\iisHelp\common\401-1.htm
+			403,1,FILE,C:\WINDOWS\help\iisHelp\common\403-1.htm
+			403,2,FILE,C:\WINDOWS\help\iisHelp\common\403-2.htm
+			403,3,FILE,C:\WINDOWS\help\iisHelp\common\403-3.htm
+			403,4,FILE,C:\WINDOWS\help\iisHelp\common\403-4.htm
+			403,5,FILE,C:\WINDOWS\help\iisHelp\common\403-5.htm
+			403,6,FILE,C:\WINDOWS\help\iisHelp\common\403-6.htm
+			403,7,FILE,C:\WINDOWS\help\iisHelp\common\403-7.htm
+			403,8,FILE,C:\WINDOWS\help\iisHelp\common\403-8.htm
+			403,9,FILE,C:\WINDOWS\help\iisHelp\common\403-9.htm
+			403,10,FILE,C:\WINDOWS\help\iisHelp\common\403-10.htm
+			403,11,FILE,C:\WINDOWS\help\iisHelp\common\403-11.htm
+			403,12,FILE,C:\WINDOWS\help\iisHelp\common\403-12.htm
+			403,13,FILE,C:\WINDOWS\help\iisHelp\common\403-13.htm
+			403,15,FILE,C:\WINDOWS\help\iisHelp\common\403-15.htm
+			403,16,FILE,C:\WINDOWS\help\iisHelp\common\403-16.htm
+			403,17,FILE,C:\WINDOWS\help\iisHelp\common\403-17.htm
+			403,18,FILE,C:\WINDOWS\help\iisHelp\common\403.htm
+			403,19,FILE,C:\WINDOWS\help\iisHelp\common\403.htm
+			403,20,FILE,C:\WINDOWS\help\iisHelp\common\403-20.htm
+			404,*,FILE,C:\WINDOWS\help\iisHelp\common\404b.htm
+			404,2,FILE,C:\WINDOWS\help\iisHelp\common\404b.htm
+			404,3,FILE,C:\WINDOWS\help\iisHelp\common\404b.htm
+			405,*,FILE,C:\WINDOWS\help\iisHelp\common\405.htm
+			406,*,FILE,C:\WINDOWS\help\iisHelp\common\406.htm
+			407,*,FILE,C:\WINDOWS\help\iisHelp\common\407.htm
+			412,*,FILE,C:\WINDOWS\help\iisHelp\common\412.htm
+			414,*,FILE,C:\WINDOWS\help\iisHelp\common\414.htm
+			415,*,FILE,C:\WINDOWS\help\iisHelp\common\415.htm
+			500,12,FILE,C:\WINDOWS\help\iisHelp\common\500-12.htm
+			500,13,FILE,C:\WINDOWS\help\iisHelp\common\500-13.htm
+			500,15,FILE,C:\WINDOWS\help\iisHelp\common\500-15.htm
+			500,16,FILE,C:\WINDOWS\help\iisHelp\common\500.htm
+			500,17,FILE,C:\WINDOWS\help\iisHelp\common\500.htm
+			500,18,FILE,C:\WINDOWS\help\iisHelp\common\500.htm
+			500,19,FILE,C:\WINDOWS\help\iisHelp\common\500.htm"
+		IIs5IsolationModeEnabled="FALSE"
+		InProcessIsapiApps="C:\WINDOWS\system32\inetsrv\httpext.dll
+			C:\WINDOWS\system32\inetsrv\httpodbc.dll
+			C:\WINDOWS\system32\inetsrv\ssinc.dll
+			C:\WINDOWS\system32\msw3prt.dll
+			C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll
+			C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll"
+		LogExtFileFlags="LogExtFileDate | LogExtFileTime | LogExtFileClientIp | LogExtFileUserName | LogExtFileSiteName | LogExtFileServerIp | LogExtFileMethod | LogExtFileUriStem | LogExtFileUriQuery | LogExtFileHttpStatus | LogExtFileWin32Status | LogExtFileServerPort | LogExtFileUserAgent | LogExtFileHttpSubStatus"
+		LogFileDirectory="C:\IIS\weblogs"
+		LogFileLocaltimeRollover="FALSE"
+		LogFilePeriod="1"
+		LogFileTruncateSize="20971520"
+		LogInUTF8="FALSE"
+		LogOdbcDataSource="HTTPLOG"
+		LogOdbcPassword="496344626000000012000000400000008651263ae9ce7f3e0c11e894f86f1dcd3363776dd56c3400cffe127f1c4a2320f0c24cff476a294354d69fbba63ebe4c8405321262e0db07e6f415809b0921e9ae42e8ae34964c79e626e80fddacc0a39f7bb0f20fd1402a"
+		LogOdbcTableName="InternetLog"
+		LogOdbcUserName="InternetAdmin"
+		LogPluginClsid="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		LogType="1"
+		MD_ETAG_CHANGENUMBER="3061"
+		MaxConnections="4294967295"
+		MaxGlobalBandwidth="4294967295"
+		MinFileBytesPerSec="240"
+		PasswordChangeFlags="AuthChangeDisable | AuthAdvNotifyDisable"
+		ScriptMaps=".asa,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.asax,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.ascx,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.ashx,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.asmx,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.asp,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.aspx,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.axd,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.cdx,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.cer,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.config,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.cs,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.csproj,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.idc,C:\WINDOWS\system32\inetsrv\httpodbc.dll,5,GET,POST
+			.licx,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.rem,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.resources,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.resx,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.shtm,C:\WINDOWS\system32\inetsrv\ssinc.dll,5,GET,POST
+			.shtml,C:\WINDOWS\system32\inetsrv\ssinc.dll,5,GET,POST
+			.soap,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.stm,C:\WINDOWS\system32\inetsrv\ssinc.dll,5,GET,POST
+			.upl,C:\WINDOWS\system32\inetsrv\asp.dll,5
+			.uplx,C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll,5
+			.vb,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.vbproj,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.vsdisco,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.webinfo,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG"
+		WAMUserName="IWAM_DTMEVTVSDV15"
+		WAMUserPass="496344627000000022000000400000008651263ae9ce733e4c11ab94ca6f3dcd0463306db06ce266f84db2e88c24d051d05a49004e004400a7dbfd0872555a467f41c86a2fc12cd01af4faa6c7b30504d81bf2fd926353ca2cf58dc9dee8797cb02479be768f14dac3334e3a90c7cd988333e7b4220b71c7"
+		WebSvcExtRestrictionList="1,C:\WINDOWS\system32\inetsrv\httpodbc.dll,0,HTTPODBC,Internet Data Connector
+			1,C:\WINDOWS\system32\inetsrv\ssinc.dll,0,SSINC,Server Side Includes
+			1,C:\WINDOWS\system32\inetsrv\asp.dll,0,ASP,Active Server Pages
+			1,C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll,0,ASP.NET v2.0.50727,ASP.NET v2.0.50727
+			1,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,0,ASP.NET v1.1.4322,ASP.NET v1.1.4322
+			0,*.exe
+			0,C:\WINDOWS\system32\inetsrv\httpext.dll,0,WEBDAV,WebDAV
+			0,*.dll"
+	>
+	<Custom
+		Name="MD_ISM_ACCESS_CHECK"
+		ID="6269"
+		Value="65535"
+		Type="DWORD"
+		UserType="IIS_MD_UT_FILE"
+		Attributes="NO_ATTRIBUTES"
+	/>
+	<Custom
+		Name="UNCPassword"
+		ID="3003"
+		Value="496344625000000006000000400000008651263a9ace3200d1a242dc7d7a530a833f995b7e5caf0c78a50f18d7efe00c6a99218b84df510756d0f28be410e6c701565606923a85c5fdf5e08ca6ab551fd7b56387eebf8f6b"
+		Type="STRING"
+		UserType="IIS_MD_UT_FILE"
+		Attributes="INHERIT | SECURE"
+	/>
+	<Custom
+		Name="UnknownName_2166"
+		ID="2166"
+		Value="1"
+		Type="DWORD"
+		UserType="IIS_MD_UT_SERVER"
+		Attributes="NO_ATTRIBUTES"
+	/>
+	<Custom
+		Name="UnknownName_9202"
+		ID="9202"
+		Value="4294967295"
+		Type="DWORD"
+		UserType="IIS_MD_UT_SERVER"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsWebService>
+<IIsWebServer	Location ="/LM/W3SVC/1"
+		AppPoolId="DefaultAppPool"
+		LogFileDirectory="C:\IIS\weblogs\default"
+		LogFileLocaltimeRollover="FALSE"
+		LogFilePeriod="1"
+		LogFileTruncateSize="20971520"
+		ServerAutoStart="FALSE"
+		ServerBindings=":80:"
+		ServerComment="Default Web Site"
+		ServerSize="1"
+	>
+</IIsWebServer>
+<IIsFilters	Location ="/LM/W3SVC/1/Filters"
+		AdminACL="49634462f0000000a4000000400000008651263a9bce09bee0118494076f7acd3363036dc16cd066d54d89e8e024ef51d05aecabe09c9cdaf92a9de39d3eece3e5226d99735e3c12feb0572f22b42da69b217ef367e50817facf732ed8f49116d48ff6e137132c17e3afce9626102cd1a636f34da385ffd5485f9b207531de510272c5c769129ca8e3cd46c73774a211904f3712aabcce2a70cdb90c0a2720b8cc26536bf064cb5f28a08b3fcc2df92aa806340cc6c330fe52972d7bde40edd91af61ea270f97917cfab3cd3e2540e882603c4fd45b64856b39665ad91efc48c367d38470aba97a7fca3e9080f203a3317f7beeed997b38d"
+	>
+</IIsFilters>
+<IIsCertMapper	Location ="/LM/W3SVC/1/IIsCertMapper"
+	>
+</IIsCertMapper>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1/ROOT"
+		AppFriendlyName="Default Application"
+		AppIsolated="2"
+		AppPoolId="DefaultAppPool"
+		AppRoot="/LM/W3SVC/1/ROOT"
+		Path="C:\IIS\websites\default"
+		UNCPassword="496344625000000006000000400000008651263a9ace3200d1a242dc7d7a530a833f995b7e5caf0c78a50f18d7efe00c6a99218b84df510756d0f28be410e6c701565606923a85c5fdf5e08ca6ab551fd7b56387eebf8f6b"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1/ROOT/aspnet_client"
+		DirBrowseFlags="0"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1/ROOT/SampleApp"
+		AuthFlags="AuthAnonymous"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1/ROOT/testApp"
+	>
+</IIsWebDirectory>
+<IIsWebServer	Location ="/LM/W3SVC/1280031224"
+		ConnectionTimeout="3600"
+		LogPluginClsid="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		ServerAutoStart="TRUE"
+		ServerBindings="129.196.128.182:80:
+			129.196.128.182:80:DEV.Support.Fluke.com
+			129.196.128.182:80:DEV.Support.FlukeNetworks.com
+			129.196.128.182:80:DEV.Support.MetermanTestTools.com"
+		ServerComment="Extranet"
+	>
+</IIsWebServer>
+<IIsFilters	Location ="/LM/W3SVC/1280031224/filters"
+		AdminACL="49634462f0000000a4000000400000008651263a9bce09bee0118494076f7acd3363036dc16cd066d54d89e8e024ef51d05aecabe09c9cdaf92a9de39d3eece3e5226d99735e3c12feb0572f22b42da69b217ef367e50817facf732ed8f49116d48ff6e137132c17e3afce9626102cd1a636f34da385ffd5485f9b207531de510272c5c769129ca8e3cd46c73774a211904f3712aabcce2a70cdb90c0a2720b8cc26536bf064cb5f28a08b3fcc2df92aa806340cc6c330fe52972d7bde40edd91af61ea270f97917cfab3cd3e2540e882603c4fd45b64856b39665ad91efc48c367d38470aba97a7fca3e9080f203a3317f7beeed997b38d"
+	>
+</IIsFilters>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		AppAllowDebugging="TRUE"
+		AppFriendlyName="Default Application"
+		AppIsolated="2"
+		AppRoot="/LM/W3SVC/1280031224/Root"
+		AspEnableParentPaths="TRUE"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		MimeMap=""
+		Path="D:\Extranet"
+		ScriptMaps=".ad,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.adprototype,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.asa,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.asax,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.ascx,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.ashx,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.asmx,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.asp,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.aspx,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.axd,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.browser,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.cd,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.cdx,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.cer,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.compiled,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.config,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.cs,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.csproj,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.dd,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.exclude,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.idc,C:\WINDOWS\system32\inetsrv\httpodbc.dll,5,GET,POST
+			.java,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.jsl,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.ldb,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.ldd,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.lddprototype,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.ldf,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.licx,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.master,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.mdb,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.mdf,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.msgx,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.refresh,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.rem,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.resources,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.resx,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.sd,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.sdm,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.sdmDocument,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.shtm,C:\WINDOWS\system32\inetsrv\ssinc.dll,5,GET,POST
+			.shtml,C:\WINDOWS\system32\inetsrv\ssinc.dll,5,GET,POST
+			.sitemap,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.skin,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.soap,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.stm,C:\WINDOWS\system32\inetsrv\ssinc.dll,5,GET,POST
+			.svc,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.upl,C:\WINDOWS\system32\inetsrv\asp.dll,5
+			.uplx,C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll,5
+			.vb,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.vbproj,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.vjsproj,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.vsdisco,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.webinfo,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			*,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,4,All"
+		UNCPassword="496344625000000006000000400000008651263a9ace3200d1a242dc7d7a530a833f995b7e5caf0c78a50f18d7efe00c6a99218b84df510756d0f28be410e6c701565606923a85c5fdf5e08ca6ab551fd7b56387eebf8f6b"
+	>
+</IIsWebVirtualDir>
+<IIsConfigObject	Location ="/LM/W3SVC/1280031224/root/Altek-sales"
+	>
+</IIsConfigObject>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/Altek-sales/Download"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\altek-sales\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56c3400bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="DANAHERTM\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Biomedical"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		AnonymousUserName="DANAHERTM\!supportextranet"
+		AnonymousUserPass="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56c3400bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		AuthFlags="AuthAnonymous | AuthNTLM"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/Biomedical/Download"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\biomedical\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56c3400bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Biomedical/Download/Asset"
+		MimeMap=""
+	>
+	<Custom
+		Name="UNCPassword"
+		ID="3003"
+		Value="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56c3400bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		Type="STRING"
+		UserType="IIS_MD_UT_FILE"
+		Attributes="INHERIT | SECURE"
+	/>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Calibration-Sales"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/Calibration-Sales/Download"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\calibration-sales\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56c3400bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/ChannelVision"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/ChannelVision/Download"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\channelvision\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56c3400bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Connections"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/DAQ-Support"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/DAQ-Support/Download"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\daq-support\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56c3400bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Educators"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/Educators/Download"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\educators\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56c3400bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Extranet_Pcat"
+		AccessFlags="AccessExecute | AccessSource | AccessRead | AccessWrite | AccessScript"
+		AnonymousUserName="DANAHERTM\pdeshpan"
+		AnonymousUserPass="496344626000000018000000400000008651263acace6f3e0411e994f36f49cd0163326df46cd0665cda828d2e4830cd6918a7643d9a0f93cd191edf9177cdada61e298e53e4883576d9e49f6adce8cb45d20657bdacf68a0fac0fb74e7735ffc839f86c0401ba3e"
+		AppFriendlyName="Extranet_Pcat"
+		AppIsolated="2"
+		AppPoolId="DefaultAppPool"
+		AppRoot="/LM/W3SVC/1280031224/Root/Extranet_Pcat"
+		DirBrowseFlags="EnableDirBrowsing | DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/FInd-Sales"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/FInd-Sales/Download"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\find-sales\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56cd066bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/FNet"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/FNet/Download"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\fnet\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56cd066bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/FPQ-Sales"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/FPQ-Sales/Download"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\fpq-sales\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56cd066bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Hart-Sales"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/Hart-Sales/Download"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\hart-sales\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56cd066bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Images"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Include"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Literature"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/Literature/Download"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\literature\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56cd066bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Met-Support"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/Met-Support/Download"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\met-support\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56cd066bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Met-Support-Gold"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/Met-Support-Gold/Download"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\met-support-gold\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56cd066bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Meterman-Sales"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/Meterman-Sales/Download"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\meterman-sales\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56cd066bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsConfigObject	Location ="/LM/W3SVC/1280031224/root/PartnerVision"
+	>
+</IIsConfigObject>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/PartnerVision/Download"
+		AccessFlags="AccessRead | AccessWrite"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\PartnerVision\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56cd066bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="DANAHERTM\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/POD"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="EnableDirBrowsing | DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\assets-pod$"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56cd066bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Pomona-Sales"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/Pomona-Sales/Download"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\pomona-sales\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56cd066bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/PortWeb"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/PortWeb/Download"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\portweb\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56cd066bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/PortWeb/Download/Asset"
+		MimeMap=".SDB,Octet-Stream"
+	>
+	<Custom
+		Name="UNCPassword"
+		ID="3003"
+		Value="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56cd066bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		Type="STRING"
+		UserType="IIS_MD_UT_FILE"
+		Attributes="INHERIT | SECURE"
+	/>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Precision-Measurements-Sales"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/Precision-Measurements-Sales/Download"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\precision-measurements-sales\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56cd066bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Promotions"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Raytek-Sales"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/Raytek-Sales/Download"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\raytek-sales\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56cd066bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Register"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Sales-Training"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/sampleApp"
+		AccessFlags="AccessRead | AccessScript"
+		AppFriendlyName=""
+		AppIsolated="2"
+		AppRoot="/LM/w3svc/1280031224/ROOT/sampleApp"
+		ScriptMaps=".ad,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.adprototype,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.asa,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.asax,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.ascx,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.ashx,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.asmx,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.asp,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.aspx,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.axd,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.browser,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.cd,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.cdx,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.cer,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.compiled,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.config,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.cs,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.csproj,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.dd,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.exclude,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.idc,C:\WINDOWS\system32\inetsrv\httpodbc.dll,5,GET,POST
+			.java,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.jsl,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.ldb,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.ldd,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.lddprototype,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.ldf,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.licx,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.master,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.mdb,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.mdf,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.msgx,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.refresh,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.rem,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.resources,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.resx,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.sd,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.sdm,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.sdmDocument,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.shtm,C:\WINDOWS\system32\inetsrv\ssinc.dll,5,GET,POST
+			.shtml,C:\WINDOWS\system32\inetsrv\ssinc.dll,5,GET,POST
+			.sitemap,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.skin,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.soap,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.stm,C:\WINDOWS\system32\inetsrv\ssinc.dll,5,GET,POST
+			.svc,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.upl,C:\WINDOWS\system32\inetsrv\asp.dll,5
+			.uplx,C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll,5
+			.vb,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.vbproj,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.vjsproj,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.vsdisco,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.webinfo,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			*,c:\windows\microsoft.net\framework\v2.0.50727\aspnet_isapi.dll,4,All"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/SandBox"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/SandBox/Download"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\sandbox\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56cd066bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Service-Center"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/Service-Center/Download"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\service-center\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56cd066bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/SW-Administrator"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/SW-Common"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/SW-FileUp_Log"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/SW-FileUp_Progress"
+		AppAllowClientDebug="TRUE"
+		AspAllowSessionState="TRUE"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/SW-FileUp_Temp"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\sw-fileup_temp"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56cd066bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/SW-FileUp_Transfer"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/SW-Forums"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/SW-Help"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/SW-Nightly"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/SW-PCat"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/SW-PCat/Asset_HTTP_Handler"
+		AppFriendlyName=""
+		AppIsolated="2"
+		AppRoot="/LM/w3svc/1280031224/ROOT/SW-PCat/Asset_HTTP_Handler"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/SW-PCat/Asset_HTTP_Handler/HTTP_Handler"
+		AppFriendlyName=""
+		AppIsolated="2"
+		AppRoot="/LM/w3svc/1280031224/ROOT/SW-PCat/Asset_HTTP_Handler/HTTP_Handler"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/SW-PCat/Asset_HTTP_Handler/Publish_Handler"
+		AppFriendlyName=""
+		AppIsolated="2"
+		AppRoot="/LM/w3svc/1280031224/ROOT/SW-PCat/Asset_HTTP_Handler/Publish_Handler"
+	>
+</IIsWebDirectory>
+<IIsConfigObject	Location ="/LM/W3SVC/1280031224/root/SW-PCat/Test"
+	>
+</IIsConfigObject>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/SW-PCat/Test/TestApp"
+		AppFriendlyName="TestApp"
+		AppIsolated="2"
+		AppPoolId="DefaultAppPool"
+		AppRoot="/LM/W3SVC/1280031224/Root/SW-PCat/Test/TestApp"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/testApp"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/testwebsite"
+		AppFriendlyName=""
+		AppIsolated="2"
+		AppRoot="/LM/w3svc/1280031224/ROOT/testwebsite"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Translations"
+		AccessFlags="AccessExecute | AccessRead | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1280031224/root/Transmation-sales"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+	>
+</IIsWebDirectory>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/Transmation-sales/Download"
+		AccessFlags="AccessRead | AccessWrite | AccessScript"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\extranet$\transmation-sales\download"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56cd066bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="danahertm\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1280031224/root/Virtual_Demo"
+		AccessFlags="AccessRead | AccessWrite"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\assets-virtual_demo$"
+		UNCPassword="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56cd066bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+		UNCUserName="DANAHERTM\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebServer	Location ="/LM/W3SVC/1436633488"
+		AuthFlags="0"
+		ServerAutoStart="FALSE"
+		ServerBindings=":80:"
+		ServerComment="Assets-Meterman-WWW"
+	>
+</IIsWebServer>
+<IIsFilters	Location ="/LM/W3SVC/1436633488/filters"
+		AdminACL="49634462f0000000a4000000400000008651263a9bce09bee0118494076f7acd3363036dc16cd066d54d89e8e024ef51d05aecabe09c9cdaf92a9de39d3eece3e5226d99735e3c12feb0572f22b42da69b217ef367e50817facf732ed8f49116d48ff6e137132c17e3afce9626102cd1a636f34da385ffd5485f9b207531de510272c5c769129ca8e3cd46c73774a211904f3712aabcce2a70cdb90c0a2720b8cc26536bf064cb5f28a08b3fcc2df92aa806340cc6c330fe52972d7bde40edd91af61ea270f97917cfab3cd3e2540e882603c4fd45b64856b39665ad91efc48c367d38470aba97a7fca3e9080f203a3317f7beeed997b38d"
+	>
+</IIsFilters>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1436633488/root"
+		AccessFlags="AccessRead | AccessWrite"
+		AppFriendlyName="Default Application"
+		AppIsolated="2"
+		AppRoot="/LM/W3SVC/1436633488/Root"
+		AuthFlags="AuthAnonymous | AuthNTLM"
+		DirBrowseFlags="EnableDirBrowsing | DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\Assets-Meterman-WWW$"
+		UNCUserName="DANAHERTM\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebServer	Location ="/LM/W3SVC/1624336707"
+		AuthFlags="0"
+		LogPluginClsid="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		ServerAutoStart="TRUE"
+		ServerBindings=":9090:"
+		ServerComment="ExtranetWebApps1.1"
+	>
+</IIsWebServer>
+<IIsFilters	Location ="/LM/W3SVC/1624336707/filters"
+		AdminACL="49634462f0000000a4000000400000008651263a9bce09bee0118494076f7acd3363036dc16cd066d54d89e8e024ef51d05aecabe09c9cdaf92a9de39d3eece3e5226d99735e3c12feb0572f22b42da69b217ef367e50817facf732ed8f49116d48ff6e137132c17e3afce9626102cd1a636f34da385ffd5485f9b207531de510272c5c769129ca8e3cd46c73774a211904f3712aabcce2a70cdb90c0a2720b8cc26536bf064cb5f28a08b3fcc2df92aa806340cc6c330fe52972d7bde40edd91af61ea270f97917cfab3cd3e2540e882603c4fd45b64856b39665ad91efc48c367d38470aba97a7fca3e9080f203a3317f7beeed997b38d"
+	>
+</IIsFilters>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1624336707/root"
+		AccessFlags="AccessRead | AccessScript"
+		AppFriendlyName="WebAppPool1.1"
+		AppIsolated="2"
+		AppPoolId="WebAppPool1.1"
+		AppRoot="/LM/W3SVC/1624336707/Root"
+		AuthFlags="AuthAnonymous | AuthNTLM"
+		DirBrowseFlags="EnableDirBrowsing | DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="D:\Extranet\SW-PCat\Extranet-Pcat"
+		ScriptMaps=".asa,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.asax,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.ascx,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.ashx,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.asmx,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.asp,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.aspx,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.axd,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.cdx,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.cer,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.config,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.cs,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.csproj,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.idc,C:\WINDOWS\system32\inetsrv\httpodbc.dll,5,GET,POST
+			.licx,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.rem,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.resources,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.resx,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.shtm,C:\WINDOWS\system32\inetsrv\ssinc.dll,5,GET,POST
+			.shtml,C:\WINDOWS\system32\inetsrv\ssinc.dll,5,GET,POST
+			.soap,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.stm,C:\WINDOWS\system32\inetsrv\ssinc.dll,5,GET,POST
+			.upl,C:\WINDOWS\system32\inetsrv\asp.dll,5
+			.uplx,C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll,5
+			.vb,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.vbproj,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG
+			.vsdisco,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG
+			.webinfo,C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet_isapi.dll,5,GET,HEAD,POST,DEBUG"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1624336707/root/ExtranetPcat"
+		AppFriendlyName="ExtranetPcat"
+		AppIsolated="2"
+		AppPoolId="WebAppPool1.1"
+		AppRoot="/LM/W3SVC/1624336707/Root/ExtranetPcat"
+	>
+</IIsWebDirectory>
+<IIsWebServer	Location ="/LM/W3SVC/1642242059"
+		AuthFlags="0"
+		ServerAutoStart="FALSE"
+		ServerBindings=":80:"
+		ServerComment="Assets-Misc-WWW"
+	>
+</IIsWebServer>
+<IIsFilters	Location ="/LM/W3SVC/1642242059/filters"
+		AdminACL="49634462f0000000a4000000400000008651263a9bce09bee0118494076f7acd3363036dc16cd066d54d89e8e024ef51d05aecabe09c9cdaf92a9de39d3eece3e5226d99735e3c12feb0572f22b42da69b217ef367e50817facf732ed8f49116d48ff6e137132c17e3afce9626102cd1a636f34da385ffd5485f9b207531de510272c5c769129ca8e3cd46c73774a211904f3712aabcce2a70cdb90c0a2720b8cc26536bf064cb5f28a08b3fcc2df92aa806340cc6c330fe52972d7bde40edd91af61ea270f97917cfab3cd3e2540e882603c4fd45b64856b39665ad91efc48c367d38470aba97a7fca3e9080f203a3317f7beeed997b38d"
+	>
+</IIsFilters>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1642242059/root"
+		AccessFlags="AccessRead | AccessWrite"
+		AppFriendlyName="Default Application"
+		AppIsolated="2"
+		AppRoot="/LM/W3SVC/1642242059/Root"
+		AuthFlags="AuthAnonymous | AuthNTLM"
+		DirBrowseFlags="EnableDirBrowsing | DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\Assets-Misc-WWW$"
+		UNCUserName="DANAHERTM\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebServer	Location ="/LM/W3SVC/264765694"
+		AuthFlags="0"
+		LogPluginClsid="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		ServerAutoStart="TRUE"
+		ServerBindings=":80:"
+		ServerComment="Asset-Fluke-WWW"
+	>
+</IIsWebServer>
+<IIsFilters	Location ="/LM/W3SVC/264765694/filters"
+		AdminACL="49634462f0000000a4000000400000008651263a9bce09bee0118494076f7acd3363036dc16cd066d54d89e8e024ef51d05aecabe09c9cdaf92a9de39d3eece3e5226d99735e3c12feb0572f22b42da69b217ef367e50817facf732ed8f49116d48ff6e137132c17e3afce9626102cd1a636f34da385ffd5485f9b207531de510272c5c769129ca8e3cd46c73774a211904f3712aabcce2a70cdb90c0a2720b8cc26536bf064cb5f28a08b3fcc2df92aa806340cc6c330fe52972d7bde40edd91af61ea270f97917cfab3cd3e2540e882603c4fd45b64856b39665ad91efc48c367d38470aba97a7fca3e9080f203a3317f7beeed997b38d"
+	>
+</IIsFilters>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/264765694/root"
+		AccessFlags="AccessRead | AccessWrite"
+		AppFriendlyName="Default Application"
+		AppIsolated="2"
+		AppRoot="/LM/W3SVC/264765694/Root"
+		AuthFlags="AuthAnonymous | AuthNTLM"
+		DirBrowseFlags="EnableDirBrowsing | DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\Assets-Fluke-WWW$"
+		UNCUserName="DANAHERTM\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsWebServer	Location ="/LM/W3SVC/568818616"
+		AuthFlags="0"
+		ServerAutoStart="FALSE"
+		ServerBindings=":80:"
+		ServerComment="Assets-FNet-WWW "
+	>
+</IIsWebServer>
+<IIsFilters	Location ="/LM/W3SVC/568818616/filters"
+		AdminACL="49634462f0000000a4000000400000008651263a9bce09bee0118494076f7acd3363036dc16cd066d54d89e8e024ef51d05aecabe09c9cdaf92a9de39d3eece3e5226d99735e3c12feb0572f22b42da69b217ef367e50817facf732ed8f49116d48ff6e137132c17e3afce9626102cd1a636f34da385ffd5485f9b207531de510272c5c769129ca8e3cd46c73774a211904f3712aabcce2a70cdb90c0a2720b8cc26536bf064cb5f28a08b3fcc2df92aa806340cc6c330fe52972d7bde40edd91af61ea270f97917cfab3cd3e2540e882603c4fd45b64856b39665ad91efc48c367d38470aba97a7fca3e9080f203a3317f7beeed997b38d"
+	>
+</IIsFilters>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/568818616/root"
+		AccessFlags="AccessRead | AccessWrite"
+		AppFriendlyName="Default Application"
+		AppIsolated="2"
+		AppRoot="/LM/W3SVC/568818616/Root"
+		AuthFlags="AuthAnonymous | AuthNTLM"
+		DirBrowseFlags="EnableDirBrowsing | DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="\\dtmevtvsdv16\Assets-FNet-WWW$"
+		UNCUserName="DANAHERTM\!supportextranet"
+	>
+</IIsWebVirtualDir>
+<IIsApplicationPools	Location ="/LM/W3SVC/AppPools"
+		AdminACL="49634462f0000000a4000000400000008651263a9bce09bee0118494076f7acd3363036dc16cd066d54d89e8e024ef51d05aecabeb9c9cdaf92a9de39d3eece3e5226d99735e3c12f5b0572f22b42da69b217ef367e50817facf732ed3f49116d48ff6e137132c17e3afce9626102cd1a636f34da385ffd5485f9b207531de510272c5c769129ca8e3cd46c73774a211904f3712aabcce2a70cdb90c0a2720b8cc26536bf064cb5f28a08b3fcc2df92aa806340cc6c330febf193db4ee6ac693e13d81a364d8cac7503ca928b21995327d2086b66628f833b6f8f7fd26b3cb894626f9065bd465383fbe1c9fe8aa003ca522b29e971ed347"
+		AppPoolIdentityType="2"
+		AppPoolQueueLength="1000"
+		CPULimit="0"
+		CPUResetInterval="5"
+		DisallowOverlappingRotation="FALSE"
+		DisallowRotationOnConfigChange="FALSE"
+		IdleTimeout="20"
+		LoadBalancerCapabilities="2"
+		LogEventOnRecycle="AppPoolRecycleTime | AppPoolRecycleMemory | AppPoolRecyclePrivateMemory"
+		MaxProcesses="1"
+		OrphanWorkerProcess="FALSE"
+		PeriodicRestartMemory="0"
+		PeriodicRestartPrivateMemory="0"
+		PeriodicRestartRequests="0"
+		PeriodicRestartTime="1740"
+		PingInterval="30"
+		PingResponseTime="90"
+		PingingEnabled="TRUE"
+		RapidFailProtection="TRUE"
+		RapidFailProtectionInterval="5"
+		RapidFailProtectionMaxCrashes="5"
+		SMPAffinitized="FALSE"
+		SMPProcessorAffinityMask="4294967295"
+		ShutdownTimeLimit="90"
+		StartupTimeLimit="90"
+	>
+</IIsApplicationPools>
+<IIsApplicationPool	Location ="/LM/W3SVC/AppPools/DefaultAppPool"
+	>
+</IIsApplicationPool>
+<IIsApplicationPool	Location ="/LM/W3SVC/AppPools/SW-FileUpE_Status"
+		AppPoolAutoStart="TRUE"
+	>
+</IIsApplicationPool>
+<IIsApplicationPool	Location ="/LM/W3SVC/AppPools/WebAppPool1.1"
+		AppPoolAutoStart="TRUE"
+		AppPoolIdentityType="2"
+		WAMUserName="DANAHERTM\!supportextranet"
+		WAMUserPass="496344626000000016000000400000008651263ab9ce563e3411d694d66f34cd0063776dd56cd066bd68ab448df2e223ed40bef2ff9d8a78ac5d4937e71d58affed95d8ee3ca737b46e4e8f7e62d6f5157043a7a05e98c86aebfdfd6e07876bba7ed7acc6233bd42"
+	>
+</IIsApplicationPool>
+<IIsFilters	Location ="/LM/W3SVC/Filters"
+		AdminACL="49634462f0000000a4000000400000008651263a9bce09bee0118494076f7acd3363036dc16cd066d54d89e8e024ef51d05aecabe09c9cdaf92a9de39d3eece3e5226d99735e3c12feb0572f22b42da69b217ef367e50817facf732ed8f49116d48ff6e137132c17e3afce9626102cd1a636f34da385ffd5485f9b207531de510272c5c769129ca8e3cd46c73774a211904f3712aabcce2a70cdb90c0a2720b8cc26536bf064cb5f28a08b3fcc2df92aa806340cc6c330fe52972d7bde40edd91af61ea270f97917cfab3cd3e2540e882603c4fd45b64856b39665ad91efc48c367d38470aba97a7fca3e9080f203a3317f7beeed997b38d"
+		FilterLoadOrder="ASP.NET_2.0.50727.42"
+	>
+</IIsFilters>
+<IIsFilter	Location ="/LM/W3SVC/Filters/ASP.NET_2.0.50727.42"
+		FilterDescription="ASP.NET Cookieless Session Filter"
+		FilterEnableCache="TRUE"
+		FilterFlags="NotifyPreProcHeaders | NotifyUrlMap | NotifyOrderLow"
+		FilterPath="C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\aspnet_filter.dll"
+		FilterState="1"
+	>
+</IIsFilter>
+<IIsFilter	Location ="/LM/W3SVC/Filters/Compression"
+	>
+</IIsFilter>
+<IIsCompressionScheme	Location ="/LM/W3SVC/Filters/Compression/deflate"
+		HcCompressionDll="%windir%\system32\inetsrv\gzip.dll"
+		HcCreateFlags="0"
+		HcDoDynamicCompression="TRUE"
+		HcDoOnDemandCompression="TRUE"
+		HcDoStaticCompression="FALSE"
+		HcDynamicCompressionLevel="0"
+		HcFileExtensions="htm
+			html
+			txt"
+		HcOnDemandCompLevel="10"
+		HcPriority="1"
+		HcScriptFileExtensions="asp
+			dll
+			exe"
+	>
+</IIsCompressionScheme>
+<IIsCompressionScheme	Location ="/LM/W3SVC/Filters/Compression/gzip"
+		HcCompressionDll="%windir%\system32\inetsrv\gzip.dll"
+		HcCreateFlags="1"
+		HcDoDynamicCompression="TRUE"
+		HcDoOnDemandCompression="TRUE"
+		HcDoStaticCompression="TRUE"
+		HcDynamicCompressionLevel="0"
+		HcFileExtensions="htm
+			html
+			txt"
+		HcOnDemandCompLevel="10"
+		HcPriority="1"
+		HcScriptFileExtensions="asp
+			dll
+			exe"
+	>
+</IIsCompressionScheme>
+<IIsCompressionSchemes	Location ="/LM/W3SVC/Filters/Compression/Parameters"
+		HcCacheControlHeader="max-age=86400"
+		HcCompressionBufferSize="8192"
+		HcCompressionDirectory="%windir%\IIS Temporary Compressed Files"
+		HcDoDiskSpaceLimiting="FALSE"
+		HcDoDynamicCompression="FALSE"
+		HcDoOnDemandCompression="TRUE"
+		HcDoStaticCompression="FALSE"
+		HcExpiresHeader="Wed, 01 Jan 1997 12:00:00 GMT"
+		HcFilesDeletedPerDiskFree="256"
+		HcIoBufferSize="8192"
+		HcMaxDiskSpaceUsage="99614720"
+		HcMaxQueueLength="1000"
+		HcMinFileSizeForComp="1"
+		HcNoCompressionForHttp10="TRUE"
+		HcNoCompressionForProxies="TRUE"
+		HcNoCompressionForRange="FALSE"
+		HcSendCacheHeaders="FALSE"
+	>
+</IIsCompressionSchemes>
+<IIsFilter	Location ="/LM/W3SVC/Filters/FileupEE"
+		FilterDescription="FileUpEeIsapi"
+		FilterFlags="0"
+		FilterPath="D:\WebTools\FileUpEE\com\FileUpEeIsapi.dll"
+		FilterState="4"
+	>
+</IIsFilter>
+<IIsWebInfo	Location ="/LM/W3SVC/Info"
+		AdminACL="49634462a000000058000000400000008651263a9bce09be54118494d36f7acd3363036dc16cd066d54dc5e8e524ef51d05ae0abc09c98daf9299de39d3eece3d6226d99535c281274b2572f23b52da3bb217ef653e70817fbcd572e53f49113f58af6e117112c12a3cf40a9aec5c545c52cd2b00d7fc555ab619551ffab2db5f8c4febf98fa1a08e02729002ebd527f866d665708d5114638a07b93334cb437158207bd12c5f7d7"
+		CustomErrorDescriptions="400,0,Bad Request,,0
+			401,1,Unauthorized,Logon failed,1
+			401,2,Unauthorized,Logon failed due to server configuration,1
+			401,3,Unauthorized,Unauthorized due to ACL on resource,1
+			401,4,Unauthorized,Authorization failed by filter,1
+			401,5,Unauthorized,Authorization failed by ISAPI/CGI app,1
+			401,7,Unauthorized,Denied due to URL Authorization policy,0
+			403,1,Forbidden,Execute access denied,0
+			403,2,Forbidden,Read access denied,0
+			403,3,Forbidden,Write access denied,0
+			403,4,Forbidden,SSL required,0
+			403,5,Forbidden,SSL128 required,0
+			403,6,Forbidden,IP address rejected,0
+			403,7,Forbidden,Client certificate required,0
+			403,8,Forbidden,Site access denied,0
+			403,9,Forbidden,Too many users,0
+			403,10,Forbidden,Invalid Configuration,0
+			403,11,Forbidden,Password Change,0
+			403,12,Forbidden,Mapper Denied Access,0
+			403,13,Forbidden,Client certificate revoked,0
+			403,14,Forbidden,Directory Listing Denied,0
+			403,15,Forbidden,Client Access Licenses Exceeded,0
+			403,16,Forbidden,Client certificate untrusted or ill-formed,0
+			403,17,Forbidden,Client certificate has expired or is not yet valid,0
+			403,18,Forbidden,Cannot execute request from this application pool,0
+			403,19,Forbidden,CGI Access denied,0
+			403,20,Forbidden,Passport Login failed,0
+			404,0,Not Found,,0
+			404,2,Not Found,Denied due to Lockdown Policy,0
+			404,3,Not Found,Denied due to MIMEMAP Policy,0
+			405,0,Method Not Allowed,,0
+			406,0,Not Acceptable,,0
+			407,0,Proxy Authentication Required,,1
+			412,0,Precondition Failed,,0
+			414,0,Request-URI Too Long,,0
+			415,0,Unsupported Media Type,,0
+			500,0,Internal Server Error,,0
+			500,12,Internal Server Error,Application restarting,0
+			500,13,Internal Server Error,Server too busy,0
+			500,15,Internal Server Error,Direct requests for GLOBAL.ASA forbidden,0
+			500,16,Internal Server Error,UNC Access Error,0
+			500,17,Internal Server Error,URL Authorization store not found,0
+			500,18,Internal Server Error,URL Authorization store cannot be opened,0
+			500,19,Internal Server Error,Bad file metadata,0
+			500,100,Internal Server Error,ASP error,0
+			501,0,Not Implemented,,0
+			502,0,Bad Gateway,,1"
+		LogModuleList="NCSA Common Log File Format,Microsoft IIS Log File Format,W3C Extended Log File Format,ODBC Logging"
+		MD_SERVER_CAPABILITIES="129983"
+		MD_SERVER_PLATFORM="1"
+		MajorIIsVersionNumber="6"
+		MinorIIsVersionNumber="0"
+	>
+</IIsWebInfo>
+<IIsConfigObject	Location ="/LM/W3SVC/Info/Templates"
+	>
+</IIsConfigObject>
+<IIsWebServer	Location ="/LM/W3SVC/Info/Templates/Public Web Site"
+		ServerComment="Allows all users to browse static and dynamic content."
+	>
+</IIsWebServer>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/Info/Templates/Public Web Site/Root"
+		AccessFlags="AccessRead | AccessScript"
+		AuthFlags="AuthAnonymous"
+		IPSecurity=""
+	>
+</IIsWebVirtualDir>
+<IIsWebServer	Location ="/LM/W3SVC/Info/Templates/Secure Web Site"
+		ServerComment="Allows users with a Windows account to view static and dynamic content."
+	>
+</IIsWebServer>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/Info/Templates/Secure Web Site/Root"
+		AccessFlags="AccessRead | AccessScript"
+		AuthFlags="AuthBasic | AuthNTLM | AuthMD5"
+		IPSecurity=""
+	>
+</IIsWebVirtualDir>
+</MBProperty>
+</configuration>

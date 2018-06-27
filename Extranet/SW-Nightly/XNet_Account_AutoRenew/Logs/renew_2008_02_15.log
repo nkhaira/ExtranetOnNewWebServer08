@@ -1,0 +1,62 @@
+
+----- 2/15/2008 4:00:02 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: peteroelen 60 peter.oelen@tooltronics.nlconflict on CMS_Region
+	User: meo nijsen 60 m.nijsen@maptools.nlconflict on CMS_Region
+	User: BLW Visser1 60 bw@blwvisser.nlconflict on CMS_Region
+	User: nathanf 14 nathan.fergusson@betacom.co.nz Mail sent
+	User: brandonevans 30 bevans@southernrefcorp.com Mail sent
+	User: jcacote 14 jose.cacote@qenergia.ptconflict on CMS_Region
+	User: ITKlfrtz 14 klas.fritz@it-teknik.seconflict on CMS_Region
+
+Handling site Pomona-Sales
+	User: nathanf-PE 14 nathan.fergusson@betacom.co.nz Mail sent
+
+Handling site Meterman-Sales
+	User: brandonevans 30 bevans@southernrefcorp.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+
+Handling site Educators
+	User: chillermann 60 rstrick5427@kvcc.edu Mail sent
+	User: jmblitz 14 jerry_blitz@avtec.edu Mail sent
+	User: local666journeyman 60 local666journeyman@verizon.net Mail sent
+	User: lhsauto 60 mckeew@wjcc.k12.va.us Mail sent
+	User: jjpressly 14 jjpressly@gtcc.edu Mail sent
+	User: sgilcrease 14 sgilcrease@nmjc.edu Mail sent
+	User: quinterogerardo 30 quinterojerry@hotmail.com Mail sent
+	User: dparrish 60 dparrish@com.edu Mail sent
+	User: dbeeson 60 dbeeson@btc.ctc.edu Mail sent
+	User: jktopaloff 60 jktopaloff@ra.rockwell.com Mail sent
+	User: licensedtrades@msn.c 60 licensedtrades@msn.com Mail sent
+	User: dprather 14 donald.prather@acca.org Mail sent
+	User: CPEREZLCJATC 30 CARLOSJATCLU861@HOTMAIL.COM Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		7	2
+Pomona-Sales		1	1
+Meterman-Sales		1	1
+Ircon-Sales		0	0
+Hart-Sales		0	0
+Educators		13	13
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

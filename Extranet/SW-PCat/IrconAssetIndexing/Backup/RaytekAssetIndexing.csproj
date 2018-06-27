@@ -1,0 +1,179 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{3FBB81B4-59A1-4B35-A958-CA9E6F914F8F}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "App.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "RaytekAssetIndexing"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Exe"
+                PreBuildEvent = ""
+                PostBuildEvent = "copy $(ProjectDir)\*.config $(TargetDir)"
+                RootNamespace = "RaytekAssetIndexing"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "DanaherTM.Framework.ExceptionHandling"
+                    AssemblyName = "DanaherTM.Framework.ExceptionHandling"
+                    HintPath = "bin\Debug\DanaherTM.Framework.ExceptionHandling.dll"
+                />
+                <Reference
+                    Name = "DanaherTM.Framework.Logging"
+                    AssemblyName = "DanaherTM.Framework.Logging"
+                    HintPath = "bin\Debug\DanaherTM.Framework.Logging.dll"
+                />
+                <Reference
+                    Name = "Microsoft.Practices.EnterpriseLibrary.Configuration.Design"
+                    AssemblyName = "Microsoft.Practices.EnterpriseLibrary.Configuration.Design"
+                    HintPath = "bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll"
+                />
+                <Reference
+                    Name = "Microsoft.Practices.EnterpriseLibrary.Configuration"
+                    AssemblyName = "Microsoft.Practices.EnterpriseLibrary.Configuration"
+                    HintPath = "bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.dll"
+                />
+                <Reference
+                    Name = "Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design"
+                    AssemblyName = "Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design"
+                    HintPath = "bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design.dll"
+                />
+                <Reference
+                    Name = "Microsoft.Practices.EnterpriseLibrary.Data"
+                    AssemblyName = "Microsoft.Practices.EnterpriseLibrary.Data"
+                    HintPath = "bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll"
+                />
+                <Reference
+                    Name = "Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design"
+                    AssemblyName = "Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design"
+                    HintPath = "bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design.dll"
+                />
+                <Reference
+                    Name = "Microsoft.Practices.EnterpriseLibrary.ExceptionHandling"
+                    AssemblyName = "Microsoft.Practices.EnterpriseLibrary.ExceptionHandling"
+                    HintPath = "bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll"
+                />
+                <Reference
+                    Name = "Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Configuration.Design"
+                    AssemblyName = "Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Configuration.Design"
+                    HintPath = "bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Configuration.Design.dll"
+                />
+                <Reference
+                    Name = "Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging"
+                    AssemblyName = "Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging"
+                    HintPath = "bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll"
+                />
+                <Reference
+                    Name = "Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design"
+                    AssemblyName = "Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design"
+                    HintPath = "bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design.dll"
+                />
+                <Reference
+                    Name = "Microsoft.Practices.EnterpriseLibrary.Logging"
+                    AssemblyName = "Microsoft.Practices.EnterpriseLibrary.Logging"
+                    HintPath = "bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll"
+                />
+                <Reference
+                    Name = "Microsoft.Practices.EnterpriseLibrary.Logging.Sinks.Database.Configuration.Design"
+                    AssemblyName = "Microsoft.Practices.EnterpriseLibrary.Logging.Sinks.Database.Configuration.Design"
+                    HintPath = "bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Sinks.Database.Configuration.Design.dll"
+                />
+                <Reference
+                    Name = "Microsoft.Practices.EnterpriseLibrary.Logging.Sinks.Database"
+                    AssemblyName = "Microsoft.Practices.EnterpriseLibrary.Logging.Sinks.Database"
+                    HintPath = "bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Sinks.Database.dll"
+                />
+                <Reference
+                    Name = "Microsoft.Practices.EnterpriseLibrary.Common"
+                    AssemblyName = "Microsoft.Practices.EnterpriseLibrary.Common"
+                    HintPath = "bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "App.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ListAssets.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <system.webServer>
+        <directoryBrowse enabled="true" />
+        <httpErrors errorMode="Detailed" />
+        <asp appAllowClientDebug="false" appAllowDebugging="true" enableParentPaths="true" scriptErrorSentToBrowser="true" />
+    </system.webServer>
+    <system.web>
+        <identity impersonate="false" />
+    </system.web>
+</configuration>

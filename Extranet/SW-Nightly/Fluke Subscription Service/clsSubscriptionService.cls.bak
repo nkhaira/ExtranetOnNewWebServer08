@@ -1,0 +1,722 @@
+VERSION 1.0 CLASS
+BEGIN
+  MultiUse = -1  'True
+  Persistable = 0  'NotPersistable
+  DataBindingBehavior = 0  'vbNone
+  DataSourceBehavior  = 0  'vbNone
+  MTSTransactionMode  = 0  'NotAnMTSObject
+END
+Attribute VB_Name = "clsSubscriptionSrv"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = False
+'*******************************************************************************************
+' Dependencies:
+'   ADODB library
+'   clsADOWraper
+'   clsErrorHandler
+'   clsIniWrapper
+'   modGeneral_Routines
+'
+' Class Instantiation order:
+'   InitializeData
+'   InitializeControls
+'
+'*******************************************************************************************
+
+Option Explicit
+
+'------------------------------ Declaration of global variables -----------------------------
+Private g_errHandler As clsErrorHandler
+Private g_connSubscription As ADODB.Connection  ' global connection to service database
+Private g_connServiceDocs As ADODB.Connection   ' global connection to docs database
+Private g_txtCurrentRecord As TextBox           ' ref to textbox on form for current record
+Private g_txtTotalRecords As TextBox            ' ref to textbox on form for total records
+Private g_txtCurrentUser As TextBox             ' ref to textbox on form for current user
+Private g_sbSubscription As StatusBar           ' ref to status bar on form
+Private g_lErrorCount As Long                   ' global to keep a count of errors
+Private g_strAppPath                            ' global to keep application path
+'------------------------------ End Declaration of global variables -------------------------
+
+'*******************************************************************************************
+' Get connections to database
+'*******************************************************************************************
+Public Function InitializeData(strAppPath As String)
+    On Error GoTo EXIT_InitializeData
+    
+    ' Get error handler object
+    Set g_errHandler = New clsErrorHandler
+    
+    g_strAppPath = strAppPath
+    
+    ' Get connection to the subscription database
+    Set g_connSubscription = Get_Connection("SUBSCRIPTIONSERVICE_USERS", SQLServer)
+    
+    ' Get recordset of all document information
+    Set g_connServiceDocs = Get_Connection("SUBSCRIPTIONSERVICE_DOCS", MSAccess)
+
+Exit Function
+
+EXIT_InitializeData:
+    g_errHandler.RaiseError err, "clsSubscriptionService.Class_Initialize()", "Error initializing data."
+End Function
+
+'*******************************************************************************************
+' Get references to form elements that we can use to update user on status
+'*******************************************************************************************
+Public Function InitializeControls(txtCurrentRecord As TextBox, txtTotalRecords As TextBox, txtCurrentUser As TextBox, sbSubscription As StatusBar)
+    Set g_txtCurrentRecord = txtCurrentRecord
+    Set g_txtTotalRecords = txtTotalRecords
+    Set g_txtCurrentUser = txtCurrentUser
+    Set g_sbSubscription = sbSubscription
+End Function
+
+'*******************************************************************************************
+' Close database connections and release object references
+'*******************************************************************************************
+Private Sub Class_Terminate()
+    On Error Resume Next
+    
+    ' Close database connections
+    g_connSubscription.Close
+    g_connServiceDocs.Close
+    
+    ' Release objects
+    Set g_connServiceDocs = Nothing
+    Set g_connSubscription = Nothing
+    Set g_errHandler = Nothing
+    Set g_txtCurrentRecord = Nothing
+    Set g_txtTotalRecords = Nothing
+    Set g_txtCurrentUser = Nothing
+    Set g_sbSubscription = Nothing
+End Sub
+
+'*******************************************************************************************
+' Return database connection
+'*******************************************************************************************
+Private Function Get_Connection(strIniApp As String, eDatabaseType As eDatabaseType) As ADODB.Connection
+    On Error GoTo EXIT_Get_Connection
+    
+    Dim dbWrapper As clsADOWrapper
+    Dim dbConnection As ADODB.Connection
+    
+    Set dbWrapper = New clsADOWrapper
+    dbWrapper.INI_FILE = g_strAppPath & "SubscriptionService.ini"
+    dbWrapper.INI_APP = strIniApp
+    Set dbConnection = dbWrapper.GetConnection(eDatabaseType)
+    
+    Set Get_Connection = dbConnection
+
+Exit Function
+
+EXIT_Get_Connection:
+    g_errHandler.RaiseError err, "clsSubscriptionService.Get_Connection()", "Error getting connection: " & strIniApp
+End Function
+
+'*******************************************************************************************
+' Purpose:
+'   Get valid users who subscribe to this service and for each user:
+'       For each section (which translates to a physical path) the user subscribes to:
+'           Examine each file in the section and if newer than the last time the user
+'           received an update then include in an email to the user.
+'   If the user chooses to receive attachments, they will receive a single email for each
+'   item. Otherwise they will receive on email with all the links on them.
+'*******************************************************************************************
+Public Function StartSubscriptionService()
+    On Error GoTo EXIT_StartSubscriptionService
+
+    Dim rsUsers As ADODB.Recordset
+    Dim rsSections As ADODB.Recordset
+    Dim aSections() As String
+    Dim iCounter As Integer
+    Dim strFileText As String
+    Dim strMailBody As String
+
+    ' Get users who subscribe to this service and exit if none found.
+    Set rsUsers = Get_StoredProcRecordset("Service_Subscription_GetUsers")
+    If rsUsers.EOF Then Exit Function
+    g_txtTotalRecords.Text = rsUsers.RecordCount
+    
+    ' Get list of sections
+    Set rsSections = Get_StoredProcRecordset("Service_Subscription_GetSections")
+    
+    ' Loop through each user and build the email
+    Do While Not rsUsers.EOF
+        ' Update form and reset mail string to null
+        g_txtCurrentRecord.Text = rsUsers.AbsolutePosition
+        g_txtCurrentUser.Text = rsUsers.Fields("FirstName") & " " & rsUsers.Fields("LastName")
+        DoEvents
+        strMailBody = vbNullString
+
+        ' Get the list of sections the user subscribes to
+        aSections = Split(rsUsers.Fields("Subscription_Sections"), ",")
+        
+        ' Loop through each section and build updated file listings for email
+        For iCounter = 0 To UBound(aSections)
+            rsSections.Filter = "SectionID = " & CInt(aSections(iCounter))
+            
+            If Not rsSections.EOF Then
+                g_sbSubscription.Panels("SubDir").Text = rsSections.Fields("StartingDir")
+                DoEvents
+                ' Some sections don't use the database so info is in a file called index.tag
+                strFileText = vbNullString
+                If rsSections("UseDB") = 0 Then
+                    strFileText = GetSectionFileText(rsSections.Fields("StartingDir"))
+                End If
+                ' Create the email
+                If ((rsSections("UseDB") = 0) And strFileText <> vbNullString) Or (rsSections("useDB") = 1) Then
+                    strMailBody = strMailBody & CreateEmail(strFileText, rsUsers, rsSections("StartingDir"), rsSections("UseDB"))
+                End If
+                strFileText = vbNullString
+            End If
+        Next
+
+        ' If the user chose to have the actual files sent as attatchments then we don't execute
+        ' this part. In that case, CreateEmail function ends up emailing each attatchment. Otherwise
+        ' strMailBody will have the information we need which we will mail out now after looping
+        ' through each section.
+        If Not IsNull(rsUsers.Fields("email")) And Trim(strMailBody) <> "" Then
+            MailServiceSubscriber strMailBody, rsUsers.Fields("email")
+        End If
+
+        ' Now update user to show they've received the latest updates
+        UpdateServiceSubscriptions rsUsers.Fields("NTLogin")
+        rsUsers.MoveNext
+    Loop
+
+    dbCleanup rsUsers, rsSections
+
+Exit Function
+
+EXIT_StartSubscriptionService:
+    g_errHandler.ErrorReport err, "Error in clsSubscriptionService.StartSubscriptionService()"
+End Function
+
+'*******************************************************************************************
+' Return a recordset based on the indicated stored procedure
+'*******************************************************************************************
+Private Function Get_StoredProcRecordset(strStoredProc As String) As ADODB.Recordset
+    On Error GoTo EXIT_Get_StoredProcRecordset
+    
+    Dim dbWrapper As clsADOWrapper
+    
+    Set dbWrapper = New clsADOWrapper
+    Set Get_StoredProcRecordset = dbWrapper.GetRecordset(strStoredProc, g_connSubscription, StoredProc)
+
+    Set dbWrapper = Nothing
+Exit Function
+
+EXIT_Get_StoredProcRecordset:
+    g_errHandler.RaiseError err, "clsSubscriptionService.Get_StoredProcRecordset()", "Error getting recordset from stored proc: " & strStoredProc
+End Function
+
+Private Function dbCleanup(rsUsers As ADODB.Recordset, rsSections As ADODB.Recordset)
+    rsUsers.Close
+    rsSections.Close
+    
+    Set rsUsers = Nothing
+    Set rsSections = Nothing
+End Function
+
+Private Function GetSectionFileText(strStartingDir As String) As String
+    On Error GoTo EXIT_GetSectionFileText
+    
+    Dim oFileSystem As Scripting.FileSystemObject
+    Dim oTextFile As TextStream
+    Dim strFileText As String
+    
+    Set oFileSystem = New Scripting.FileSystemObject
+    Set oTextFile = oFileSystem.OpenTextFile(strStartingDir & "index.tag", ForReading, False)
+    strFileText = oTextFile.ReadAll
+    
+    ' Cleanup
+    oTextFile.Close
+    Set oTextFile = Nothing
+    Set oFileSystem = Nothing
+    
+    GetSectionFileText = strFileText
+Exit Function
+
+EXIT_GetSectionFileText:
+    g_errHandler.ErrorReport err, "Error getting " & strStartingDir & "index.tag file."
+    g_lErrorCount = g_lErrorCount + 1
+    GetSectionFileText = vbNullString
+    'RaiseError Err, "clsSubscriptionService.GetSectionFileText()", "Error getting index.tag file."
+End Function
+
+Private Function CreateEmail(ByRef strFileText As String, ByRef rsUsers As ADODB.Recordset, ByVal strWorkingDir As String, ByVal iUseDB As Integer) As String
+    On Error GoTo EXIT_CreateEmail
+    
+    Dim strExcludedFiles As String
+    Dim oFileSystem As Scripting.FileSystemObject
+    Dim oFolder As Folder
+    Dim oFile As Scripting.File
+    Dim strMailBody As String
+    
+    strExcludedFiles = "GIF, JPG, BMP, CGI, TAG, ASP, HTM"
+    
+    Set oFileSystem = New Scripting.FileSystemObject
+    Set oFolder = oFileSystem.GetFolder(strWorkingDir)
+    
+    For Each oFile In oFolder.Files
+        g_sbSubscription.Panels("File").Text = oFile.Name
+        ' Get the file extension and if it's not one of the wrong extensions then proceed
+        If InStr(1, strExcludedFiles, UCase(Right(oFile.Name, 3))) = False Then
+            ' If the filedate is newer than the last time the user recieved a subscription notice
+            If DateDiff("d", rsUsers.Fields("Subscription_Date"), oFile.DateCreated) >= 0 Then
+                If rsUsers.Fields("Subscription_Method") = 1 Then
+                    'compile attachment
+                    strMailBody = GetMailBody(strFileText, strWorkingDir, oFile, iUseDB)
+                    'Log transaction - keep track of files that were sent to user
+                    LogTransaction "A", rsUsers, strWorkingDir, oFile.Name
+                    ' Email the attatchment
+                    MailServiceSubscriber strMailBody, rsUsers.Fields("email"), oFile, strWorkingDir
+                    strMailBody = vbNullString
+                Else
+                    strMailBody = strMailBody & GetMailBody(strFileText, strWorkingDir, oFile, iUseDB)
+                    'Log transaction - keep track of files that were sent to user
+                    LogTransaction "N", rsUsers, strWorkingDir, oFile.Name
+                End If
+            End If
+        End If
+    Next
+    Set oFile = Nothing
+    Set oFolder = Nothing
+    Set oFileSystem = Nothing
+    CreateEmail = strMailBody
+
+Exit Function
+
+EXIT_CreateEmail:
+    g_errHandler.RaiseError err, "clsSubscriptionService.CreateEmail()", "Error creating email."
+End Function
+
+Private Function GetMailBody(ByRef strTextFile As String, ByVal strWorkingDir As String, ByRef oFile As File, ByVal iUseDB As Integer) As String
+    Dim strText As String
+    Dim strFileExt As String
+    Dim strFilename As String
+    Dim strFileRoot As String
+    Dim strWebRoot As String
+    
+    strFilename = UCase(oFile.Name)
+    strFileExt = Right(strFilename, 3)
+
+    strText = strText & "File Type: " & strFileExt & vbCrLf
+    
+    If iUseDB = 1 Then
+        'file name is like pcn0001
+        strText = strText & "File Name: "
+        strText = strText & GetPrefix(strFilename) & GetNumber(strFilename) & vbCrLf
+    Else
+        'regular file name
+        strText = strText & "File Name: "
+        strText = strText & strFilename & vbCrLf
+    End If
+    strText = strText & PrintDesc(strTextFile, strWorkingDir, oFile, iUseDB)
+    strText = strText & "Date: "
+    strText = strText & oFile.DateLastModified & vbCrLf
+    strText = strText & "File Size: "
+    strText = strText & PrintFileSize(oFile.Size) & vbCrLf
+    strText = strText & "URL: "
+    strFileRoot = GetIniKey("SERVICECENTER_FILEROOT")
+    strWebRoot = GetIniKey("SERVICECENTER_WEBROOT")
+    strText = strText & "http://support.fluke.com/" & ReverseSlash(Replace(UCase(strWorkingDir), UCase(strFileRoot), strWebRoot)) & vbCrLf & "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=" & vbCrLf & vbCrLf & vbCrLf
+    GetMailBody = strText
+End Function
+
+Private Function LogTransaction(ByRef strTransactionType As String, ByRef rsUsers As ADODB.Recordset, strWorkingDir As String, strFilename As String)
+    On Error GoTo EXIT_LogTransaction
+    
+    Dim rsTrack As ADODB.Recordset
+    Dim strLogin As String
+    Dim strSubGroups As String
+    Dim strTrackSQL As String
+    Dim strFileRoot As String
+    
+    strLogin = rsUsers.Fields("NTLogin")
+    strSubGroups = rsUsers.Fields("SubGroups")
+    
+    ' We don't track downloads by administrators
+    If InStr(1, UCase(strSubGroups), "ADMIN") = 0 Then
+        strFileRoot = GetIniKey("SERVICECENTER_FILEROOT")
+        Set rsTrack = GetDownloadData(strLogin, strFilename, ReverseSlash(Replace(strWorkingDir, strFileRoot, "")))
+        If rsTrack.EOF Then
+            'First time with the file.
+            InsertDownloadData strLogin, strFilename, rsUsers("FirstName"), rsUsers("LastName"), ReverseSlash(Replace(strWorkingDir, strFileRoot, "")), rsUsers("Company"), rsUsers("Country"), strTransactionType
+        Else
+            UpdateDownloadData strTransactionType, CLng(rsTrack.Fields("TrackNumber"))
+        End If
+        rsTrack.Close
+        Set rsTrack = Nothing
+    End If
+Exit Function
+
+EXIT_LogTransaction:
+    g_errHandler.RaiseError err, "clsSubscriptionService.LogTransaction()", "Could not log DownloadData"
+End Function
+
+Private Function GetDownloadData(strUserID As String, strFilename As String, strFilePath As String) As ADODB.Recordset
+    On Error GoTo EXIT_getDownloadData
+
+    Dim cmdGetDownloadData As ADODB.Command
+    Dim tmpParam As ADODB.Parameter
+    Dim strStoredProc As String
+    
+    strStoredProc = "Service_Subscription_GetDownloadData"
+    Set cmdGetDownloadData = New ADODB.Command
+    With cmdGetDownloadData
+        Set .ActiveConnection = g_connSubscription
+        .CommandType = adCmdStoredProc
+        .CommandText = strStoredProc
+        Set tmpParam = .CreateParameter("@strUserID", adVarChar, adParamInput, 25, strUserID)
+        .Parameters.Append tmpParam
+        Set tmpParam = .CreateParameter("@strFileName", adVarChar, adParamInput, 255, strFilename)
+        .Parameters.Append tmpParam
+        Set tmpParam = .CreateParameter("@strFilePath", adVarChar, adParamInput, 255, strFilePath)
+        .Parameters.Append tmpParam
+        Set GetDownloadData = .Execute
+    End With
+
+    Set tmpParam = Nothing
+    Set cmdGetDownloadData = Nothing
+
+Exit Function
+
+EXIT_getDownloadData:
+    g_errHandler.RaiseError err, "clsSubscriptionService.GetDownloadData()", "Could not get download data."
+End Function
+
+Private Function InsertDownloadData(strUserID As String, strFilename As String, strFirstName As String, strLastName As String, strFilePath As String, strCompany As String, strCountry As String, strTransactioncode As String)
+    On Error GoTo EXIT_InsertDownloadData
+
+    Dim cmdInsertDownloadData As ADODB.Command
+    Dim tmpParam As ADODB.Parameter
+    Dim strStoredProc As String
+    
+    strStoredProc = "Service_Subscription_InsertDownloadData"
+    Set cmdInsertDownloadData = New ADODB.Command
+    With cmdInsertDownloadData
+        Set .ActiveConnection = g_connSubscription
+        .CommandType = adCmdStoredProc
+        .CommandText = strStoredProc
+        Set tmpParam = .CreateParameter("@strUserID", adVarChar, adParamInput, 25, strUserID)
+        .Parameters.Append tmpParam
+        Set tmpParam = .CreateParameter("@strFileName", adVarChar, adParamInput, 255, strFilename)
+        .Parameters.Append tmpParam
+        Set tmpParam = .CreateParameter("@strFirstName", adVarChar, adParamInput, 25, strFirstName)
+        .Parameters.Append tmpParam
+        Set tmpParam = .CreateParameter("@strLastName", adVarChar, adParamInput, 25, strLastName)
+        .Parameters.Append tmpParam
+        Set tmpParam = .CreateParameter("@strFilePath", adVarChar, adParamInput, 255, strFilePath)
+        .Parameters.Append tmpParam
+        Set tmpParam = .CreateParameter("@strCompany", adVarChar, adParamInput, 25, strCompany)
+        .Parameters.Append tmpParam
+        Set tmpParam = .CreateParameter("@strCountry", adVarChar, adParamInput, 25, strCountry)
+        .Parameters.Append tmpParam
+        Set tmpParam = .CreateParameter("@strTransactioncode", adVarChar, adParamInput, 25, strTransactioncode)
+        .Parameters.Append tmpParam
+        .Execute
+    End With
+
+    Set tmpParam = Nothing
+    Set cmdInsertDownloadData = Nothing
+
+Exit Function
+
+EXIT_InsertDownloadData:
+    g_errHandler.RaiseError err, "clsSubscriptionService.InsertDownloadData()", "Could not insert download data."
+End Function
+
+Private Function UpdateDownloadData(strTransactioncode As String, lTrackNumber As Long)
+    On Error GoTo EXIT_UpdateDownloadData
+
+    Dim cmdUpdateDownloadData As ADODB.Command
+    Dim tmpParam As ADODB.Parameter
+    Dim strStoredProc As String
+    
+    strStoredProc = "Service_Subscription_UpdateDownloadData"
+    Set cmdUpdateDownloadData = New ADODB.Command
+    With cmdUpdateDownloadData
+        Set .ActiveConnection = g_connSubscription
+        .CommandType = adCmdStoredProc
+        .CommandText = strStoredProc
+        Set tmpParam = .CreateParameter("@strTransactioncode", adVarChar, adParamInput, 25, strTransactioncode)
+        .Parameters.Append tmpParam
+        Set tmpParam = .CreateParameter("@iTrackNumber", adInteger, adParamInput, , lTrackNumber)
+        .Parameters.Append tmpParam
+        .Execute
+    End With
+
+    Set tmpParam = Nothing
+    Set cmdUpdateDownloadData = Nothing
+
+Exit Function
+
+EXIT_UpdateDownloadData:
+    g_errHandler.RaiseError err, "clsSubscriptionService.UpdateDownloadData()", "Could not update download data."
+End Function
+
+Private Function MailServiceSubscriber(strMailBody As String, strRecipientEmail, Optional oFile As File, Optional strWorkingDir As String)
+    On Error Resume Next
+    
+    Dim bFileExists As Boolean
+    Dim strFilename As String
+    Dim strEmail_Header As String
+    Dim strEmail_Footer As String
+    Dim oMailer As Object
+    Dim strRemoteHost As String
+    Dim strFromAddress As String
+    Dim strRecipient As String
+    Dim oIniFile As clsIniWrapper
+    Dim strSubject As String
+    Dim strError As String
+    Dim strMessage As String
+    
+    strMessage = g_sbSubscription.Panels("Status").Text
+    g_sbSubscription.Panels("Status").Text = "Status: Sending email"
+    
+    strEmail_Header = "This is an automatic notification of new or revised Fluke Service Documents or Support Files from the Fluke Service Center Support Site ""Subscription Service"" at http://support.fluke.com/service/center" & vbCrLf & vbCrLf & vbCrLf
+    strEmail_Footer = vbCrLf & vbCrLf & "1. This site contains Company Confidential Information of Fluke Corporation. Access and document retreival is restricted to Authorized Fluke Service Centers for local use only. Material found within this site may not be reproduced or transmitted in any form or by any means electronically or mechanical for any other purpose without the express written permission of Fluke Corporation - Customer Support Services." & vbCrLf & vbCrLf & "" _
+        & "2. How to subscribe/unsubscribe to our subscription service" & vbCrLf & vbCrLf & "You are receiving this Service Document Notification because we have received a subscription request from you. To change any of your subscription options, please visit: http://support.fluke.com/service/center and select the [Subscription] navigation button." & vbCrLf & vbCrLf & "3. Technical Note" & vbCrLf & vbCrLf & "Email format restrictions may not allow some URLs to fit on one line.  This means that when you click a URL in the message, you may get an error. If the URL does not seem to work, please select, copy, and then paste the entire link address into your browser's target address field." & vbCrLf & vbCrLf & "Copyright 1999 Fluke Corporation - Customer Support Services" & vbCrLf & vbCrLf & vbCrLf
+    
+    strMailBody = Replace(strMailBody, Chr(9), "", 1, -1)
+
+    strFilename = oFile.Name
+    If err.Number = 0 Then
+        bFileExists = True
+    End If
+    
+    'Set oMailer = Server.CreateObject("SMTPsvg.Mailer")
+ 
+    'adding new email method
+    %>
+    <!--#include virtual="/connections/connection_email_new.asp"-->
+    <%
+    Set oIniFile = New clsIniWrapper
+    oIniFile.INI_FILE = g_strAppPath & "SubscriptionService.ini"
+    oIniFile.INI_APP = "SUBSCRIPTIONSERVICE_USERS"
+
+    strRemoteHost = oIniFile.GetIniString("MAILSERVER")
+    strFromAddress = oIniFile.GetIniString("SENDEREMAIL")
+    strRecipient = strRecipientEmail
+
+    'oMailer.FromName = "Fluke CSS Web"
+    'oMailer.RemoteHost = strRemoteHost
+    'oMailer.FromAddress = strFromAddress
+    'oMailer.AddRecipient "", strRecipient
+
+    msg.From = """Fluke CSS Web""" & strFromAddress
+    msg.To = strRecipient
+
+    'oMailer.WordWrap = True
+    strSubject = "Service Update Notification"
+    If strWorkingDir <> vbNullString And bFileExists Then
+        strSubject = strSubject & ": " & oFile.Name
+    End If
+    'oMailer.Subject = "Service Update Notification"
+    'oMailer.BodyText = strEmail_Header & strMailBody & strEmail_Footer
+
+    msg.Subject = "Service Update Notification"
+    msg.TextBody = strEmail_Header & strMailBody & strEmail_Footer
+
+    If bFileExists Then
+        'oMailer.ClearAttachments
+        'oMailer.AddAttachment strWorkingDir & oFile.Name
+        msg.AddAttachment = strWorkingDir & oFile.Name
+    End If
+
+    'If Not oMailer.SendMail Then
+    '    If Len(Trim(oMailer.Response)) > 0 Then
+    '        strError = oMailer.Response
+    '    Else
+    '        strError = "Unknown"
+    '    End If
+    'Else
+    'End If
+
+    msg.Configuration = conf
+    On Error Resume Next
+    msg.Send
+    If Err.Number = 0 then
+        'Success
+    Else
+        strError = err.Description
+    End If
+
+    'Set oMailer = Nothing
+
+    g_sbSubscription.Panels("Status").Text = strMessage
+End Function
+
+Private Function UpdateServiceSubscriptions(strNTLogin As String)
+    On Error GoTo EXIT_UpdateServiceSubscriptions
+    
+    Dim cmdUpdateServiceSubscriptions As ADODB.Command
+    Dim tmpParam As ADODB.Parameter
+    Dim strStoredProc As String
+    
+    strStoredProc = "Service_Subscription_UpdateSubscription"
+    Set cmdUpdateServiceSubscriptions = New ADODB.Command
+    With cmdUpdateServiceSubscriptions
+        Set .ActiveConnection = g_connSubscription
+        .CommandType = adCmdStoredProc
+        .CommandText = strStoredProc
+        Set tmpParam = .CreateParameter("NTLogin", adVarChar, adParamInput, 25, strNTLogin)
+        .Parameters.Append tmpParam
+        .Execute
+    End With
+    ' Update the user to show they received the last subscription
+    
+    Set cmdUpdateServiceSubscriptions = Nothing
+    Set tmpParam = Nothing
+Exit Function
+
+EXIT_UpdateServiceSubscriptions:
+    g_errHandler.RaiseError err, "clsSubscriptionService.UpdateServiceSubscriptions()", "Could not update user: " & strNTLogin
+End Function
+
+'----------------------------------- Misc functions -----------------------------------------
+Private Function GetIniKey(strIniKey As String) As String
+    Dim oIni As clsIniWrapper
+    Dim strPath As String
+    
+    strPath = g_strAppPath & "SubscriptionService.ini"
+    
+    Set oIni = New clsIniWrapper
+    oIni.INI_FILE = strPath
+    oIni.INI_APP = "SUBSCRIPTIONSERVICE_USERS"
+    GetIniKey = oIni.GetIniString(strIniKey)
+    Set oIni = Nothing
+End Function
+
+Private Function PrintDesc(ByRef strTextFile As String, ByRef strWorkingDir, ByRef oFile As File, ByVal iUseDB)
+    Dim iStart As Integer
+    Dim iEnd As Integer
+    Dim iTest As Integer
+    Dim iLength As Integer
+    Dim rsDBDesc As ADODB.Recordset
+    Dim strFilename As String
+    Dim strDesc As String
+    Dim strExtra As String
+    Dim strModel As String
+    Dim strSQL As String
+    
+    strFilename = oFile.Name
+    
+    If UCase(Right(oFile.Name, 3)) = "HTM" Then
+        PrintDesc = strFilename
+    Else
+        If iUseDB = 2 Then
+            PrintDesc = " "
+        ElseIf iUseDB = 0 Then
+            iStart = InStr(strTextFile, strFilename)
+            If iStart > 0 Then
+                iEnd = InStr(iStart, strTextFile, Chr(10))
+                iTest = InStr(iStart, strTextFile, Chr(13))
+                iStart = iStart + Len(oFile.Name)
+                iLength = iEnd - iStart
+                If iLength > 0 Then
+                    PrintDesc = "Description: " & TagRemove(Mid(strTextFile, iStart + 1, iLength))
+                End If
+            Else
+                'Couldnt find the file name in tag file
+                PrintDesc = " "
+            End If '   iStart
+        Else
+            'use database
+            ' Hardcoded select since this is an Access database we can't control.
+            strSQL = "SELECT * FROM Master WHERE Master.[Doc Numb] = '" & CLng(GetNumber(strFilename)) & "' AND Master.[Doc Type] = '" & GetPrefix(strFilename) & "'"
+            Set rsDBDesc = g_connServiceDocs.Execute(strSQL)
+            If Not rsDBDesc.EOF Then
+                If Not IsNull(rsDBDesc("Description")) And Trim(rsDBDesc("Description")) <> "" Then strDesc = "Description: " & rsDBDesc("Description") & vbCrLf
+                If Not IsNull(rsDBDesc("Class")) And Trim(rsDBDesc("Class")) <> "" Then strExtra = "Class Code: " & rsDBDesc("Class") & vbCrLf
+                If Not IsNull(rsDBDesc("Assembly")) And Trim(rsDBDesc("Assembly")) <> "" Then strExtra = strExtra & "Assembly(s): " & rsDBDesc("Assembly") & vbCrLf
+                If Not IsNull(rsDBDesc("Board Revision")) And Trim(rsDBDesc("Board Revision")) <> "" Then strExtra = strExtra & "Board Revision(s): " & rsDBDesc("Board Revision") & vbCrLf
+                If Not IsNull(rsDBDesc("Serial #")) And Trim(rsDBDesc("Serial #")) <> "" Then strExtra = strExtra & "Serial Number(s): " & rsDBDesc("Serial #") & vbCrLf
+                strModel = ""
+                Do While Not rsDBDesc.EOF
+                    If strModel <> "" Then strModel = strModel & ", "
+                    strModel = strModel & rsDBDesc("Model")
+                    rsDBDesc.MoveNext
+                Loop
+                If strModel <> "" Then strModel = "Model(s): " & strModel
+            Else
+                PrintDesc = " "
+            End If    ' rs.eof
+            rsDBDesc.Close
+            Set rsDBDesc = Nothing
+            PrintDesc = strDesc & strModel & vbCrLf & strExtra
+        End If
+    End If
+End Function
+
+Public Property Get GetErrorCount() As Integer
+    GetErrorCount = g_lErrorCount
+End Property
+
+Private Function GetPrefix(strFilename As String) As String
+    Dim iCounter As Integer
+    Dim strPrefix As String
+    
+    For iCounter = 1 To Len(strFilename) - 4
+        If IsNumeric(Mid(strFilename, iCounter, 1)) Then
+            'SKIP
+        Else
+            strPrefix = strPrefix & Mid(strFilename, iCounter, 1)
+        End If
+    Next
+    GetPrefix = UCase(strPrefix)
+End Function
+
+Private Function GetNumber(strFilename)
+    Dim iCounter As Integer
+    Dim strNum As String
+    
+    For iCounter = 1 To Len(strFilename) - 4
+        If IsNumeric(Mid(strFilename, iCounter, 1)) Then
+            strNum = strNum & Mid(strFilename, iCounter, 1)
+        Else
+            'Skip
+        End If
+    Next
+    GetNumber = strNum
+End Function
+
+Private Function ReverseSlash(strToParse As String) As String
+    Dim strReturnValue As String
+    Dim iCounter As Integer
+    
+    strReturnValue = Replace(strToParse, "/", "**")
+    strReturnValue = Replace(strReturnValue, "\", "/")
+    strReturnValue = Replace(strReturnValue, "**", "\")
+    
+    ReverseSlash = strReturnValue
+End Function
+
+Function TagRemove(strText) As String
+    Dim bFlag As Boolean
+    Dim iBegin As Integer
+    Dim iEnding As Integer
+    
+    Do
+        bFlag = False
+        If InStr(strText, "<") > 0 Then
+            'found the beginning of a tag
+            bFlag = True
+            iBegin = InStr(strText, "<")
+            iEnding = InStr(strText, ">")
+            strText = Left(strText, iBegin - 1) & Mid(strText, iEnding + 1)
+        End If
+    Loop While bFlag <> False
+    TagRemove = strText
+End Function
+
+Private Function PrintFileSize(iFileSize As Long) As String
+    If iFileSize < 1024 Then
+        PrintFileSize = "1 K"
+    Else
+        PrintFileSize = iFileSize \ 1024 & " K"
+    End If
+End Function
+'---------------------------------- End misc functions --------------------------------------

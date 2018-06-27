@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "http://localhost/SW-Stream_IT/", "http://localhost/SW-Stream_IT", "{5F8D0737-5CA8-4FB1-9B12-3E2D975EFA3B}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/SW-Stream_IT"
+		Debug.AspNetCompiler.PhysicalPath = "..\SW-Stream_IT\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SW-Stream_IT\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/FindIt"
+		Release.AspNetCompiler.PhysicalPath = "..\FindIt\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SW-Stream_IT\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\SW-Stream_IT\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Release|.NET = Release|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F8D0737-5CA8-4FB1-9B12-3E2D975EFA3B}.Debug|.NET.ActiveCfg = Debug|.NET
+		{5F8D0737-5CA8-4FB1-9B12-3E2D975EFA3B}.Debug|.NET.Build.0 = Debug|.NET
+		{5F8D0737-5CA8-4FB1-9B12-3E2D975EFA3B}.Release|.NET.ActiveCfg = Release|.NET
+		{5F8D0737-5CA8-4FB1-9B12-3E2D975EFA3B}.Release|.NET.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

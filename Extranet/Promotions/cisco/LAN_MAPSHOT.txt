@@ -1,0 +1,21 @@
+<table class="CAT_ITEM_Tbl_Border" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<table WIDTH="100%" class="CAT_ITEM_Tbl_Content" cellspacing="2" cellpadding="4">  
+<tr Class="CAT_ITEM_Bg_Name">  
+<td ALIGN="CENTER" WIDTH="170"><img SRC="/estore/assets/product_images/lan_mapshot_box1.jpg" border="0" width="107"></td>  
+<td COLSPAN="7">
+<font class="CAT_ITEM_Font_LongDesc">
+<B>LAN MapShot™</B>
+<P>
+Automatically discover & map your switched network in minutes! Fire up this application and it quickly discovers network devices.  Working in tandem with Microsoft Visio™, LAN MapShot™ instantly locates IPX servers, IP and NetBIOS devices on your network, pops up maps showing slot and port level connections and visual routes through switches.  Plus it pinpoints printers, routers, switches, managed hubs and hosts.  It even flags port speed mismatches and shows you where your Fluke Networks tool’s are located.
+<UL>
+<LI> Maximum 1 per student</LI>
+</UL>
+Microsoft will be promoting LAN MapShot Version 2.0 as part of the <I>Microsoft Office Visio 2003 Resource Kit for IT Professionals</I>. The resource kit will be available beginning March 3, 2004 through December 31, 2004 at a cost of $20. (<I>LAN MapShot Street Price value is $495</I>). You can obtain LAN MapShot Version 2.0 by going to <A HREF="http://microsoft.order-9.com/visiopro">http://microsoft.order-9.com/visiopro</A>. <B>LAN MapShot requires Visio to draw network diagrams. LAN MapShot V2.0 is only compatible with Visio 2003 Standard or Professional</B>.<BR>&nbsp;</FONT>
+</TD>
+</TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>

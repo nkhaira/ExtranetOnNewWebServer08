@@ -1,0 +1,56 @@
+
+----- 1/22/2008 4:00:02 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: BjørnClausen 14 bjocla@bd.dkconflict on CMS_Region
+	User: dsandlin 14 dsandlin@alltel.net Mail sent
+	User: ElectConnect 60 stevet@ecl.ca Mail sent
+	User: redfish 60 randyburg@texasreps.com Mail sent
+	User: roberdieres 60 a.gigout@algosys.frconflict on CMS_Region
+	User: Ernie123 60 arne@instrumentcenter.seconflict on CMS_Region
+
+Handling site Pomona-Sales
+
+Handling site Meterman-Sales
+	User: redfish 60 randyburg@texasreps.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: tphardin 60 tphardin@msn.com Mail sent
+
+Handling site Educators
+	User: lschonder 60 lschonder@earthmed.org Mail sent
+	User: dmerritt 60 dmerritt@onesa.com Mail sent
+	User: stevenho 30 stevenho@rice.edu Mail sent
+	User: jpkearns 30 jpkearns@waketech.edu Mail sent
+	User: DANDICKENS 60 dldickens@aol.com Mail sent
+	User: ebaltrip 14 ebaltrip@aol.com Mail sent
+	User: Malkeet 60 malkeetvirdi@shaw.ca Mail sent
+	User: edemerick 14 eemerick@mtjatc.org Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		6	3
+Pomona-Sales		0	0
+Meterman-Sales		1	1
+Ircon-Sales		0	0
+Hart-Sales		1	1
+Educators		8	8
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

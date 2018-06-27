@@ -1,0 +1,64 @@
+
+----- 1/30/2008 4:00:06 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: ptetreault 60 patrice.tetreault@fluke.com Mail sent
+	User: nathanf 30 nathan.fergusson@betacom.co.nz Mail sent
+	User: ERIK.STOCX 14 ERIK.STOCX@FLUKE.NLconflict on CMS_Region
+	User: jpuelma 60 jpuelma@intronica.com Mail sent
+	User: vaskojukka 14 jukka.vasko@yeint.ficonflict on CMS_Region
+	User: mecotronic 14 info@mecotronic.beconflict on CMS_Region
+	User: BONNARD 14 chb@wanadoo.frconflict on CMS_Region
+	User: Carsten 14 carsten.barth@schmidt-lebach.deconflict on CMS_Region
+	User: Carsten 14 carsten.barth@schmidt-lebach.deconflict on CMS_Region
+	User: jcacote 30 jose.cacote@qenergia.ptconflict on CMS_Region
+	User: ITKlfrtz 30 klas.fritz@it-teknik.seconflict on CMS_Region
+
+Handling site Pomona-Sales
+	User: nathanf-PE 30 nathan.fergusson@betacom.co.nz Mail sent
+	User: jpuelma 60 jpuelma@intronica.com Mail sent
+
+Handling site Meterman-Sales
+	User: jpuelma 60 jpuelma@intronica.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+
+Handling site Educators
+	User: KIRK ALLEN 60 kirkallen@aol.com Mail sent
+	User: itucker 30 ian.tucker@tafe.nsw.edu.au Mail sent
+	User: jmblitz 30 jerry_blitz@avtec.edu Mail sent
+	User: jjpressly 30 jjpressly@gtcc.edu Mail sent
+	User: sgilcrease 30 sgilcrease@nmjc.edu Mail sent
+	User: plumb911 60 plumb911@telus.net Mail sent
+	User: dprather 30 donald.prather@acca.org Mail sent
+	User: wcccdhem 14 mlivsey1@wcccd.edu Mail sent
+	User: phoenixpipe 14 mwall@pipetrades.org Mail sent
+	User: coordinacionelectric 60 coordinacionelectrica@yahoo.com.mx Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		11	3
+Pomona-Sales		2	2
+Meterman-Sales		1	1
+Ircon-Sales		0	0
+Hart-Sales		0	0
+Educators		10	10
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

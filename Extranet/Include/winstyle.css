@@ -1,0 +1,48 @@
+BODY {font-size:10pt;font-family: Arial,Helvetica;}
+
+TD {font-size:10pt;font-family: Arial,Helvetica;}
+.grayGoBtn{border-bottom:thin solid #333333;border-right:thin solid #333333;border-top:thin solid #CCCCCC;border-left:thin solid #CCCCCC;font-size:11px;font-family:Arial,Helvetica;font-weight:bold;background-color:#666666;color:#FFFFFF;line-height:.85;padding-top:3px; text-transform: capitalize;}
+.Normal {font-size:10pt;font-family: Arial,Helvetica;}
+.heading3red {font-weight: bold; font-size:11pt;color:#993300; font-family: Arial,Helvetica; line-height:150%;}
+.heading3black {font-weight: bold;font-size:11pt;font-family: Arial,Helvetica;color:black;}
+.heading4 {font-weight: bold;font-size:10pt;color:#CC9900;font-family:Arial,Helvetica;}
+.heading4black {font-weight: bold;font-size:10pt;color:black;font-family:Arial,Helvetica;}
+.smallprompt {font-size:8.5pt;font-family:Arial,Helvetica;}
+.smallfont {font-weight:bold;font-size:8.5pt;color:black;font-family:Arial,Helvetica;}
+.shared {background-color:black; color:white; font-size:6px;}
+.dateline {font-size:8.5pt;color:black;}
+.heading1 {font-weight: bold;font-size:13.5pt;color:#993300;}
+.heading1black {font-weight: bold;font-size:13.5pt;color:black;}
+.heading2 {font-weight: bold;font-size:12pt;color:black;}
+.heading5 {font-size:22pt;color:black;font-weight: normal;}
+.heading6 {font-size:17pt;color:black;font-family: "Times New Roman";font-weight: normal;}
+.TaxNavTopHighLight {font-size:8.5pt;font-weight: bold; color:#99CCFF; text-decoration: none; font-family: Arial,Helvetica;}
+.RetireNavTopHighLight {font-size:8.5pt;font-weight: bold; color:#339900; text-decoration: none; font-family: Arial,Helvetica;}
+.normalred {color:red;}
+.normalgold {color:#CC9900;}
+.smallfontred {font-weight:bold;font-size:8pt;color:red;font-family:Arial,Helvetica;}
+.smallfontreverse {font-weight:bold;background:#336666;font-size:8.5pt;color:white;font-family:Arial,Helvetica;}
+.fyistyle {font-family:Tahoma,Arial; font-weight: bold; font-size:9pt; color:#3366CC;}
+.typeme {font-size:10pt;font-family: "courier new";color:black;}
+.smallest {font-size:7.5pt;color:black;}
+.normalloose {font-size:10pt;line-height:150%;}
+.author {font-size:10pt;color:#993300;}
+.normalitalic {font-size:10pt;font-family: Arial,Helvetica; font-style: italic;}
+.heading4gray {font-weight: bold; font-size:10pt;color:#333333;}
+
+TH {color:white; background:#336666; font-weight:bold;font-size:8.5pt;}
+.tablebackground{background-color:#FFCC00;background:#666666;color:white;}
+.NavLeftTablebackground{background-color:#333333;background:#333333;color:white;}
+.NavTop{font-size:8.5pt;font-weight:bold;color:White;text-decoration:none;font-family:Arial,Helvetica;}
+.NavTopHighLight{font-size:8.5pt;font-weight:bold;color:black;text-decoration:none;font-family:Arial,Helvetica;background-color:#CCCCCC;background:#CCCCCC;}
+.NavtopTDhighlight{background-color:#CCCCCC;color:black}
+.Navleft1{font-size:8.5pt;color:White;text-decoration:none;font-family:Arial,Helvetica;}
+.Navlefthighlight1{font-size:8.5pt;color:Black;text-decoration:none;font-family:Arial,Helvetica;}
+.NavleftTDhighlight1{background-color:white;background:white;font-size:8.5pt;color:Black;text-decoration:none;font-family:Arial,Helvetica;}
+.Navleft3{color:Black;font-size:8.5pt;}
+.Navleft3highlight{color:#993300;font-size:8.5pt;}
+A.NavTop:hover{color:#CCCCCC;}
+A.Navleft1:hover{color:#CCCCCC;}
+A.HeaderCategory:hover{color:#3366CC;text-decoration:underline;}
+
+PRE {font-size:90%; font-family: "Lucida Console,Courier New,Courier";}

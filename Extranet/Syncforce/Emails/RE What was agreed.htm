@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="MSHTML 5.50.4922.900" name=GENERATOR></HEAD>
+<BODY><B>From:</B> Whitlock, David<BR><B>Sent:</B> Tuesday, December 03, 2002 
+2:40 PM<BR><B>To:</B> Oort van, Frank<BR><B>Cc:</B> Kokee, Kees; Bettenhausen, 
+Tom<BR><B>Subject:</B> RE: What was agreed<BR>
+<P><FONT size=2><FONT color=#ff0000>See my comments in 
+RED</FONT></FONT></P><FONT size=2><FONT color=#ff0000></FONT>
+<P><BR>-----Original Message-----<BR>From: Hans de Gier [<A 
+href="mailto:h.degier@syncforce.com">mailto:h.degier@syncforce.com</A>]<BR>Sent: 
+27 November 2002 16:29<BR>To: Frank van Oort<BR>Cc: K. Kokee; Jeroen 
+Schoenmakers<BR>Subject: What was agreed<BR><BR><BR>Frank,<BR><BR>What was 
+agreed:&nbsp; 1 Universal Post Form Action</P>
+<P><FONT face="Comic Sans MS" color=#ff0000>There is only <STRONG>one</STRONG> 
+universal POST form for the DCM to ADD / UPDATE or DELETE - 
+Admin_Account.asp</FONT></P>
+<P><FONT face="Comic Sans MS" color=#ff0000>The other two are subset forms that 
+post,&nbsp;REGISTER and User Initiated Profile Update.&nbsp; The data flows one 
+way into the DCM, then the DCM uses the above to&nbsp;manage the 
+data.</FONT></P>
+<P>- Always the same fields,</P>
+<P><FONT face="Comic Sans MS" color=#ff0000>The Admin_Account.asp has all the 
+fields, REGISTER and User Initiated Profile Update, sends only a same sub-set of 
+the above fields (those which are exposed to the user not all the internal 
+(security sensitive) fields.</FONT></P>
+<P>&nbsp;same order,</P>
+<P><FONT face="Comic Sans MS" color=#ff0000>Impossible !!!&nbsp; It is standard 
+practice to use a loop to go through the request.form Key/Value pairs&nbsp; If 
+the Key exists, then you take action if not you don't do anything.&nbsp; To 
+expect the KEYs to be in a specific order in the request.form object is 
+guaranteed failure.&nbsp; Where did SyncForce learn anything about best 
+programming practices anyway??</FONT></P>
+<DIV><FONT face="Comic Sans MS" color=#ff0000>&nbsp;&nbsp;&nbsp; <FONT 
+color=#0000ff>Receiving POST Data FROM the PP</FONT></FONT></DIV>
+<DIV><FONT face="Comic Sans MS" color=#0000ff></FONT>&nbsp;</DIV>
+<DIV><FONT face="Comic Sans MS" color=#ff0000>&nbsp;&nbsp;&nbsp; for each item 
+in request.form</FONT></DIV>
+<DIV><FONT face="Comic Sans MS" 
+color=#ff0000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; select 
+UCase(item)</FONT></DIV>
+<DIV><FONT face="Comic Sans MS" 
+color=#ff0000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+case "FIRSTNAME"</FONT></DIV>
+<DIV><FONT face="Comic Sans MS" 
+color=#ff0000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+SQL = SQL &amp; ",FirstName='" &amp; request.form(item) &amp; "'"</FONT></DIV>
+<DIV><FONT face="Comic Sans MS" 
+color=#ff0000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...</FONT></DIV>
+<DIV><FONT face="Comic Sans MS" 
+color=#ff0000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; end select</FONT></DIV>
+<DIV><FONT face="Comic Sans MS" color=#ff0000>&nbsp;&nbsp;&nbsp; 
+next</FONT></DIV>
+<DIV><FONT face="Comic Sans MS" color=#ff0000></FONT>&nbsp;</DIV>
+<DIV><FONT face="Comic Sans MS" color=#ff0000>&nbsp;&nbsp;&nbsp; Select 
+UCase(request.form("ACTION"))</FONT></DIV>
+<DIV><FONT face="Comic Sans MS" 
+color=#ff0000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; case 
+"UPDATE"</FONT></DIV>
+<DIV><FONT face="Comic Sans MS" 
+color=#ff0000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+SQL = "UPDATE UserData Set (" &amp; SQL &amp; ") WHERE ID=" &amp; 
+request.form("Account_ID")</FONT></DIV>
+<DIV><FONT face="Comic Sans MS" 
+color=#ff0000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; case 
+"DELETE"</FONT></DIV>
+<DIV><FONT face="Comic Sans MS" 
+color=#ff0000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+SQL = "DELETE FROM UserData WHERE ID="&nbsp;&amp; 
+request.form("Account_ID")</FONT></DIV>
+<DIV><FONT face="Comic Sans MS" color=#ff0000>&nbsp;&nbsp;&nbsp; end 
+select</FONT></DIV>
+<P>if empty “null”</P>
+<P><FONT color=#ff0000>If empty when sent to the DCM, the 
+Key=NULL&amp;Key=NULL&amp;Key=data, however, when sending to the PP a null data 
+value would be constructed as Key=&amp;Key=&amp;Key=data, etc.</FONT></P>
+<P>- Action: {Add;Update;Delete}<BR><FONT face="Comic Sans MS" 
+color=#ff0000>Those are the implemented methods for Account_Admin.asp, plus 
+VERIFY and RETRIEVE</FONT></P>
+<P>Situation at this moment<BR>- Per action and depending on the usergroup a 
+different post form action</P>
+<P><FONT color=#ff0000>The PP only sends Key=Value pairs for those items that 
+are defined as YES (Required) or OPTIONAL.&nbsp; Registration and Profile Update 
+only sends User modifiable Key=Value pairs, the rest of the data in the record 
+set does not change, therefore there is no need to send that data back.&nbsp; 
+The Euro DCM system only needs to do a UPDATE for those fields and not modify 
+anything else.&nbsp; So if you loop though the KEY returned, you know EXACTLY 
+what fields to UPDATE -- Simple !!!&nbsp; This is all spelled out in the <FONT 
+face="Comic Sans MS">EURODCM_to_PP_06-25-2002. XLS spec.</FONT></FONT></P>
+<P><FONT face="Comic Sans MS" color=#ff0000></FONT><FONT face="Comic Sans MS" 
+color=#ff0000></FONT><BR>- Field labels are not the same cross all forms <FONT 
+color=#ff0000>There were some discrepancies that were identified and 
+fixed.</FONT> <BR>- The order is not the same cross all forms&nbsp;&nbsp;&nbsp; 
+<FONT color=#ff0000>Correct! and it will never be, see above.</FONT><BR>- 
+Sometimes empty fields are “null”, sometime the fields are not available 
+(shorter field list).&nbsp; <FONT color=#ff0000>Yes for a Registration and User 
+Profile.</FONT>&nbsp; <BR><BR>We have built a universal connector that handles 
+all requests within 1 procedure. The action is the only field that determines 
+the function that is activated.&nbsp;&nbsp; I don't get the point here.</P>
+<P><FONT color=#ff0000>A REGISTRATION initiates the record.&nbsp; It only 
+supplies values for those fields that are know at the time, obviously FLUKE_ID, 
+SUBGROUPS, etc. are not know, so why post it.&nbsp; You just create a new record 
+and drop in the data of the fields that are sent, the other fields remain in 
+their initial state.</FONT></P>
+<P><FONT face="Comic Sans MS" color=#ff0000>A User Profile Update, is basically 
+the same as a Registration, no need to send back the account's security 
+sensitive information, since it has not changed in the DB on either 
+end.</FONT></P><FONT face="Comic Sans MS" color=#ff0000></FONT>
+<P><FONT face="Comic Sans MS" color=#ff0000></FONT><FONT face="Comic Sans MS" 
+color=#ff0000></FONT><BR>It is almost impossible and very expensive if we have 
+to built a new connector that can handle all kinds of not upfront defined post 
+actions.<BR></P>
+<P><FONT face="Comic Sans MS" color=#ff0000>This statement is false about not 
+knowing the definition and method of the post actions.&nbsp; What is true is 
+that Syncforce did not allow flexibility or follow the spec.&nbsp; Even in their 
+own documentation they say, "<SPAN class=438500118-02122002><FONT face=Arial 
+size=3><FONT color=#000000>The <U>posted data will be minimal</U> because it is 
+possible that this user will not or later get<SPAN 
+class=438500118-02122002><FONT face="Comic Sans MS" 
+size=2>&nbsp;&nbsp;</FONT></SPAN>access to the Partner Portal. If a Partner 
+Portal profile is added to this user all Partner Portal<SPAN 
+class=438500118-02122002><FONT face="Comic Sans MS" 
+size=2>&nbsp;</FONT></SPAN>required fields will be updated for this user." <FONT 
+color=#ff0000>and</FONT> "The manager adds a user profile to a contact and fills 
+<U>out the extra fields required for this<SPAN class=438500118-02122002><FONT 
+face="Comic Sans MS" 
+size=2>&nbsp;</FONT></SPAN>system</U>."</FONT></FONT></SPAN></FONT></P>
+<P><FONT face="Comic Sans MS" color=#ff0000>The specification and months and 
+months of discussion with Syncforce seems to have been in vain for they 
+(Syncforce) locked themselves in their own box without a door.&nbsp; To me this 
+whole exercise&nbsp;should have been&nbsp;about a 2-week job.&nbsp; They had all 
+the examples from the beginning, including functional scripts, yet they choose 
+to ignore them.</FONT></P>
+<P><FONT face="Comic Sans MS" color=#ff0000></FONT><FONT face="Comic Sans MS" 
+color=#ff0000></FONT><FONT face="Comic Sans MS" color=#ff0000></FONT><BR>Jeroen 
+will send you some examples<BR><BR>Regards,<BR><BR>Hans de 
+Gier<BR></P></FONT></BODY></HTML>

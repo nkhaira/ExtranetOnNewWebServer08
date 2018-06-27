@@ -1,0 +1,59 @@
+
+----- 12/20/2007 4:00:02 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: donna001 60 donna.jones@fluke.com Mail sent
+	User: nconalw 60 nick@halfpennysales.com Mail sent
+	User: scott franke 30 sfranke@gemcosales.net Mail sent
+	User: petefluke 30 peterc@radir.comconflict on CMS_Region
+	User: Justine Romell 30 justine.romell@nu-di.com Mail sent
+
+Handling site Pomona-Sales
+	User: nconalw 60 nick@halfpennysales.com Mail sent
+	User: Justine Romell 30 justine.romell@nu-di.com Mail sent
+
+Handling site Meterman-Sales
+	User: nconalw 60 nick@halfpennysales.com Mail sent
+	User: Justine Romell 30 justine.romell@nu-di.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+
+Handling site Educators
+	User: ProfPACT 14 steve.michener@mhcc.edu Mail sent
+	User: rebrixen 14 brixen@smccd.edu Mail sent
+	User: packml8 30 packml@umd.edu Mail sent
+	User: kclark68 30 kclark@iuoe-68.org Mail sent
+	User: bobconti 60 rconti@hawaii.edu Mail sent
+	User: 56Mrssparky 14 102054norm@cox.net Mail sent
+	User: bfsmith9 60 bfsmith9softail@yahoo.com Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+	User: To Eng Ten 60 et.to@dmarktech.com Mail sent
+	User: Chan Chek Jin 60 cj.chan@dmarktech.com Mail sent
+	User: Helene Lee 60 helene.lee@dmarktech.com Mail sent
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		5	4
+Pomona-Sales		2	2
+Meterman-Sales		2	2
+Ircon-Sales		0	0
+Hart-Sales		0	0
+Educators		7	7
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		3	3
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

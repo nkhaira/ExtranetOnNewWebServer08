@@ -1,0 +1,49 @@
+
+----- 2/24/2008 4:00:02 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: khajdu@testquip.hu 60 khajdu@testquip.huconflict on CMS_Region
+	User: rakesh18 60 rakesh.batra@fluke.com Mail sent
+	User: kotruchmilan 60 elso@elso.skconflict on CMS_Region
+	User: RScompAS 30 rolf.jensen@rs-components.comconflict on CMS_Region
+
+Handling site Pomona-Sales
+
+Handling site Meterman-Sales
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+
+Handling site Educators
+	User: thomh@mwe 14 thomh@mweinc.com Mail sent
+	User: philip03 60 SayChya.Chan@nov.com Mail sent
+	User: johnpjenkins 60 johnpjenki@cs.com Mail sent
+	User: dan ruzicka 30 daniel.ruzicka@dctc.mnscu.edu Mail sent
+	User: elmo napier 60 napierdeanna@netscape.net Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		4	1
+Pomona-Sales		0	0
+Meterman-Sales		0	0
+Ircon-Sales		0	0
+Hart-Sales		0	0
+Educators		5	5
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

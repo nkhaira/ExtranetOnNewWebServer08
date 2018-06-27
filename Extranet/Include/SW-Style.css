@@ -1,0 +1,94 @@
+BODY {font-size:10pt;font-family: Arial,Helvetica;}
+
+TD {font-size:10pt;font-family: Arial,Helvetica;}
+
+.Normal        {font-size:10pt;font-family: Arial,Helvetica;}
+.NormalBold    {font-weight:bold; font-size:10pt;font-family: Arial,Helvetica;}
+.NormalBoldRed {font-weight:bold; font-size:10pt;font-family: Arial,Helvetica;color:red;}
+.NormalBoldGold{font-weight:bold; font-size:10pt;font-family: Arial,Helvetica;color:#FFCC00;}
+.NormalRed     {font-size:10pt;font-family: Arial,Helvetica;color:red;}
+.NormalGold    {font-size:10pt;font-family: Arial,Helvetica;color:#FFCC00;}
+.NormalWhite   {font-size:10pt;font-family: Arial,Helvetica;color:white;}
+.NormalItalic  {font-size:10pt;font-family: Arial,Helvetica; font-style: italic;}
+.NormalLoose   {font-size:10pt;line-height:150%;}
+
+.Small         {font-weight:Normal; font-size:8.5pt;font-family: Arial,Helvetica; color:#000000; font-style: Normal;}
+.SmallBold     {font-weight:Bold;   font-size:8.5pt;font-family: Arial,Helvetica; color:#000000; font-style: Normal;}
+.SmallItalic   {font-weight:Normal; font-size:8.5pt;font-family: Arial,Helvetica; color:#000000; font-style: Italic;}
+.SmallRed      {font-weight:Normal; font-size:8.5pt;font-family: Arial,Helvetica; color:#FF0000; font-style: Normal;}
+.SmallBoldRed  {font-weight:Bold;   font-size:8.5pt;font-family: Arial,Helvetica; color:#FF0000; font-style: Normal;}
+.SmallBoldGold {font-weight:Bold;   font-size:8.5pt;font-family: Arial,Helvetica; color:#FFCC00; font-style: Normal;}
+.SmallReverse  {font-weight:Normal; font-size:8.5pt;font-family: Arial,Helvetica; color:#FFFFFF; font-style: Normal; Background:#336666;}
+.SmallPrompt   {font-size:8.5pt;font-family:Arial,Helvetica;}
+.Smallest      {font-size:7.5pt;color:black;}
+
+.Medium         {font-weight:Normal; font-size:9pt;font-family: Arial,Helvetica; color:#000000; font-style: Normal;}
+.MediumBold     {font-weight:Bold;   font-size:9pt;font-family: Arial,Helvetica; color:#000000; font-style: Normal;}
+.MediumItalic   {font-weight:Normal; font-size:9pt;font-family: Arial,Helvetica; color:#000000; font-style: Italic;}
+.MediumRed      {font-weight:Normal; font-size:9pt;font-family: Arial,Helvetica; color:#FF0000; font-style: Normal;}
+.MediumBoldRed  {font-weight:Bold;   font-size:9pt;font-family: Arial,Helvetica; color:#FF0000; font-style: Normal;}
+.MediumBoldGold {font-weight:Bold;   font-size:9pt;font-family: Arial,Helvetica; color:#FFCC00; font-style: Normal;}
+.MediumReverse  {font-weight:Normal; font-size:9pt;font-family: Arial,Helvetica; color:#FFFFFF; font-style: Normal; Background:#336666;}
+.MediumPrompt   {font-size:9pt;font-family:Arial,Helvetica;}
+.Medium         {font-size:9pt;color:black;}
+
+.Heading1      {font-weight:bold; font-size:22pt; font-family: Arial,Helvetica; font-style: Normal;}
+.Heading1Black {font-weight:bold; font-size:22pt; font-family: Arial,Helvetica; color:#000000; font-style: Normal;}
+.Heading1Fluke {font-weight:bold; font-size:22pt; font-family: Arial,Helvetica; color:#FFCC00; font-style: Normal;}
+.Heading1Gray  {font-weight:bold; font-size:22pt; font-family: Arial,Helvetica; color:#666666; font-style: Normal;}
+.Heading1Red   {font-weight:bold; font-size:22pt; font-family: Arial,Helvetica; color:#FF0000; font-style: Normal;}
+
+.Heading2      {font-weight:bold; font-size:17pt; font-family: Arial,Helvetica; font-style: Normal;}
+.Heading2Black {font-weight:bold; font-size:17pt; font-family: Arial,Helvetica; color:#000000; font-style: Normal;}
+.Heading2Fluke {font-weight:bold; font-size:17pt; font-family: Arial,Helvetica; color:#FFCC00; font-style: Normal;}
+.Heading2Gray  {font-weight:bold; font-size:17pt; font-family: Arial,Helvetica; color:#666666; font-style: Normal;}
+.Heading2Red   {font-weight:bold; font-size:17pt; font-family: Arial,Helvetica; color:#FF0000; font-style: Normal;}
+
+.Heading3      {font-weight:bold; font-size:14pt; font-family: Arial,Helvetica; font-style: Normal;}
+.Heading3Black {font-weight:bold; font-size:14pt; font-family: Arial,Helvetica; color:#000000; font-style: Normal;}
+.Heading3Fluke {font-weight:bold; font-size:14pt; font-family: Arial,Helvetica; color:#FFCC00; font-style: Normal;}
+.Heading3Gray  {font-weight:bold; font-size:14pt; font-family: Arial,Helvetica; color:#666666; font-style: Normal;}
+.Heading3Red   {font-weight:bold; font-size:14pt; font-family: Arial,Helvetica; color:#FF0000; font-style: Normal;}
+
+.Heading4      {font-weight:bold; font-size:12pt; font-family: Arial,Helvetica; font-style: Normal;}
+.Heading4Fluke {font-weight:bold; font-size:12pt; font-family: Arial,Helvetica; color:#FFCC00; font-style: Normal;}
+.Heading4Black {font-weight:bold; font-size:12pt; font-family: Arial,Helvetica; color:#000000; font-stu;e: Normal;}
+.Heading4Gray  {font-weight:bold; font-size:12pt; font-family: Arial,Helvetica; color:#333333; font-style: Normal;}
+.Heading4Red   {font-weight:bold; font-size:12pt; font-family: Arial,Helvetica; color:#FF0000; font-style: Normal;}
+
+.Heading5      {font-weight:bold; font-size:11pt; font-family: Arial,Helvetica; color:#000000; font-style: Normal;}
+.Heading6      {font-weight:bold; font-size:10pt; font-family: Arial,Helvetica; color:#000000; font-style: Normal;}
+
+.Author        {font-size:10pt;color:#FF0000;}
+.Shared        {background-color:black; color:white; font-size:6px;}
+.Dateline      {font-size:8.5pt;color:black;}
+.FYIStyle      {font-family:Tahoma,Arial; font-weight: bold; font-size:9pt; color:#3366CC;}
+.TypeMe        {font-size:10pt;font-family: "courier new";color:black;}
+.GrayGoBtn     {border-bottom:thin solid #333333;border-right:thin solid #333333;border-top:thin solid #CCCCCC;border-left:thin solid #CCCCCC;font-size:11px;font-family:Arial,Helvetica;font-weight:bold;background-color:#666666;color:#FFFFFF;line-height:.85;padding-top:3px; text-transform: capitalize;}
+
+TH {color:#FFCC00; background:Black; font-weight:bold;font-size:10pt;}
+.tablebackground{background-color:#666666;background:#666666;color:#666666;}
+.linebackground{background-color:#FFCC00;background:#FFCC00;color:#FFCC00;}
+.NavLeftTablebackground{background-color:Black;background:Black;color:White;}
+.NavTop{font-size:8.5pt;font-weight:bold;color:White;text-decoration:none;font-family:Arial,Helvetica;}
+.NavTopHighLight{font-size:8.5pt;font-weight:bold;color:black;text-decoration:none;font-family:Arial,Helvetica;background-color:#CCCCCC;background:#CCCCCC;}
+.NavtopTDhighlight{background-color:#CCCCCC;color:black;}
+.Navleft1{font-size:8.5pt;font-weight:bold;color:White;text-decoration:none;font-family:Arial,Helvetica;}
+.Navlefthighlight1{font-size:8.5pt;font-weight:bold;color:Black;background:#FFCC00;text-decoration:none;font-family:Arial,Helvetica;}
+.NavleftTDhighlight1{background-color:#FFCC00;background:#FFCC00;font-size:8.5pt;font-weight:bold;color:Black;text-decoration:none;font-family:Arial,Helvetica;}
+.Navleft3{color:Black;font-size:8.5pt;}
+.Navleft3highlight{color:#FF0000;font-size:8.5pt;}
+.NavRecord          {font-size:8.5pt;font-weight:bold;color:White;background:#666666;text-decoration:none;font-family:Arial,Helvetica;}
+.NavRecordLight     {font-size:8.5pt;font-weight:bold;color:White;background:#AAAAAA;text-decoration:none;font-family:Arial,Helvetica;}
+.NavRecordHighlight {font-size:8.5pt;font-weight:bold;color:Black;background:#FFCC00;text-decoration:none;font-family:Arial,Helvetica;}
+.Product{font-size:8.5pt;font-weight:bold;color:#FFCC00;background:#666666;text-decoration:none;font-family:Arial,Helvetica;}
+.Review{background-color:Yellow;background:Yellow;}
+.Live{background-color:#00CC00;background:#00CC00;}
+.Archive{background-color:#AAAAFF;background:#AAAAFF;}
+
+A.NavTop:hover{color:#FFCC00;}
+A.Navleft1:hover{color:#FFCC00;}
+A.NavRecord:hover{color:#FFCC00;}
+A.HeaderCategory:hover{color:#3366CC;text-decoration:underline;}
+
+PRE {font-size:90%; font-family: "Lucida Console,Courier New,Courier";}

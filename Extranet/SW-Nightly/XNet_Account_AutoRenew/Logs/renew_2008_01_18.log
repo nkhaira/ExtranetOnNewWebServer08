@@ -1,0 +1,71 @@
+
+----- 1/18/2008 4:00:02 AM
+
+Handling site Calibration-Sales
+	User: luvmypugs 30 linda.street@fluke.com Mail sent
+
+Handling site FInd-Sales
+	User: HSORRELLS1 30 hsorrells@rgreene.com Mail sent
+	User: cbadziktms 60 cbadzik@tmssales.com Mail sent
+	User: christieross 30 cross@graybarcanada.com Mail sent
+	User: VPElectronics 14 vp@vpelec.comconflict on CMS_Region
+	User: 20selmatec04 14 m.selent@selmatec.deconflict on CMS_Region
+	User: sigrid1 14 dankel@elektronik-kontor.deconflict on CMS_Region
+	User: tvwbuende 14 info@tvwbuende.deconflict on CMS_Region
+	User: porsche 14 seegers@elektronik-kontor.deconflict on CMS_Region
+	User: JohannesMeyer 14 j.meyer@meyer-messtechnik.deconflict on CMS_Region
+	User: andreastheil 14 info@mu-v.deconflict on CMS_Region
+
+Handling site Pomona-Sales
+	User: iluvpugs1 30 linda.street@fluke.com Mail sent
+	User: HSORRELLS1 30 hsorrells@rgreene.com Mail sent
+
+Handling site Meterman-Sales
+	User: HSORRELLS1 30 hsorrells@rgreene.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: luvmypugs 30 linda.street@fluke.com Mail sent
+	User: harttms 60 cbadzik@tmssales.com Mail sent
+
+Handling site Educators
+	User: joeyleonard 14 joey.leonard@nscc.edu Mail sent
+	User: Jerry Esselman 30 jeesselman@ranken.edu Mail sent
+	User: gsbritton 60 gsbritton@ra.rockwell.com Mail sent
+	User: juliebiron 60 jbiron@westernextralite.com Mail sent
+	User: ralfopper 60 r.opper@prettlus.com Mail sent
+	User: Chuck.Edstrom 30 chuck.edstrom@anoka.k12.mn.us Mail sent
+	User: virtual1 14 leo@omicinski.com Mail sent
+	User: plindsey 60 prl4561@dcccd.edu Mail sent
+	User: micheal emberton 14 micheal.emberton@monroe.kyschools.us Mail sent
+	User: gerrylightning 60 gerrylightning@comcast.net Mail sent
+	User: Al Stoner 60 astoner@thomasville.com Mail sent
+	User: jheagerty 60 jheagerty@mwdh2o.com Mail sent
+	User: howardl 60 lawrence.howard@tyson.com Mail sent
+	User: harrycpowelljr 30 hcp7ad@virginia.edu Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+	User: luvmypugs 30 linda.street@fluke.com Mail sent
+Site		Expirers	Emails
+Calibration-Sales		1	1
+FInd-Sales		10	3
+Pomona-Sales		2	2
+Meterman-Sales		1	1
+Ircon-Sales		0	0
+Hart-Sales		2	2
+Educators		14	14
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		1	1
+Total sites = 12

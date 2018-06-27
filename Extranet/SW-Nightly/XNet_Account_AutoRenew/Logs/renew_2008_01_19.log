@@ -1,0 +1,60 @@
+
+----- 1/19/2008 4:00:02 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: Tradinco 60 r.derksen@tradinco.comconflict on CMS_Region
+	User: glenn@masline.com 60 glenn@masline.com Mail sent
+	User: donna001 30 donna.jones@fluke.com Mail sent
+	User: Exphil Calibration 60 gkruger@exphil.com Mail sent
+	User: JustusFehling 14 justus.fehlig@unielektro.deconflict on CMS_Region
+	User: eurekaelect 14 eurek@telsur.cl Mail sent
+
+Handling site Pomona-Sales
+	User: masline 60 glenn@masline.com Mail sent
+	User: budd2002 60 gary.richardsen@mouser.com Mail sent
+	User: Exphil Calibration 60 gkruger@exphil.com Mail sent
+	User: glenn@masline.com 60 glenn@masline.com Mail sent
+
+Handling site Meterman-Sales
+	User: glenn@masline.com 60 glenn@masline.com Mail sent
+	User: Exphil Calibration 60 gkruger@exphil.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+
+Handling site Educators
+	User: FlukeEater 60 rduke@iuoe.org Mail sent
+	User: dgrinder 60 dgrind@comcast.net Mail sent
+	User: stanhaas 60 stanley.a.haas@jci.com Mail sent
+	User: Chinhinpok 14 chinhp@charteredsemi.com Mail sent
+	User: beyoungjr 60 blaine.young@us.army.mil Mail sent
+	User: villacuestacol 14 gvilla@cuesta.edu Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+	User: To Eng Ten 30 et.to@dmarktech.com Mail sent
+	User: Helene Lee 30 helene.lee@dmarktech.com Mail sent
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		6	4
+Pomona-Sales		4	4
+Meterman-Sales		2	2
+Ircon-Sales		0	0
+Hart-Sales		0	0
+Educators		6	6
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		2	2
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

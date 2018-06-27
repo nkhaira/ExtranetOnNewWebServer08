@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="AssetIndexing">
+</Property><Property Name="Solution File" Value="D:\Extranet\SW-PCat\Asset_Indexing\AssetIndexing.sln">
+</Property><Property Name="User Options File" Value="D:\Extranet\SW-PCat\Asset_Indexing\AssetIndexing.suo">
+</Property><Property Name="Date" Value="Tuesday, December 01, 2015">
+</Property><Property Name="Time" Value="22:36 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="AssetIndexing.sln" Description="File successfully backed up as D:\Extranet\SW-PCat\Asset_Indexing\Backup1\AssetIndexing.sln">
+</Event><Event ErrorLevel="0" Project="" Source="AssetIndexing.suo" Description="File successfully backed up as D:\Extranet\SW-PCat\Asset_Indexing\Backup1\AssetIndexing.suo">
+</Event><Event ErrorLevel="2" Project="AssetIndexing" Source="AssetIndexing.csproj" Description="Project file is not writable: D:\Extranet\SW-PCat\Asset_Indexing\AssetIndexing.csproj">
+</Event><Event ErrorLevel="0" Project="AssetIndexing" Source="AssetIndexing.csproj" Description="Project file successfully backed up as D:\Extranet\SW-PCat\Asset_Indexing\Backup1\AssetIndexing.csproj">
+</Event><Event ErrorLevel="0" Project="AssetIndexing" Source="AssetIndexing.csproj.user" Description="Project user file successfully backed up as D:\Extranet\SW-PCat\Asset_Indexing\Backup1\AssetIndexing.csproj.user">
+</Event><Event ErrorLevel="0" Project="AssetIndexing" Source="AssemblyInfo.cs" Description="File successfully backed up as D:\Extranet\SW-PCat\Asset_Indexing\Backup1\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="AssetIndexing" Source="ListAssets.cs" Description="File successfully backed up as D:\Extranet\SW-PCat\Asset_Indexing\Backup1\ListAssets.cs">
+</Event><Event ErrorLevel="0" Project="AssetIndexing" Source="App.ico" Description="File successfully backed up as D:\Extranet\SW-PCat\Asset_Indexing\Backup1\App.ico">
+</Event><Event ErrorLevel="2" Project="AssetIndexing" Source="AssetIndexing.csproj" Description="Unable to save converted project file.">
+</Event><Event ErrorLevel="3" Project="AssetIndexing" Source="AssetIndexing.csproj" Description="Not Converted">
+</Event><Event ErrorLevel="2" Project="" Source="AssetIndexing.sln" Description="Solution file 'D:\Extranet\SW-PCat\Asset_Indexing\AssetIndexing.sln' cannot be converted because it cannot be modified. To convert the solution, change the permissions on the solution file to allow modification and re-open it.">
+</Event><Event ErrorLevel="3" Project="" Source="AssetIndexing.sln" Description="Not Converted">
+</Event></UpgradeLog>

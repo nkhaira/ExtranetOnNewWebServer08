@@ -1,0 +1,952 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Message</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="MSHTML 5.50.4922.900" name=GENERATOR></HEAD>
+<BODY><B>From:</B> Whitlock, David<BR><B>Sent:</B> Tuesday, December 03, 2002 
+1:24 PM<BR><B>To:</B> Oort van, Frank<BR><B>Cc:</B> Kokee, Kees; Bettenhausen, 
+Tom; Jeff Patrick (E-mail)<BR><B>Subject:</B> RE: SyncForce and 
+Fluke<BR><BR><B>Importance:</B> High<BR>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2>See my comments in red.</FONT></SPAN></DIV>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2></FONT></SPAN>&nbsp;</DIV>
+<DIV class=OutlookMessageHeader dir=ltr align=left><FONT face=Tahoma 
+size=2>-----Original Message-----<BR><B>From:</B> Oort van, Frank 
+<BR><B>Sent:</B> Thursday, November 28, 2002 3:50 AM<BR><B>To:</B> Whitlock, 
+David<BR><B>Cc:</B> Kokee, Kees<BR><B>Subject:</B> SyncForce and 
+Fluke<BR><B>Importance:</B> High<BR><BR></FONT></DIV>
+<DIV><FONT face=Georgia color=#008080><SPAN class=455354007-28112002>Hi 
+David,</SPAN></FONT></DIV>
+<DIV><FONT face=Georgia color=#008080><SPAN 
+class=455354007-28112002></SPAN></FONT>&nbsp;</DIV>
+<DIV><FONT face=Georgia color=#008080><SPAN class=455354007-28112002>We need 
+your help to resolve/clarify problems we have with SyncForce. 
+</SPAN></FONT></DIV>
+<DIV><FONT face=Georgia color=#008080><SPAN 
+class=455354007-28112002></SPAN></FONT>&nbsp;</DIV>
+<DIV><FONT face=Georgia color=#008080><SPAN class=455354007-28112002>Currently 
+the project is running over budget (significant) and SyncForce has more invoices 
+to be sent to us. All the<SPAN class=866014211-28112002>y&nbsp;</SPAN>do for us 
+are billable hours and therefore it is very important that we clarify the 
+posting of data back and forth&nbsp;<SPAN 
+class=866014211-28112002>to&nbsp;</SPAN>our systems. </SPAN></FONT></DIV>
+<DIV><FONT face=Georgia color=#008080><SPAN 
+class=455354007-28112002></SPAN></FONT>&nbsp;</DIV>
+<DIV><FONT face=Georgia color=#008080><SPAN class=455354007-28112002>I want to 
+very careful not pointing fingers from Fluke to SyncForce and vice 
+versa,&nbsp;<SPAN class=866014211-28112002>&nbsp;certainly not</SPAN> 
+on&nbsp;<SPAN class=866014211-28112002>a&nbsp;</SPAN>personal level and 
+therefore I need your clear assistance. So please respond based on facts, this 
+also helps me.</SPAN></FONT></DIV>
+<DIV><FONT face=Georgia color=#008080></FONT>&nbsp;</DIV>
+<DIV><SPAN class=455354007-28112002><FONT face=Georgia color=#008080>Here is the 
+deal. </FONT></SPAN></DIV>
+<DIV><SPAN class=455354007-28112002><FONT face=Georgia color=#008080>SyncForce 
+again told us that for data coming from the PP the format differs on three<SPAN 
+class=866014211-28112002>&nbsp;processes</SPAN><SPAN 
+class=866014211-28112002>&nbsp;</SPAN>. (see some of the attachments) The<SPAN 
+class=866014211-28112002>y&nbsp;</SPAN> have build one component to receive data 
+from the PP in one agreed format (the excel file) (it is their opinion this is 
+according to spec&nbsp;<SPAN class=866014211-28112002>agreed some time 
+ago&nbsp;</SPAN>and will cost a bundle to change that<SPAN 
+class=866014211-28112002>&nbsp;for each of the tree processes&nbsp;</SPAN>, 
+could you confirm that this is spec or not.) </FONT></SPAN></DIV>
+<DIV><SPAN class=455354007-28112002><FONT face=Georgia color=#008080>I have to 
+be honest and say that this was my understanding of the spec as well. 
+</FONT></SPAN></DIV>
+<DIV><SPAN class=455354007-28112002><FONT face=Georgia 
+color=#008080></FONT></SPAN>&nbsp;</DIV><SPAN class=455354007-28112002><FONT 
+face=Georgia color=#008080>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2>[KDW&gt; ]&nbsp;It is true that there are three different scripts at the 
+PP&nbsp;that posts data to the PP database and then back to the DCM system, but 
+only <STRONG>ONE</STRONG> that SYNCFORCE uses to ADD / UPDATE / DELETE / VERIFY 
+from&nbsp;the PP which is called Account_Admin.asp.&nbsp; The other two, send 
+only a subset of the data, since there is no need to send all of the data and 
+expose those values which would not change by the update and is used for the 
+initial REGISTRATION and User initiated PROFILE UPDATE.</FONT></SPAN></DIV>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2></FONT></SPAN><SPAN class=438500118-02122002><FONT face="Comic Sans MS" 
+color=#ff0000 size=2></FONT></SPAN>&nbsp;</DIV>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2>Each script&nbsp;posts only the&nbsp;KEY=VALUE for those fields that are 
+identified as&nbsp;YES (required)&nbsp;or OPTIONAL in each of the&nbsp;ACTIONS 
+as defined in the EURODCM_to_PP_06-25-2002. XLS spec, however those marked NO, 
+not marked or marked as Internal, would only be posted to the PP Database and 
+possibly back to the DCM system if the&nbsp;KEY=Value was supplied.&nbsp; But 
+these fields&nbsp;ARE NOT TO BE ACTED UPON by the EuroDCM receiving 
+script.&nbsp; This specification has not changed since the inception of the 
+specification.</FONT></SPAN></DIV>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2></FONT></SPAN>&nbsp;</DIV>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2>I have no clue what scripts Syncforce wrote, so I am at a disadvantage 
+discerning whether or note their code is efficient.&nbsp; What may have been 
+overlooked by SyncForce was to build a generic handler for only the YES 
+(required) or OPTIONAL&nbsp;fields independent of the action as opposed to one 
+for each that requires the management of all fields whether they are appropriate 
+for the action or not.&nbsp; There is no sense in posting&nbsp;data for fields 
+that have absolutely no bearing on the action.&nbsp; An example is the 
+Registration Form.&nbsp; Only the Key=VALUE pairs&nbsp;sent to the EuroDCM 
+system where (under User Register* column), that KEY field is marked with a YES 
+(Required Field), or if an KEY marked OPTIONAL and has data otherwise the value 
+for the Key is set to and returned as KEY=NULL.</FONT></SPAN></DIV>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2></FONT></SPAN>&nbsp;</DIV>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2>KEYs that are not marked YES, or OPTIONAL, or not designated with a 
+preset value such as "new",&nbsp;are not&nbsp;acted upon, since they have no 
+bearing on the Action, such as "FCM" or "FCM_ID", etc, for a REGISTRATION.&nbsp; 
+Nor are the same fields acted upon for a User Initiated Profile Update.&nbsp; 
+These same fields are only appropriate during a EuroDCM "ADD" or DCM 
+"UPDATE".</FONT></SPAN></DIV>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2></FONT></SPAN>&nbsp;</DIV>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2>Here is an excerpt from the SyncForce document "FMI Partner Portal 
+Integration 25-03-2002.pdf", page 8 of 18 related to the Registration 
+Form/Process</FONT></SPAN></DIV>
+<DIV><SPAN class=438500118-02122002><FONT face=Arial 
+size=3></FONT></SPAN>&nbsp;</DIV>
+<DIV><SPAN class=438500118-02122002><FONT face=Arial size=3><FONT 
+color=#000000>The <U>posted data will be minimal</U> because it is possible that 
+this user will not or later get<SPAN class=438500118-02122002><FONT 
+face="Comic Sans MS" size=2>&nbsp;&nbsp;</FONT></SPAN>access to the Partner 
+Portal. If a Partner Portal profile is added to this user all Partner 
+Portal<SPAN class=438500118-02122002><FONT face="Comic Sans MS" 
+size=2>&nbsp;</FONT></SPAN>required fields will be updated for this 
+user.</FONT></DIV></FONT></SPAN>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2></FONT></SPAN>&nbsp;</DIV>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" size=2><FONT 
+face=Arial,Italic size=3><FONT color=#000000>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2>Here is an excerpt from the SyncForce document "FMI Partner Portal 
+Integration 25-03-2002.pdf", page 12 of 18 related to the 
+Add/Update&nbsp;Form/Process</FONT></SPAN></DIV>
+<P align=left><EM>New User Profile<BR></EM></FONT></FONT><FONT face=Arial 
+size=3><FONT color=#000000>The manager adds a user profile to a contact and 
+fills <U>out the extra fields required for this<SPAN 
+class=438500118-02122002><FONT face="Comic Sans MS" 
+size=2>&nbsp;</FONT></SPAN>system</U>. The Partner Portal will always contain 
+this user, but this user will be inactive. An<SPAN 
+class=438500118-02122002><FONT face="Comic Sans MS" 
+size=2>&nbsp;</FONT></SPAN>update procedure (post form) is used <U>to add all 
+required fields and to change</U> this users<SPAN class=438500118-02122002><FONT 
+face="Comic Sans MS" size=2>&nbsp;</FONT></SPAN>status to 
+ACTIVE.</FONT></P></FONT></FONT></SPAN></DIV>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" size=2><FONT 
+face=Arial,Italic size=3>
+<P align=left><EM><FONT color=#000000>Changes<BR></FONT></EM></FONT><FONT 
+face=Arial size=3><FONT color=#000000>The contact or account/office data is 
+changed within either the Channel Manager or Internal<SPAN 
+class=438500118-02122002><FONT face="Comic Sans MS" 
+size=2>&nbsp;</FONT></SPAN>user manager. If these changes are related to fields 
+that are used in one of the user profiles<SPAN class=438500118-02122002><FONT 
+face="Comic Sans MS" size=2>&nbsp;</FONT></SPAN>belonging to this contact, the 
+underlying systems must also be updated (Partner Portal,<SPAN 
+class=438500118-02122002><FONT face="Comic Sans MS" 
+size=2>&nbsp;</FONT></SPAN>Information Store, Channel Manager). <U>It is also 
+possible to change the specific user profile<SPAN class=438500118-02122002><FONT 
+face="Comic Sans MS" size=2>&nbsp;</FONT></SPAN>fields.</U> If these fields are 
+changed, the corresponding system will also be updated<SPAN 
+class=438500118-02122002><FONT face="Comic Sans MS" 
+size=2>.</FONT></SPAN></FONT></FONT></FONT></SPAN><SPAN 
+class=438500118-02122002><FONT face="Comic Sans MS" 
+size=2></FONT></SPAN></P></DIV>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2>Below is&nbsp;an update (because a few new fields were added such as 
+Initials, etc.)&nbsp;of the original example script that I provided to Syncforce 
+(similar to response.asp) to show how to create a generic handling/debug 
+script.&nbsp; It assumes that <U><STRONG>only those fields YES or OPTIONAL (with 
+data)&nbsp;fields with DATA or the value='' (reset field value to NULL) are 
+acted upon</STRONG></U>, all other fields (not YES or OPTIONAL) with or 
+without&nbsp;data are to be ignored and may not be echoed back since there is no 
+action for those fields.</FONT></SPAN></DIV>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2></FONT></SPAN>&nbsp;</DIV>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2>A YES field is required and will always have data will be echoed 
+back.</FONT></SPAN></DIV>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2>An Option field with data will always be echoed back.</FONT></SPAN></DIV>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2>An Option field without data will be set to NULL and echoed 
+back.</FONT></SPAN></DIV>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2>A field not marked as YES or OPTIONAL is not acted upon and not echoed 
+back depending on the action.</FONT></SPAN></DIV>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2></FONT><FONT face="Comic Sans MS" color=#ff0000 
+size=2></FONT></SPAN>&nbsp;</DIV>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2>This example works for ALL types of posts to the PP.&nbsp; It decodes the 
+KEY and Value and depending on the Value, Scripts that portion of the SQL 
+statement appropriate for the ACTION for DB updating.&nbsp; All you do is an 
+UPDATE UserData Set ( SQL ) WHERE ID=Account_ID.&nbsp; What could be 
+simpler?&nbsp; I spelled it out for them !!!</FONT></SPAN></DIV>
+<DIV><SPAN class=438500118-02122002></SPAN><SPAN class=438500118-02122002><FONT 
+face="Comic Sans MS" color=#ff0000 size=2></FONT></SPAN>&nbsp;</DIV>
+<DIV><SPAN class=438500118-02122002><FONT face=Ta color=#800080 
+size=1>&lt;%<BR>&nbsp; with response<BR>&nbsp; .write 
+"&lt;HTML&gt;&lt;BODY&gt;&lt;TABLE Border=1 WIDTH=""100%""&gt;"<BR>&nbsp; .write 
+"&lt;TR&gt;&lt;TD&gt;&lt;FONT FACE=""Arial"" 
+SIZE=2&gt;Key&lt;/FONT&gt;&lt;/TD&gt;&lt;TD WIDTH=""40%""&gt;&lt;FONT 
+FACE=""Arial"" SIZE=2&gt;Value&lt;/FONT&gt;&lt;/TD&gt;&lt;TD&gt;&lt;FONT 
+FACE=""Arial"" 
+SIZE=2&gt;SQL&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;"</FONT></SPAN></DIV>
+<DIV><FONT face=Ta color=#800080 size=1></FONT>&nbsp;</DIV>
+<DIV><SPAN class=438500118-02122002><FONT face=Ta color=#800080 size=1>&nbsp; 
+for each item in request.form</FONT></SPAN></DIV>
+<DIV><FONT face=Ta color=#800080 size=1></FONT>&nbsp;</DIV>
+<DIV><SPAN class=438500118-02122002><FONT face=Ta color=#800080 
+size=1>&nbsp;&nbsp;&nbsp; .write "&lt;TR&gt;"<BR>&nbsp;&nbsp;&nbsp; .write 
+"&lt;TD&gt;&lt;FONT FACE=ARIAL SIZE=1&gt;" &amp; item &amp; 
+"&lt;/FONT&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp; <BR>&nbsp;&nbsp;&nbsp; select 
+case 
+UCase(item)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+' Action<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; case "ACTION", "UPDATE", "ADD", 
+"DELETE", "VERIFY"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .write 
+"&lt;TD&gt;&lt;FONT FACE=ARIAL SIZE=2 
+COLOR=GREEN&gt;&lt;B&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .write 
+request.form(item)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .write 
+"&lt;/B&gt;&lt;/FONT&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL SIZE=2 
+COLOR=GREEN&gt;&lt;B&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .write 
+"ACTION"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .write 
+"&lt;/B&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; case 
+else&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+' All Other Form Keys<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; select case 
+UCase(item)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+' Validate Record Data Field Names<BR>&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ' Numeric 
+Fields<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; case "ID", 
+"ACCOUNT_ID", "SITE_ID", "FCM", "FCM_ID", "TYPE_CODE", "GENDER", "REGION", 
+_<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+"ACCOUNT_REGION", "EMAIL_METHOD", "CONNECTION_SPEED", "SUBSCRIPTION", 
+_<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+"SUBSCRIPTION_FREQUENCY", "CHANGEID", "REG_ADMIN", 
+"NEWFLAG"<BR>&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if 
+isnumeric(request.form(item)) 
+then<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL 
+SIZE=1&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+request.form(item)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/FONT&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL 
+SIZE=1&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "," &amp; item &amp; "=" &amp; 
+Replace(request.form(item),"'","''")&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ' Build 
+SQL 
+String<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/FONT&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+elseif LCase(request.form(item)) = "on" 
+then<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL 
+SIZE=1&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+request.form(item)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/FONT&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL 
+SIZE=1&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "," &amp; item &amp; 
+"=-1"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+' Build SQL 
+String<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/FONT&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+elseif LCase(request.form(item)) = "off" 
+then<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL 
+SIZE=1&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+request.form(item)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/FONT&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL 
+SIZE=1&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "," &amp; item &amp; 
+"=0"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+' Build SQL 
+String<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/FONT&gt;&lt;/TD&gt;"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; elseif 
+request.form(item) = "" or isnull(request.form(item)) 
+then&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ' Reset Field to 
+NULL<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL SIZE=1 
+COLOR=BLUE&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "No Data reset to 
+NULL"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/FONT&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL SIZE=1 
+COLOR=BLUE&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "," &amp; item &amp; 
+"=NULL"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+' Build SQL 
+String<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/TD&gt;"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; elseif 
+UCase(request.form(item)) = "NULL" 
+then&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+' Build SQL 
+String<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL SIZE=1 
+COLOR=BLUE&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+request.form(item)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/FONT&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL SIZE=1 
+COLOR=BLUE&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "," &amp; item &amp; 
+"=NULL"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+' Build SQL 
+String<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/TD&gt;"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+else&nbsp; ' Invalid Data Type OR No 
+Value<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL SIZE=1 
+COLOR=RED&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+request.form(item)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/FONT&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL SIZE=1 
+COLOR=RED&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "Key is Valid - Invalid 
+Data"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/FONT&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+end if<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ' Varchar 
+Fields<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; case "NTLOGIN", 
+"PASSWORD", "PASSWORD_CHANGE", "GROUPS", "SUBGROUPS", "GROUPS_AUX", 
+_<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+"PREFIX", "FIRSTNAME", "MIDDLENAME", "LASTNAME", "SUFFIX", "INITIALS", 
+_<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+"COMPANY", "COMPANY_WEBSITE", "JOB_TITLE", 
+_<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+"BUSINESS_ADDRESS", "BUSINESS_ADDRESS_2", 
+_<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+"BUSINESS_MAILSTOP", "BUSINESS_CITY", "BUSINESS_STATE", "BUSINESS_STATE_OTHER", 
+_<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+"BUSINESS_POSTAL_CODE", "BUSINESS_COUNTRY", 
+_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+"POSTAL_ADDRESS", "POSTAL_CITY", "POSTAL_STATE", "POSTAL_STATE_OTHER", 
+_<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+"POSTAL_POSTAL_CODE", "POSTAL_COUNTRY", 
+_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+"SHIPPING_ADDRESS", "SHIPPING_ADDRESS_2", 
+_<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+"SHIPPING_MAILSTOP", "SHIPPING_CITY", "SHIPPING_STATE", "SHIPPING_STATE_OTHER", 
+_<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+"SHIPPING_POSTAL_CODE", "SHIPPING_COUNTRY", 
+_<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+"BUSINESS_PHONE", "BUSINESS_PHONE_EXTENSION", "BUSINESS_PHONE_2", 
+"BUSINESS_PHONE_2_EXTENSION", 
+_<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+"BUSINESS_FAX", "MOBILE_PHONE", "PAGER", "EMAIL", "EMAIL_2", "LANGUAGE", 
+"FLUKE_ID", "FLUKE_ID_REP", "COMMENT", 
+_<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+"AUX_0", "AUX_1", "AUX_2", "AUX_3", "AUX_4", "AUX_5", "AUX_6", "AUX_7", "AUX_8", 
+"AUX_9", 
+_<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+"BUSINESS_SYSTEM"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if 
+request.form(item) = "" or isnull(request.form(item)) 
+then&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ' Reset Field to 
+NULL<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL SIZE=1 
+COLOR=BLUE&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "No Data reset to 
+NULL"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/FONT&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL SIZE=1 
+COLOR=BLUE&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "," &amp; item &amp; 
+"=NULL"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+' Build SQL 
+String<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;/FONT&gt;&lt;/TD&gt;"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; elseif 
+UCase(request.form(item)) = "NULL" 
+then&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+' Build SQL 
+String<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL SIZE=1 
+COLOR=BLUE&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+request.form(item)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/FONT&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL SIZE=1 
+COLOR=BLUE&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "," &amp; item &amp; 
+"=NULL"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+' Build SQL 
+String<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/TD&gt;"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; elseif 
+request.form(item) &lt;&gt; "" and not isnull(request.form(item)) 
+then<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL 
+SIZE=1&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+request.form(item)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/FONT&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL 
+SIZE=1&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "," &amp; item &amp; "='" &amp; Replace(request.form(item),"'","''") 
+&amp; "'"' Build SQL 
+String<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;/FONT&gt;&lt;/TD&gt;"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; end 
+if<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; case 
+"EXPIRATIONDATE", "CHANGEDATE", "REG_REQUEST_DATE", "REG_APPROVAL_DATE", 
+"LOGON"<BR>&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if 
+request.form(item) = "" or isnull(request.form(item)) 
+then&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ' Reset Field to 
+NULL<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL SIZE=1 
+COLOR=BLUE&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "No Data reset to 
+NULL"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/FONT&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL SIZE=1 
+COLOR=BLUE&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "," &amp; item &amp; 
+"=NULL"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+' Build SQL 
+String<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;/FONT&gt;&lt;/TD&gt;"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; elseif 
+request.form(item) = "NULL" 
+then<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL SIZE=1 
+COLOR=BLUE&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+request.form(item)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/FONT&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL SIZE=1 
+COLOR=BLUE&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "," &amp; item &amp; 
+"=NULL"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+' Build SQL 
+String<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;/FONT&gt;&lt;/TD&gt;"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; elseif 
+isdate(request.form(item)) 
+then<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL 
+SIZE=1&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+request.form(item)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/FONT&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL 
+SIZE=1&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "," &amp; item &amp; "='" &amp; request.form(item) &amp; 
+"'"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+' Build SQL 
+String<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;/FONT&gt;&lt;/TD&gt;"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+else&nbsp; ' Invalid Data Type OR No 
+Value<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL SIZE=1 
+COLOR=RED&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+request.form(item)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/FONT&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL SIZE=1 
+COLOR=RED&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "Key is Valid - Data Value 
+Invalid"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/FONT&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+end if<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; case 
+else&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+' Internal PP Fields IGNORE 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL SIZE=1 
+COLOR=ORANGE&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+if request.form(item) &lt;&gt; "" and not isnull(request.form(item)) 
+then<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+request.form(item)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+else<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "No 
+Data"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+end 
+if&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write 
+"&lt;/FONT&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;TD&gt;&lt;FONT FACE=ARIAL SIZE=1 
+COLOR=ORANGE&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "Ignore this Key, Data is Internal to 
+PP"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+.write "&lt;/FONT&gt;&lt;/TD&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; end select<BR>&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp; end select&nbsp;&nbsp;&nbsp; </FONT></SPAN></DIV>
+<DIV><FONT face=Ta color=#800080 size=1></FONT>&nbsp;</DIV>
+<DIV><SPAN class=438500118-02122002><FONT face=Ta color=#800080 
+size=1>&nbsp;&nbsp;&nbsp; .write "&lt;/TR&gt;"</FONT></SPAN></DIV>
+<DIV><FONT face=Ta color=#800080 size=1></FONT>&nbsp;</DIV>
+<DIV><SPAN class=438500118-02122002><FONT face=Ta color=#800080 size=1>&nbsp; 
+next</FONT></SPAN></DIV>
+<DIV><FONT face=Ta color=#800080 size=1></FONT>&nbsp;</DIV>
+<DIV><SPAN class=438500118-02122002><FONT face=Ta color=#800080 size=1>&nbsp; 
+.write "&lt;/TABLE&gt;&lt;/BODY&gt;&lt;/HTML&gt;"<BR>&nbsp; <BR>&nbsp; end 
+with<BR>%&gt;</FONT></SPAN></DIV><SPAN class=438500118-02122002></SPAN>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#800080 
+size=2></FONT></SPAN>&nbsp;</DIV><SPAN class=438500118-02122002></SPAN>
+<DIV>Their opinion (in my words):</FONT></SPAN></DIV>
+<DIV><SPAN class=455354007-28112002><FONT face=Georgia><FONT 
+color=#008080><EM>If we agree upon a record layout, &nbsp;we build components 
+that receive the data according to that spec.</EM> I can understand that 
+whenever the PP send/posts the records in different formats/languages and even 
+sometimes leaving fields out,&nbsp;<SPAN class=866014211-28112002>&nbsp;we 
+(SF)&nbsp;</SPAN> need to build more<SPAN 
+class=866014211-28112002>&nbsp;complexity&nbsp;or&nbsp;</SPAN>more&nbsp;receiving 
+parts.</FONT></FONT></SPAN></DIV>
+<DIV><SPAN class=455354007-28112002><FONT face=Georgia 
+color=#008080></FONT></SPAN>&nbsp;</DIV>
+<DIV><SPAN class=455354007-28112002><SPAN class=438500118-02122002><FONT 
+face=com color=#ff0000 size=2>[KDW&gt; ] In my opinion, SyncForce may not have 
+built their end of the script using&nbsp;a generic method as in what I exampled 
+above, and are hard-coding all fields to be present for the three different 
+posting methods from the PP.&nbsp; The SyncForce method&nbsp;is the more complex 
+proposition.&nbsp; The above example, handles all fields whether or not they are 
+sent, and ignores internal PP&nbsp;fields.&nbsp; Any KEY=VALUE combination sent 
+by the EURO_DCM system IS echoed back, but only if the KEY is valid for the 
+ACTION.</FONT></SPAN></SPAN></DIV>
+<DIV><SPAN class=455354007-28112002><SPAN class=438500118-02122002><FONT 
+face=com color=#ff0000 size=2></FONT></SPAN></SPAN>&nbsp;</DIV>
+<DIV><SPAN class=455354007-28112002><SPAN class=438500118-02122002><FONT 
+face=com color=#ff0000 size=2>The only requirement for the above to work was the 
+initial syncing on the agreed upon KEYs to be associated with what ACTION and 
+these are explicitly spelled out and were agreed upon in the 
+EURODCM_to_PP_06-25-2002. XLS spec.</FONT></SPAN></SPAN></DIV>
+<DIV><SPAN class=455354007-28112002><SPAN 
+class=438500118-02122002></SPAN></SPAN><SPAN class=455354007-28112002><SPAN 
+class=438500118-02122002></SPAN></SPAN><SPAN class=455354007-28112002><SPAN 
+class=438500118-02122002><FONT color=#ff0000 
+size=2></FONT></SPAN></SPAN>&nbsp;</DIV>
+<DIV><SPAN class=455354007-28112002><FONT face=Georgia color=#008080>My 
+suggestion would be to have the PP post the data back to the CM in one format 
+where only the action type changes and all the field/columns are sent and always 
+in the same format.<BR><SPAN class=438500118-02122002><FONT face="Comic Sans MS" 
+color=#ff0000 size=2></FONT></SPAN></FONT></SPAN></DIV>
+<DIV><SPAN class=455354007-28112002><FONT face=Georgia color=#008080><SPAN 
+class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2></FONT></SPAN></FONT></SPAN>&nbsp;</DIV>
+<DIV><SPAN class=455354007-28112002><FONT face=Georgia color=#008080><SPAN 
+class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2>[KDW&gt; ]&nbsp;&nbsp;This is what we currently do!&nbsp; Aside from a 
+few errors in the&nbsp;KEY name, adding of more fields (Kees request),&nbsp;and 
+turning off the Proper Case function that I was applying to some of the field 
+data.&nbsp; The only thing that we do not do is return all the DB FIELDS for a 
+registration or a User initiated profile update. For these ACTIONS we return 
+only a subset.&nbsp; We do return ALL fields when the EuroDCM system uses the 
+Account_Admin.asp script to do additions or 
+updates.</FONT></SPAN></FONT></SPAN></DIV>
+<DIV><SPAN class=455354007-28112002><FONT face="Comic Sans MS" color=#ff0000 
+size=2><SPAN class=438500118-02122002></SPAN></FONT></SPAN><SPAN 
+class=455354007-28112002><FONT face="Comic Sans MS" color=#ff0000 size=2><SPAN 
+class=438500118-02122002></SPAN></FONT></SPAN><SPAN 
+class=455354007-28112002><FONT face=Georgia 
+color=#008080></FONT></SPAN>&nbsp;</DIV><SPAN class=455354007-28112002><FONT 
+face=Georgia><FONT color=#008080>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#ff0000 
+size=2>[KDW&gt; ]&nbsp;In short, I don't know where to go with this Frank.&nbsp; 
+I can do some hand holding or round-the-clock work with SyncForce to resolve any 
+testing issues, however, I am not about to stuff all of the fields into the 
+Registration or User Initiated Profile Update scripts and expose that data to 
+the user!&nbsp; As long as SyncForce loops through the Keys I send back them (I 
+also send them the ACTION)&nbsp;and updates those only those parts of the record 
+(since the other data would remain unchanged) we are there.&nbsp; It is a very 
+simple method, so I am confused at what the problem is.</FONT></SPAN></DIV>
+<DIV><SPAN class=438500118-02122002><FONT face="Comic Sans MS" color=#800000 
+size=2></FONT></SPAN>&nbsp;</DIV>
+<DIV>Please respond before implementing<SPAN class=866014211-28112002>&nbsp; and 
+feel free to&nbsp;give me a call at: +31 40 
+2675241&nbsp;</SPAN></FONT></FONT></SPAN></DIV>
+<DIV><SPAN class=455354007-28112002><FONT face=Georgia 
+color=#008080></FONT></SPAN>&nbsp;</DIV>
+<DIV><SPAN class=455354007-28112002><FONT face=Georgia 
+color=#008080>Thanks</FONT></SPAN></DIV>
+<DIV><FONT face=Georgia color=#008080></FONT>&nbsp;</DIV>
+<DIV align=left>
+<DIV><FONT color=#000080><FONT face=Arial>Kind regards,</FONT> 
+<BR></FONT><EM><FONT color=#000080><FONT face=Arial>Frank van 
+Oort<BR></FONT></FONT></EM></DIV>
+<P align=left><SPAN class=438500118-02122002><FONT face="Comic Sans MS" 
+color=#800000 size=2>-------------------------------</FONT></SPAN></P>
+<P align=left><SPAN class=438500118-02122002><FONT face="Comic Sans MS" 
+color=#ff0000 size=2>Results of PP_Key_Value_Decode.asp posting to 
+Account_Admin.asp (code example above)&nbsp; All Keys decode properly and have 
+valid data assignments in the SQL code.</FONT></SPAN></P>
+<P align=left><SPAN class=438500118-02122002>
+<TABLE width="100%" border=1>
+  <TBODY>
+  <TR>
+    <TD><FONT face=Arial size=2>Key</FONT></TD>
+    <TD width="40%"><FONT face=Arial size=2>Value</FONT></TD>
+    <TD><FONT face=Arial size=2>SQL</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Fluke_ID</FONT></TD>
+    <TD><FONT face=ARIAL size=1>39033</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Fluke_ID='39033'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Fcm_ID</FONT></TD>
+    <TD><FONT face=ARIAL size=1>308</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Fcm_ID=308</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Aux_6</FONT></TD>
+    <TD><FONT face=ARIAL color=blue size=1>NULL</FONT></TD>
+    <TD><FONT face=ARIAL color=blue size=1>,Aux_6=NULL</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Business_System</FONT></TD>
+    <TD><FONT face=ARIAL size=1>ORA</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Business_System='ORA'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Business_MailStop</FONT></TD>
+    <TD><FONT face=ARIAL size=1>PO BOX 6309</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Business_MailStop='PO BOX 6309'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Business_Address</FONT></TD>
+    <TD><FONT face=ARIAL size=1>35 Industrial Park Rd.</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Business_Address='35 Industrial Park 
+      Rd.'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Business_Address_2</FONT></TD>
+    <TD><FONT face=ARIAL size=1>Address 2</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Business_Address_2='Address 2'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Business_City</FONT></TD>
+    <TD><FONT face=ARIAL size=1>Albany</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Business_City='Albany'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Business_State</FONT></TD>
+    <TD><FONT face=ARIAL size=1>ZZ</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Business_State='ZZ'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Business_State_Other</FONT></TD>
+    <TD><FONT face=ARIAL size=1>Son</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Business_State_Other='Son'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Business_Postal_Code</FONT></TD>
+    <TD><FONT face=ARIAL size=1>12206-0309</FONT></TD>
+    <TD><FONT face=ARIAL 
+size=1>,Business_Postal_Code='12206-0309'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Business_Country</FONT></TD>
+    <TD><FONT face=ARIAL size=1>NL</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Business_Country='NL'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Postal_City</FONT></TD>
+    <TD><FONT face=ARIAL size=1>Albany</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Postal_City='Albany'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Postal_Country</FONT></TD>
+    <TD><FONT face=ARIAL size=1>NL</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Postal_Country='NL'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Business_Phone</FONT></TD>
+    <TD><FONT face=ARIAL size=1>518.489.8451</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Business_Phone='518.489.8451'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Business_Phone_Extension</FONT></TD>
+    <TD><FONT face=ARIAL size=1>507</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Business_Phone_Extension='507'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Business_Phone_2</FONT></TD>
+    <TD><FONT face=ARIAL size=1>4363725.74663</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Business_Phone_2='4363725.74663'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Business_Phone_2_Extension</FONT></TD>
+    <TD><FONT face=ARIAL size=1>extension</FONT></TD>
+    <TD><FONT face=ARIAL 
+    size=1>,Business_Phone_2_Extension='extension'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Business_Fax</FONT></TD>
+    <TD><FONT face=ARIAL color=blue size=1>NULL</FONT></TD>
+    <TD><FONT face=ARIAL color=blue size=1>,Business_Fax=NULL</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Aux_2</FONT></TD>
+    <TD><FONT face=ARIAL color=blue size=1>NULL</FONT></TD>
+    <TD><FONT face=ARIAL color=blue size=1>,Aux_2=NULL</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Type_Code</FONT></TD>
+    <TD><FONT face=ARIAL size=1>1</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Type_Code=1</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>FirstName</FONT></TD>
+    <TD><FONT face=ARIAL size=1>William</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,FirstName='William'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Job_Title</FONT></TD>
+    <TD><FONT face=ARIAL size=1>Inside Sales</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Job_Title='Inside Sales'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Site_ID</FONT></TD>
+    <TD><FONT face=ARIAL size=1>3</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Site_ID=3</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Aux_7</FONT></TD>
+    <TD><FONT face=ARIAL color=blue size=1>NULL</FONT></TD>
+    <TD><FONT face=ARIAL color=blue size=1>,Aux_7=NULL</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>ExpirationDate</FONT></TD>
+    <TD><FONT face=ARIAL size=1>11/27/2002</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,ExpirationDate='11/27/2002'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Company</FONT></TD>
+    <TD><FONT face=ARIAL size=1>Wolberg Electrical Supply Co., Inc.</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Company='Wolberg Electrical Supply Co., 
+      Inc.'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>NTLogin</FONT></TD>
+    <TD><FONT face=ARIAL size=1>William Barringer</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,NTLogin='William Barringer'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Fcm</FONT></TD>
+    <TD><FONT face=ARIAL size=1>0</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Fcm=0</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Aux_3</FONT></TD>
+    <TD><FONT face=ARIAL color=blue size=1>NULL</FONT></TD>
+    <TD><FONT face=ARIAL color=blue size=1>,Aux_3=NULL</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Core_ID</FONT></TD>
+    <TD><FONT face=ARIAL color=orange size=1>NULL</FONT></TD>
+    <TD><FONT face=ARIAL color=orange size=1>Ignore this Key, Data is Internal 
+      to PP</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Region</FONT></TD>
+    <TD><FONT face=ARIAL size=1>2</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Region=2</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>LastName</FONT></TD>
+    <TD><FONT face=ARIAL size=1>Barringer</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,LastName='Barringer'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Suffix</FONT></TD>
+    <TD><FONT face=ARIAL size=1>Sr.</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Suffix='Sr.'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Postal_Address</FONT></TD>
+    <TD><FONT face=ARIAL size=1>456</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Postal_Address='456'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>EMail_Method</FONT></TD>
+    <TD><FONT face=ARIAL size=1>0</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,EMail_Method=0</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Language</FONT></TD>
+    <TD><FONT face=ARIAL size=1>eng</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Language='eng'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>SubGroups</FONT></TD>
+    <TD><FONT face=ARIAL size=1>usdf, usdf, usdf, usdf, usdf, usdf, usdf, 
+      usrd, usrg, usdc, usdf</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,SubGroups='usdf, usdf, usdf, usdf, usdf, 
+      usdf, usdf, usrd, usrg, usdc, usdf'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Aux_5</FONT></TD>
+    <TD><FONT face=ARIAL color=blue size=1>NULL</FONT></TD>
+    <TD><FONT face=ARIAL color=blue size=1>,Aux_5=NULL</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Prefix</FONT></TD>
+    <TD><FONT face=ARIAL size=1>Mr</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Prefix='Mr'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Mobile_Phone</FONT></TD>
+    <TD><FONT face=ARIAL size=1>662453.74663</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Mobile_Phone='662453.74663'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Action</FONT></TD>
+    <TD><FONT face=ARIAL color=green size=2><B>Update</B></FONT></TD>
+    <TD><FONT face=ARIAL color=green size=2><B>ACTION</B></FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>ID</FONT></TD>
+    <TD><FONT face=ARIAL size=1>4169</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,ID=4169</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Gender</FONT></TD>
+    <TD><FONT face=ARIAL size=1>0</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Gender=0</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Postal_State</FONT></TD>
+    <TD><FONT face=ARIAL size=1>ZZ</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Postal_State='ZZ'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Postal_State_Other</FONT></TD>
+    <TD><FONT face=ARIAL size=1>Son</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Postal_State_Other='Son'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Postal_Postal_Code</FONT></TD>
+    <TD><FONT face=ARIAL size=1>12206-0309</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Postal_Postal_Code='12206-0309'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Email</FONT></TD>
+    <TD><FONT face=ARIAL size=1>wwbarringer@wolberginc.com</FONT></TD>
+    <TD><FONT face=ARIAL 
+  size=1>,Email='wwbarringer@wolberginc.com'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Email_2</FONT></TD>
+    <TD><FONT face=ARIAL size=1>wwbarringer@wolberginc.org</FONT></TD>
+    <TD><FONT face=ARIAL 
+  size=1>,Email_2='wwbarringer@wolberginc.org'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>NewFlag</FONT></TD>
+    <TD><FONT face=ARIAL size=1>0</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,NewFlag=0</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Comment</FONT></TD>
+    <TD><FONT face=ARIAL size=1>This is a comment</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Comment='This is a comment'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Aux_9</FONT></TD>
+    <TD><FONT face=ARIAL color=blue size=1>NULL</FONT></TD>
+    <TD><FONT face=ARIAL color=blue size=1>,Aux_9=NULL</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>MiddleName</FONT></TD>
+    <TD><FONT face=ARIAL size=1>R.</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,MiddleName='R.'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Subscription</FONT></TD>
+    <TD><FONT face=ARIAL size=1>-1</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Subscription=-1</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Subscription_Method</FONT></TD>
+    <TD><FONT face=ARIAL color=orange size=1>0</FONT></TD>
+    <TD><FONT face=ARIAL color=orange size=1>Ignore this Key, Data is Internal 
+      to PP</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Subscription_Options</FONT></TD>
+    <TD><FONT face=ARIAL color=orange size=1>0</FONT></TD>
+    <TD><FONT face=ARIAL color=orange size=1>Ignore this Key, Data is Internal 
+      to PP</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Groups</FONT></TD>
+    <TD><FONT face=ARIAL size=1>FInd-Sales</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Groups='FInd-Sales'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Aux_1</FONT></TD>
+    <TD><FONT face=ARIAL size=1>No</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Aux_1='No'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Initials</FONT></TD>
+    <TD><FONT face=ARIAL size=1>WRB</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Initials='WRB'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Connection_Speed</FONT></TD>
+    <TD><FONT face=ARIAL size=1>33</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Connection_Speed=33</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>ChangeID</FONT></TD>
+    <TD><FONT face=ARIAL size=1>110</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,ChangeID=110</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>ChangeDate</FONT></TD>
+    <TD><FONT face=ARIAL size=1>12/3/2002</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,ChangeDate='12/3/2002'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Aux_4</FONT></TD>
+    <TD><FONT face=ARIAL color=blue size=1>NULL</FONT></TD>
+    <TD><FONT face=ARIAL color=blue size=1>,Aux_4=NULL</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Company_Website</FONT></TD>
+    <TD><FONT face=ARIAL size=1>www.wolberg.com</FONT></TD>
+    <TD><FONT face=ARIAL 
+size=1>,Company_Website='www.wolberg.com'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Password</FONT></TD>
+    <TD><FONT face=ARIAL size=1>new password</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Password='new password'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Shipping_MailStop</FONT></TD>
+    <TD><FONT face=ARIAL size=1>PO BOX 6309</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Shipping_MailStop='PO BOX 6309'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Shipping_Address</FONT></TD>
+    <TD><FONT face=ARIAL size=1>35 Industrial Park Rd.</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Shipping_Address='35 Industrial Park 
+      Rd.'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Shipping_Address_2</FONT></TD>
+    <TD><FONT face=ARIAL size=1>Address 2</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Shipping_Address_2='Address 2'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Shipping_City</FONT></TD>
+    <TD><FONT face=ARIAL size=1>Albany</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Shipping_City='Albany'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Shipping_State</FONT></TD>
+    <TD><FONT face=ARIAL size=1>NY</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Shipping_State='NY'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Shipping_State_Other</FONT></TD>
+    <TD><FONT face=ARIAL color=blue size=1>NULL</FONT></TD>
+    <TD><FONT face=ARIAL color=blue 
+  size=1>,Shipping_State_Other=NULL</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Shipping_Postal_Code</FONT></TD>
+    <TD><FONT face=ARIAL size=1>12206-0309</FONT></TD>
+    <TD><FONT face=ARIAL 
+size=1>,Shipping_Postal_Code='12206-0309'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Shipping_Country</FONT></TD>
+    <TD><FONT face=ARIAL size=1>NL</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Shipping_Country='NL'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Aux_8</FONT></TD>
+    <TD><FONT face=ARIAL color=blue size=1>NULL</FONT></TD>
+    <TD><FONT face=ARIAL color=blue size=1>,Aux_8=NULL</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Pager</FONT></TD>
+    <TD><FONT face=ARIAL size=1>7.243.7.7.4663</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Pager='7.243.7.7.4663'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Groups_Aux</FONT></TD>
+    <TD><FONT face=ARIAL size=1>meterman-sales</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Groups_Aux='meterman-sales'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Account_Region</FONT></TD>
+    <TD><FONT face=ARIAL size=1>0</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Account_Region=0</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Aux_0</FONT></TD>
+    <TD><FONT face=ARIAL size=1>No</FONT></TD>
+    <TD><FONT face=ARIAL size=1>,Aux_0='No'</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=ARIAL size=1>Account_ID</FONT></TD>
+    <TD><FONT face=ARIAL size=1>4169</FONT></TD>
+    <TD><FONT face=ARIAL 
+size=1>,Account_ID=4169</FONT></TD></TR></TBODY></TABLE></SPAN></P></DIV></BODY></HTML>

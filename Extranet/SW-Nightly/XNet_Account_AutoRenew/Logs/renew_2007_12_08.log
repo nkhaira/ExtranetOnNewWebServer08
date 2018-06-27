@@ -1,0 +1,87 @@
+
+----- 12/8/2007 4:00:02 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: tomgerm 30 tgerm@leffelectric.com Mail sent
+	User: bboxcorp 30 bill.adams@blackbox.com Mail sent
+	User: bvellema 30 bert.vellema@fluke.nlconflict on CMS_Region
+	User: twilcox@pelec.com 30 twilcox@pelec.com Mail sent
+	User: info@tsmera 60 info@tsmera.ruconflict on CMS_Region
+	User: Patty Kelly 30 pkelly@carlton-bates.com Mail sent
+	User: RHENNEMAN 30 rhenneman@wernerelectric.com Mail sent
+	User: rekirsch-fluke 60 hermann.sailer@rekirsch.atconflict on CMS_Region
+
+Handling site Pomona-Sales
+	User: twilcox@pelec.com 30 twilcox@pelec.com Mail sent
+	User: Patty Kelly 30 pkelly@carlton-bates.com Mail sent
+	User: HunterA 30 hadams@restronics.com Mail sent
+
+Handling site Meterman-Sales
+	User: Patty Kelly 30 pkelly@carlton-bates.com Mail sent
+	User: twilcox@pelec.com 30 twilcox@pelec.com Mail sent
+	User: RHENNEMAN 30 rhenneman@wernerelectric.com Mail sent
+	User: tomgerm 30 tgerm@leffelectric.com Mail sent
+	User: bboxcorp 30 bill.adams@blackbox.com Mail sent
+	User: bvellema 30 bert.vellema@fluke.nl Mail sent
+
+Handling site Ircon-Sales
+	User: Montesinos 30 adriana@raytek.com Mail sent
+
+Handling site Hart-Sales
+	User: patrick 14 patrick.van.bergen@fluke.nl Mail sent
+	User: smajeff 30 jstevens@southernmarketing.com Mail sent
+	User: mcabrera 30 marco@inymet.com.mx Mail sent
+
+Handling site Educators
+	User: mchandlee 60 mchandlee@hvac-pro.org Mail sent
+	User: hvacgizmo 30 hvacgizmo@aol.com Mail sent
+	User: mrmac04 14 mceneger@hvcc.edu Mail sent
+	User: joe peters 14 joe.peters@nwejatc.org Mail sent
+	User: wpointer@umd.edu 30 wpointer@umd.edu Mail sent
+	User: Local20 14 bhostinsky@smwlocal20.org Mail sent
+	User: Medixtech 14 Gangaramtota@yahoo.com Mail sent
+	User: Redwood Empire JATC 30 Williamjcampbell@sbcglobal.net Mail sent
+	User: etwtw1965 14 lbentley@mpifix.com Mail sent
+	User: swicegood 14 darrell.swicegood@siemens.com Mail sent
+	User: rayevans 14 ray.evans@pickawayross.com Mail sent
+	User: mp118th 30 frank.snook@navy.mil Mail sent
+	User: kas1903 60 kas1903@yahoo.com Mail sent
+	User: ronland 30 rel9@psu.edu Mail sent
+	User: randycreech 14 randyc@beyermechanical.com Mail sent
+	User: mkremer68 60 michael.kremer@novar.com Mail sent
+	User: kenhughes 30 khughes@identifix.com Mail sent
+	User: lewiswd 60 LEWISWD_42@MSN.COM Mail sent
+	User: ronaldo 60 forrvs@gmail.com Mail sent
+	User: clarkcory 14 scooby@fastbytes.com Mail sent
+	User: fernandoi 30 fernandoi@iitree-unlp.org.ar Mail sent
+	User: eartschwager 60 eartschwager@centurytel.net Mail sent
+	User: Avionica 30 fmachucho477@hotmail.com Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+	User: Montesinos 30 adriana@raytek.com Mail sent
+	User: m052767 30 davidjr@trianglesalesusa.com Mail sent
+	User: nitavroma 30 nvroma@smithinstrument.com Mail sent
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		8	5
+Pomona-Sales		3	3
+Meterman-Sales		6	6
+Ircon-Sales		1	1
+Hart-Sales		3	3
+Educators		23	23
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		3	3
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

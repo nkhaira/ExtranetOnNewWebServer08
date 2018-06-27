@@ -1,0 +1,58 @@
+
+----- 2/2/2008 4:00:02 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: marketing 14 gquinn@transcat.com Mail sent
+	User: DNoland 14 dnoland@martinsales.com Mail sent
+	User: Tracy Burke 60 tburke@gardco.com Mail sent
+	User: padams1 60 padams@ewingfoley.com Mail sent
+	User: LindaGustafson 14 gustafson@volco.net Mail sent
+
+Handling site Pomona-Sales
+	User: marketing 14 gquinn@transcat.com Mail sent
+	User: ToniGolden 14 toni@emulation.com Mail sent
+	User: Tracy Burke 60 tburke@gardco.com Mail sent
+	User: joseph mey 14 joseph.mey@weschler.com Mail sent
+
+Handling site Meterman-Sales
+	User: marketing 14 gquinn@transcat.com Mail sent
+	User: Tracy Burke 60 tburke@gardco.com Mail sent
+	User: joseph mey 14 joseph.mey@weschler.com Mail sent
+	User: DNoland 14 dnoland@martinsales.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+
+Handling site Educators
+	User: ShawnAgent007 30 shawn.ward@chaffey.edu Mail sent
+	User: Conniea 60 conniea@spokaneschools.org Mail sent
+	User: harwoodm 60 harwoodm@nv.doe.gov Mail sent
+	User: elkcrowe 30 elkcrowe@verizon.net Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+	User: mbarnes 14 mbarnes@volco.net Mail sent
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		5	5
+Pomona-Sales		4	4
+Meterman-Sales		4	4
+Ircon-Sales		0	0
+Hart-Sales		0	0
+Educators		4	4
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		1	1
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

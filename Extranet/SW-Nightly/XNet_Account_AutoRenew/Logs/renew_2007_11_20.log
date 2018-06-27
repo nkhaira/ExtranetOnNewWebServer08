@@ -1,0 +1,82 @@
+
+----- 11/20/2007 4:00:01 AM
+
+Handling site Calibration-Sales
+	User: pthartscientific 60 patrice.tetreault@fluke.com Mail sent
+
+Handling site FInd-Sales
+	User: scott franke 60 sfranke@gemcosales.net Mail sent
+	User: marc emerson 60 memerson@farmerelectrical.com Mail sent
+	User: petefluke 60 peterc@radir.comconflict on CMS_Region
+	User: acutest 60 neil.timmins@acutesales.co.ukconflict on CMS_Region
+	User: ENCLOSURES 60 DSCOTT@MCAULIFFESALES.COM Mail sent
+	User: gdrasch 60 gary.drasch@fluke.com Mail sent
+	User: Justine Romell 60 justine.romell@nu-di.com Mail sent
+	User: tecratools 14 terry@tecratools.com Mail sent
+	User: agiametta 14 antonio.giametta@rs-components.comconflict on CMS_Region
+
+Handling site Pomona-Sales
+	User: tecratools 14 terry@tecratools.com Mail sent
+	User: gdrasch 60 gary.drasch@fluke.com Mail sent
+	User: Larryrestronics 60 lbryan@restronics.com Mail sent
+	User: Justine Romell 60 justine.romell@nu-di.com Mail sent
+
+Handling site Meterman-Sales
+	User: marc emerson 60 memerson@farmerelectrical.com Mail sent
+	User: tecratools 14 terry@tecratools.com Mail sent
+	User: ENCLOSURES 60 DSCOTT@MCAULIFFESALES.COM Mail sent
+	User: gdrasch 60 gary.drasch@fluke.com Mail sent
+	User: Justine Romell 60 justine.romell@nu-di.com Mail sent
+	User: Larryrestronics 60 lbryan@restronics.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: pthartscientific 60 patrice.tetreault@fluke.com Mail sent
+
+Handling site Educators
+	User: sqdgeorge 14 george.gelber-jr@us.schneider-electric.com Mail sent
+	User: merriar 30 rmerriam@cfl.rr.com Mail sent
+	User: jeffchavez 14 jchavez@ci.beaumont.tx.us Mail sent
+	User: rodkemp 60 rod.kemp@tafesa.edu.au Mail sent
+	User: gungadina 30 wwasser@byramhills.org Mail sent
+	User: wemusser 14 wemusser@hacc.edu Mail sent
+	User: packml8 60 packml@umd.edu Mail sent
+	User: djs271s 14 djs271@adelphia.net Mail sent
+	User: tim_westcott 14 tim_westcott@cargill.com Mail sent
+	User: dstrouf 14 dstrouf@beaumont.k12.tx.us Mail sent
+	User: kclark68 60 kclark@iuoe-68.org Mail sent
+	User: LynnZXcel 14 lynn.zakrzewski@xcelenergy.com Mail sent
+	User: educator 60 dannyrock@sbcglobal.net Mail sent
+	User: poissantb 14 poissantb@macomb.edu Mail sent
+	User: UTHSCSA 14 martinb@uthscsa.edu Mail sent
+	User: joemoore 30 jmoore@star-center.com Mail sent
+	User: wesmccall 60 wmccall@compasstechnologies-us.com Mail sent
+	User: jerseyd 14 jerseyd@mail.lively.leon.k12.fl.us Mail sent
+	User: jconnell 14 jconnellhvac@frontiernet.net Mail sent
+	User: marthapressley 14 martha.pressley@dobbins.af.mil Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+	User: pthartscientific 60 patrice.tetreault@fluke.com Mail sent
+Site		Expirers	Emails
+Calibration-Sales		1	1
+FInd-Sales		9	6
+Pomona-Sales		4	4
+Meterman-Sales		6	6
+Ircon-Sales		0	0
+Hart-Sales		1	1
+Educators		20	20
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		1	1
+Total sites = 12

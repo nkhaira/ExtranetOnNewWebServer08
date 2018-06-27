@@ -1,0 +1,88 @@
+
+----- 1/15/2008 4:00:02 AM
+
+Handling site Calibration-Sales
+	User: carol pelletier 60 carol.pelletier@fluke.com Mail sent
+
+Handling site FInd-Sales
+	User: micoltice 60 mtice@stanion.com Mail sent
+	User: Mike Oliver 60 MOliver@newarkinone.com Mail sent
+	User: REDDYEDDIE 60 EADAMS@APPLIED.COM Mail sent
+	User: NancyMartin 30 nmartin@martinsales.com Mail sent
+	User: Robinabbott6 60 rabbott@carlton-bates.com Mail sent
+	User: carol pelletier 60 carol.pelletier@fluke.com Mail sent
+	User: gweaver 60 gweaver@texasreps.com Mail sent
+	User: shelley29 60 sadamson@testforce.com Mail sent
+	User: adrian.steel539 14 adrian.steel@fluke.comconflict on CMS_Region
+	User: anne-marie 60 anne-marie.chmilnitzky@sonepardis.ca Mail sent
+	User: David McHardy 60 dmchardy@wesco.com Mail sent
+	User: joedello 14 jpdello@thermo-kinetics.com Mail sent
+	User: frederic 14 claude.barboux@sonepar.frconflict on CMS_Region
+	User: otranorge 60 robert.hekleberg@otranorge.noconflict on CMS_Region
+	User: emiliano 14 patricia@mail.risoul.com.mx Mail sent
+	User: Omar.Felix 60 omar.felix@akbar.com.do Mail sent
+
+Handling site Pomona-Sales
+	User: REDDYEDDIE 60 EADAMS@APPLIED.COM Mail sent
+	User: Robinabbott 60 Rabbott@carlton-bates.com Mail sent
+	User: deanmanix 60 dean.manix@mouser.com Mail sent
+
+Handling site Meterman-Sales
+	User: micoltice 60 mtice@stanion.com Mail sent
+	User: REDDYEDDIE 60 EADAMS@APPLIED.COM Mail sent
+	User: Robinabbott6 60 rabbott@carlton-bates.com Mail sent
+	User: gweaver 60 gweaver@texasreps.com Mail sent
+	User: carol pelletier 60 carol.pelletier@fluke.com Mail sent
+	User: NancyMartin 30 nmartin@martinsales.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: kevinhart 60 kevin.mcclure@fluke.com Mail sent
+
+Handling site Educators
+	User: UAS Juneau 14 marquam.george@uas.alaska.edu Mail sent
+	User: Ghoffmann 60 ehoffman13@comcast.net Mail sent
+	User: gwenoster 14 gwen.oster@ntcmn.edu Mail sent
+	User: pweikert 30 pweikert@wctc.edu Mail sent
+	User: zqzhai11 30 john.zhai@colorado.edu Mail sent
+	User: swhitfield 14 swhitfield@northmetrotech.edu Mail sent
+	User: gmfarmer 14 gmfarmer@hacc.edu Mail sent
+	User: jthomas15 14 jthomas@jamessprunt.edu Mail sent
+	User: Harmit.Kaur 14 harmit.kaur@sinclair.edu Mail sent
+	User: Richard Lofftus 14 richard.loftus@vatterott-college.edu Mail sent
+	User: ddeboer 14 ddeboer@dordt.edu Mail sent
+	User: rhamy.morrison 30 rhamy.morrison@trane.com Mail sent
+	User: thunderbolt 60 lundervold@verizon.net Mail sent
+	User: TonyAlvarado 60 alvaraa@email.uc.edu  Mail sent
+	User: davegilson 30 tera-byte@earthlink.net Mail sent
+	User: AlbertB 60 albertbenczo@consolenergy.com Mail sent
+	User: kalie088 60 jnissen@iwcc.edu Mail sent
+	User: DCOBURN 14 dcoburn@salinas.k12.ca.us Mail sent
+	User: Jason Randall 14 randallj@surry.edu Mail sent
+	User: mdommer 30 mdommer@indianhills.edu Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+	User: carol pelletier 60 carol.pelletier@fluke.com Mail sent
+Site		Expirers	Emails
+Calibration-Sales		1	1
+FInd-Sales		16	13
+Pomona-Sales		3	3
+Meterman-Sales		6	6
+Ircon-Sales		0	0
+Hart-Sales		1	1
+Educators		20	20
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		1	1
+Total sites = 12

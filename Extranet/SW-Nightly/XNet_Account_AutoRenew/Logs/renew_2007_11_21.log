@@ -1,0 +1,73 @@
+
+----- 11/21/2007 4:00:02 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: purchase 30 AD.HAZENBERG@DISPLAY.NLconflict on CMS_Region
+	User: mransom 60 mransom@ewingfoley.com Mail sent
+	User: Mark L. Miller 60 m.miller@capeelectric.com Mail sent
+	User: jriecke 60 bbarba@zackinc.com Mail sent
+	User: mercer97223 60 mmercer@ewingfoley.com Mail sent
+	User: HWBinc. 60 singlis@motumb2b.com Mail sent
+	User: chartwich 60 chartwich@electro-matic.com Mail sent
+	User: molinario 14 marco.molinario@dqm.itconflict on CMS_Region
+
+Handling site Pomona-Sales
+	User: jriecke 60 bbarba@zackinc.com Mail sent
+
+Handling site Meterman-Sales
+	User: Mark L. Miller 60 m.miller@capeelectric.com Mail sent
+	User: jriecke 60 bbarba@zackinc.com Mail sent
+	User: mercer97223 60 mmercer@ewingfoley.com Mail sent
+	User: mransom 60 mransom@ewingfoley.com Mail sent
+	User: chartwich 60 chartwich@electro-matic.com Mail sent
+	User: HWBinc. 60 singlis@motumb2b.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: Netsushin 30 kinoshita@netsushin.co.jp Mail sent
+
+Handling site Educators
+	User: martyrpta 14 mriesberg@njatc.org Mail sent
+	User: electrosensei 14 electrosensei@aol.com Mail sent
+	User: frankrocky 14 frank.rotkiewicz@bellsouth.com Mail sent
+	User: jabiddle2003 30 jabiddle@dreyers.com Mail sent
+	User: tohechel 30 tohechel@sargento.com Mail sent
+	User: kamende 30 kamende@me.montana.edu Mail sent
+	User: jwcotton 30 jwcotton@sbcglobal.net Mail sent
+	User: leewolff 30 wolffl@pcsb.org Mail sent
+	User: CRCTCLMC 14 ccrain@louisianamachinery.com Mail sent
+	User: andsievicjt 14 sherry.anderson@pennfoster.edu Mail sent
+	User: gjl0whk 30 greg_lokitus@fpl.com Mail sent
+	User: Roger Kozera1 14 roger.kozera@gbe.com Mail sent
+	User: racmas1 60 racmas@comcast.net Mail sent
+	User: avery01 60 avery@miiteducation.com Mail sent
+	User: RSES&NATETRAINER 60 rsescms@zoominternet.net Mail sent
+	User: kspragins 14 kensprag@middlegatech.edu Mail sent
+	User: m674245 30 austin.mcardle@aaacooper.com Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		8	6
+Pomona-Sales		1	1
+Meterman-Sales		6	6
+Ircon-Sales		0	0
+Hart-Sales		1	1
+Educators		17	17
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

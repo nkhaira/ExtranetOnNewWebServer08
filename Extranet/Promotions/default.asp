@@ -1,0 +1,1 @@
+<% response.redirect ("http://www.fluke.com") %>

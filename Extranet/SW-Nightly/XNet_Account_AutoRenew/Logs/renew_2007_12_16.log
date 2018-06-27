@@ -1,0 +1,80 @@
+
+----- 12/16/2007 4:00:02 AM
+
+Handling site Calibration-Sales
+	User: mencegypt 14 menc@soficom.com.eg Mail sent
+	User: SINTREL 14 shuber@sintrel.ch Mail sent
+
+Handling site FInd-Sales
+	User: RELIABLE 14 info@reliableprocurement.com Mail sent
+	User: NancyMartin 60 nmartin@martinsales.com Mail sent
+	User: armstdl 14 daniel.armstead@gbe.com Mail sent
+	User: vickiadams 14 vadams@rselectronics.com Mail sent
+	User: JenniferMiller 14 jlm@valuetronics.com Mail sent
+	User: Jim Stoessner 30 jim@riffle-assoc.com Mail sent
+	User: Newarkinone 14 jaguirre@newarkinone.com Mail sent
+	User: servicio tecnico 14 service@intronica.com Mail sent
+	User: miguelg 30 edimar@edimar.comconflict on CMS_Region
+
+Handling site Pomona-Sales
+	User: RELIABLE 14 info@reliableprocurement.com Mail sent
+	User: towerproducts 30 greg@towerpower.com Mail sent
+
+Handling site Meterman-Sales
+	User: RELIABLE 14 info@reliableprocurement.com Mail sent
+	User: NancyMartin 60 nmartin@martinsales.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: tom@thermoworks.com 14 tom@thermoworks.com Mail sent
+
+Handling site Educators
+	User: dredman 60 dredman@collegeofthedesert.edu Mail sent
+	User: chad wheat 14 cwheat@coosavalleytech.edu Mail sent
+	User: pweikert 60 pweikert@wctc.edu Mail sent
+	User: zqzhai11 60 john.zhai@colorado.edu Mail sent
+	User: rcmeyers2006 30 rmeyers5@sc.rr.com Mail sent
+	User: SLeonard 60 sleonard@loujatc.com Mail sent
+	User: cgemoules 60 cgemoules@yahoo.com Mail sent
+	User: jamcdonald 14 jmcdonald@maritime.edu Mail sent
+	User: smwl60@qwest.net 14 smwl60@qwest.net Mail sent
+	User: rhenson 14 rhenson@griffintech.edu Mail sent
+	User: matt_falk 30 matt_falk@ou.edu Mail sent
+	User: rhamy.morrison 60 rhamy.morrison@trane.com Mail sent
+	User: ralindberg 60 ralindberg@harriselectricinc.com Mail sent
+	User: rkuklewicz 30 rkukl@comcast.net Mail sent
+	User: amilks@starkstate.ed 14 amilks@starkstate.edu Mail sent
+	User: thessel 60 tjhessel@ranken.edu Mail sent
+	User: laijsyr 60 laijs@vt.edu Mail sent
+	User: davegilson 60 tera-byte@earthlink.net Mail sent
+	User: orampersad 14 rrampersad@msjc.edu Mail sent
+	User: mdommer 60 mdommer@indianhills.edu Mail sent
+	User: Hgcelec 60 doug.herren@kctcs.edu Mail sent
+	User: dwagner 60 dennis.wagner@minnesota.edu Mail sent
+	User: jbrocketman 30 jboorn@c-tec.edu Mail sent
+	User: Bob Schlau 60 schlau59@yahoo.com Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		2	2
+FInd-Sales		9	8
+Pomona-Sales		2	2
+Meterman-Sales		2	2
+Ircon-Sales		0	0
+Hart-Sales		1	1
+Educators		24	24
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

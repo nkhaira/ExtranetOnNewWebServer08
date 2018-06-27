@@ -1,0 +1,35 @@
+<script LANGUAGE="VBScript" RUNAT="Server">
+
+SUB Application_OnStart
+END SUB
+
+'__________________________________________________________________
+'
+
+SUB Application_OnEnd
+END SUB
+
+'__________________________________________________________________
+'
+
+SUB Session_OnStart
+
+  Application.lock
+  Application("UserOnline")=Application("UserOnline")+1
+  Session("Cart_Active") = -2  
+  Application.unlock
+
+END SUB
+
+'__________________________________________________________________
+'
+
+
+SUB Session_OnEnd
+
+  	Application.lock
+  	Application("UserOnline")=Application("UserOnline")-1
+  	Application.unlock
+
+END SUB
+</script>

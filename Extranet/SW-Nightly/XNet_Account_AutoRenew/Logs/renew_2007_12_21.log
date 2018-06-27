@@ -1,0 +1,65 @@
+
+----- 12/21/2007 4:00:02 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: amw5818 60 awoody@davisinotek.com Mail sent
+	User: Mark L. Miller 30 m.miller@capeelectric.com Mail sent
+	User: jmantz@zefon.com 14 jmantz@zefon.com Mail sent
+	User: mransom 30 mransom@ewingfoley.com Mail sent
+	User: fredlee 14 fred.lee@fluke.com Mail sent
+	User: HWBinc. 30 singlis@motumb2b.com Mail sent
+	User: BENGEL24 60 bret.engel@fluke.com Mail sent
+	User: limmert 60 f.hoepflinger@limmert.comconflict on CMS_Region
+	User: bernhard 60 bernhard.mairinger@regro.atconflict on CMS_Region
+	User: obholzer 60 rudolf.obholzer@sonepar.atconflict on CMS_Region
+
+Handling site Pomona-Sales
+	User: fredlee 14 fred.lee@fluke.com Mail sent
+
+Handling site Meterman-Sales
+	User: Mark L. Miller 30 m.miller@capeelectric.com Mail sent
+	User: mransom 30 mransom@ewingfoley.com Mail sent
+	User: jmantz@zefon.com 14 jmantz@zefon.com Mail sent
+	User: fredlee 14 fred.lee@fluke.com Mail sent
+	User: HWBinc. 30 singlis@motumb2b.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+
+Handling site Educators
+	User: FWSouthers 14 frank.southers@jci.com Mail sent
+	User: californiasmoginst 14 gilberios@gmail.com Mail sent
+	User: larry q 60 larry@modestotechnicalcollege.com Mail sent
+	User: poweredge 14 cooksont@poweredgetech.com Mail sent
+	User: lraines 14 l.raines@bhtafe.edu.au Mail sent
+	User: kevinfcook 60 kevinfcook@aol.com Mail sent
+	User: Jim Silko 60 chunkysilko@netscape.net Mail sent
+	User: racmas1 30 racmas@comcast.net Mail sent
+	User: cbazan65 60 christopher.bazan@ipaper.com Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		10	7
+Pomona-Sales		1	1
+Meterman-Sales		5	5
+Ircon-Sales		0	0
+Hart-Sales		0	0
+Educators		9	9
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

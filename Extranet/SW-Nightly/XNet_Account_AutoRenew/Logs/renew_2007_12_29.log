@@ -1,0 +1,88 @@
+
+----- 12/29/2007 4:00:02 AM
+
+Handling site Calibration-Sales
+	User: amiller 60 amiller@meas-inst.com Mail sent
+
+Handling site FInd-Sales
+	User: Per Udsen 60 peu@solar.dkconflict on CMS_Region
+	User: SSHEPHERD 30 SSHEPHERD@HUNZICKER.COM Mail sent
+	User: Mitchell 30 mike@mitchellinstrument.com Mail sent
+	User: mgeorgen@rgreene.com 30 mgeorgen@rgreene.com Mail sent
+	User: HughesMR 30 susan.peterson@hughessupply.com Mail sent
+	User: refrigerative 60 keithb@rsl.ca Mail sent
+	User: flukeind 30 jpalomino@ferriersa.com.pe Mail sent
+	User: mgoloback 30 mgoloback@mcauliffesales.com Mail sent
+	User: bstollberg 30 Bstollberg@wernerelectric.com Mail sent
+	User: flustasup 30 sales@standardsupply.com Mail sent
+	User: Pentti Hammarén 60 pentti.hammaren@elektroskandia.ficonflict on CMS_Region
+	User: Leeni Kelonen 60 leeni.kelonen@yeint.ficonflict on CMS_Region
+	User: Armi Kurkinen 60 armi.kurkinen@elektroskandia.ficonflict on CMS_Region
+	User: mtoivonen 60 mika.toivonen@pkst.ficonflict on CMS_Region
+	User: ssawyer 30 steve.sawyer@westburne.ca Mail sent
+
+Handling site Pomona-Sales
+	User: moogotron 30 bwest@marlac.com Mail sent
+	User: mgeorgen@rgreene.com 30 mgeorgen@rgreene.com Mail sent
+
+Handling site Meterman-Sales
+	User: Mitchell 30 mike@mitchellinstrument.com Mail sent
+	User: SSHEPHERD 30 SSHEPHERD@HUNZICKER.COM Mail sent
+	User: mgoloback 30 mgoloback@mcauliffesales.com Mail sent
+	User: HughesMR 30 susan.peterson@hughessupply.com Mail sent
+	User: mgeorgen@rgreene.com 30 mgeorgen@rgreene.com Mail sent
+	User: bstollberg 30 Bstollberg@wernerelectric.com Mail sent
+	User: flustasup 30 sales@standardsupply.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: VanKainen 30 davidvk@meas-inst.com Mail sent
+	User: amiller 60 amiller@meas-inst.com Mail sent
+	User: dssyntek 30 dssyntek@aol.com Mail sent
+
+Handling site Educators
+	User: jamescraig 60 james40craig@bellsouth.net Mail sent
+	User: whiteshark 30 lwflash1@comcast.net Mail sent
+	User: richard zion 14 zman4657@aol.com Mail sent
+	User: johnaden 30 jaden@alltel.net Mail sent
+	User: Donald Sawyers 30 dws474@earthlink.net Mail sent
+	User: bdcarter 60 bdcarter3933@hotmail.com Mail sent
+	User: paul.smithjr 60 paul.smithjr@yahoo.com Mail sent
+	User: malloyngrid 60 kevin.malloy@us.ngrid.com Mail sent
+	User: rmills5 14 ramm@comcast.net Mail sent
+	User: don.sykora 14 don.sykora@morton.edu Mail sent
+	User: wentzel 60 greg.wentzel@ge.com Mail sent
+	User: aneshansley 14 dja4@cornell.edu Mail sent
+	User: johnhagelstein 14 johnhagelstein@ibew313.org Mail sent
+	User: mikew@allenph.com 14 mikew@allenph.com Mail sent
+	User: Al Salama 60 as101303@aol.com Mail sent
+	User: batipton 14 batipton@aol.com Mail sent
+	User: cajs2000 60 cstock@mbco.com Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+	User: msukley@advent 30 msukley@advent-elect.com Mail sent
+	User: carol  j pelletier 30 carol.pelletier@fluke.com Mail sent
+	User: davidlong 30 dlong@advent-elect.com Mail sent
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		1	1
+FInd-Sales		15	10
+Pomona-Sales		2	2
+Meterman-Sales		7	7
+Ircon-Sales		0	0
+Hart-Sales		3	3
+Educators		17	17
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		3	3
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

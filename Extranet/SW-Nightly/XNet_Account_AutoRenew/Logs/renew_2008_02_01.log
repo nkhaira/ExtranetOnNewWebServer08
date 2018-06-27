@@ -1,0 +1,58 @@
+
+----- 2/1/2008 4:00:02 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: miomano 60 jgil@helios.com.bo Mail sent
+	User: robpetro 60 robpetro@earthlink.net Mail sent
+	User: mpietrel 14 matteo.pietrella@fluke.comconflict on CMS_Region
+	User: deweeser 30 bob@westconinc.com Mail sent
+
+Handling site Pomona-Sales
+	User: robpetro 60 robpetro@earthlink.net Mail sent
+	User: deweeser 30 bob@westconinc.com Mail sent
+
+Handling site Meterman-Sales
+	User: robpetro 60 robpetro@earthlink.net Mail sent
+	User: deweeser 30 bob@westconinc.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+
+Handling site Educators
+	User: Instrument Inst. 60 pgoggins@ibewlocal176.org Mail sent
+	User: jlgintz 30 jerry.gintz@asu.edu Mail sent
+	User: Mike Bird 14 jb1@inel.gov Mail sent
+	User: vcamillo 60 vcamillo@enesystems.com Mail sent
+	User: MFGREP1 60 dscott@mcauliffesales.com Mail sent
+	User: jmillion 30 jmillion@alaska.net Mail sent
+	User: jeffreymein 60 meinj@heska.com Mail sent
+	User: marc stephen emerson 60 memerson@farmerelectrical.com Mail sent
+	User: mgrasmueck 60 mgrasmueck@rsmas.miami.edu Mail sent
+	User: sean_caras 60 scaras@bakersfieldcollege.edu Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		4	3
+Pomona-Sales		2	2
+Meterman-Sales		2	2
+Ircon-Sales		0	0
+Hart-Sales		0	0
+Educators		10	10
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

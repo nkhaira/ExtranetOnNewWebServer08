@@ -1,0 +1,406 @@
+BODY {font-size:10pt;font-family:Arial,Verdana;}
+
+TD {font-size:10pt;font-family:Arial,Verdana;}
+
+.Normal        {font-size:10pt;font-family:Arial,Verdana;color:#000000;}
+.NormalBold    {font-weight:bold; font-size:10pt;font-family:Arial,Verdana;color:#000000;}
+.NormalBoldRed {font-weight:bold; font-size:10pt;font-family:Arial,Verdana;color:red;}
+.NormalBoldGold{font-weight:bold; font-size:10pt;font-family:Arial,Verdana;color:white;}
+.NormalRed     {font-size:10pt;font-family:Arial,Verdana;color:red;}
+.NormalGold    {font-size:10pt;font-family:Arial,Verdana;color:#003399;}
+.NormalWhite   {font-size:10pt;font-family:Arial,Verdana;color:white;}
+.NormalItalic  {font-size:10pt;font-family:Arial,Verdana;color:#000000;font-style:italic;}
+.NormalLoose   {font-size:10pt;line-height:150%;color:#000000;}
+
+.Small         {font-weight:Normal; font-size:8.5pt;font-family:Arial,Verdana; color:#000000; font-style: Normal;}
+.SmallBold     {font-weight:Bold;   font-size:8.5pt;font-family:Arial,Verdana; color:#000000; font-style: Normal;}
+.SmallItalic   {font-weight:Normal; font-size:8.5pt;font-family:Arial,Verdana; color:#000000; font-style: Italic;}
+.SmallRed      {font-weight:Normal; font-size:8.5pt;font-family:Arial,Verdana; color:#FF0000; font-style: Normal;}
+.SmallGold     {font-weight:Normal; font-size:8.5pt;font-family:Arial,Verdana; color:white; font-style: Normal;}
+.SmallBoldRed  {font-weight:Bold;   font-size:8.5pt;font-family:Arial,Verdana; color:#FF0000; font-style: Normal;}
+.SmallBoldGold {font-weight:Bold;   font-size:8.5pt;font-family:Arial,Verdana; color:white; font-style: Normal;}
+.SmallBoldBar  {font-weight:Bold;   font-size:8.5pt;font-family:Arial,Verdana; color:#0D3664; font-style: Normal;}
+.SmallBoldWhite{font-weight:Bold;   font-size:8.5pt;font-family:Arial,Verdana; color:#FFFFFF; font-style: Normal;}
+
+.SmallWhite    {font-weight:Normal; font-size:8.5pt;font-family:Arial,Verdana; color:#FFFFFF; font-style: Normal;}
+.SmallPrompt   {font-size:8.5pt;font-family:Arial,Verdana;}
+.Smallest      {font-size:7.5pt;color:black;}
+
+.Medium         {font-weight:Normal; font-size:9pt;font-family:Arial,Verdana; color:#000000; font-style: Normal;}
+.MediumBold     {font-weight:Bold;   font-size:9pt;font-family:Arial,Verdana; color:#000000; font-style: Normal;}
+.MediumItalic   {font-weight:Normal; font-size:9pt;font-family:Arial,Verdana; color:#000000; font-style: Italic;}
+.MediumRed      {font-weight:Normal; font-size:9pt;font-family:Arial,Verdana; color:#FF0000; font-style: Normal;}
+.MediumGold     {font-weight:Normal; font-size:9pt;font-family:Arial,Verdana; color:white; font-style: Normal;}
+.MediumBoldRed  {font-weight:Bold;   font-size:9pt;font-family:Arial,Verdana; color:#FF0000; font-style: Normal;}
+.MediumBoldGold {font-weight:Bold;   font-size:9pt;font-family:Arial,Verdana; color:#003399; font-style: Normal;}
+.MediumWhite    {font-weight:Normal; font-size:9pt;font-family:Arial,Verdana; color:#FFFFFF; font-style: Normal;}
+.MediumPrompt   {font-size:9pt;font-family:Arial,Verdana;}
+.Medium         {font-size:9pt;color:black;}
+
+.Heading1      {font-weight:bold; font-size:22pt; font-family:Arial,Verdana; font-style: Normal;}
+.Heading1Black {font-weight:bold; font-size:22pt; font-family:Arial,Verdana; color:#000000; font-style: Normal;}
+.Heading1Fluke {font-weight:bold; font-size:22pt; font-family:Arial,Verdana; color:#FFCC00; font-style: Normal;}
+.Heading1Gray  {font-weight:bold; font-size:22pt; font-family:Arial,Verdana; color:#666666; font-style: Normal;}
+.Heading1Red   {font-weight:bold; font-size:22pt; font-family:Arial,Verdana; color:#FF0000; font-style: Normal;}
+.Heading1Gold  {font-weight:bold; font-size:22pt; font-family:Arial,Verdana; color:#FFCC00; font-style: Normal;}
+.Heading1White {font-weight:bold; font-size:22pt; font-family:Arial,Verdana; color:#FFFFFF; font-style: Normal;}
+
+.Heading2      {font-weight:bold; font-size:17pt; font-family:Arial,Verdana; font-style: Normal;}
+.Heading2Black {font-weight:bold; font-size:17pt; font-family:Arial,Verdana; color:#000000; font-style: Normal;}
+.Heading2Fluke {font-weight:bold; font-size:17pt; font-family:Arial,Verdana; color:#FFCC00; font-style: Normal;}
+.Heading2Gray  {font-weight:bold; font-size:17pt; font-family:Arial,Verdana; color:#666666; font-style: Normal;}
+.Heading2Red   {font-weight:bold; font-size:17pt; font-family:Arial,Verdana; color:#FF0000; font-style: Normal;}
+.Heading2Gold  {font-weight:bold; font-size:17pt; font-family:Arial,Verdana; color:#FFCC00; font-style: Normal;}
+.Heading2White {font-weight:bold; font-size:17pt; font-family:Arial,Verdana; color:#FFFFFF; font-style: Normal;}
+
+.Heading3      {font-weight:bold; font-size:14pt; font-family:Arial,Verdana; font-style: Normal;}
+.Heading3Black {font-weight:bold; font-size:14pt; font-family:Arial,Verdana; color:#000000; font-style: Normal;}
+.Heading3Fluke {font-weight:bold; font-size:14pt; font-family:Arial,Verdana; color:#0D3664; font-style: Normal;}
+.Heading3Gray  {font-weight:bold; font-size:14pt; font-family:Arial,Verdana; color:#666666; font-style: Normal;}
+.Heading3Red   {font-weight:bold; font-size:14pt; font-family:Arial,Verdana; color:#FF0000; font-style: Normal;}
+.Heading3Gold  {font-weight:bold; font-size:14pt; font-family:Arial,Verdana; color:#FFCC00; font-style: Normal;}
+.Heading3White {font-weight:bold; font-size:14pt; font-family:Arial,Verdana; color:#FFFFFF; font-style: Normal;}
+
+.Heading4      {font-weight:bold; font-size:12pt; font-family:Arial,Verdana; font-style: Normal;}
+.Heading4Fluke {font-weight:bold; font-size:12pt; font-family:Arial,Verdana; color:#FFCC00; font-style: Normal;}
+.Heading4Black {font-weight:bold; font-size:12pt; font-family:Arial,Verdana; color:#000000; font-style: Normal;}
+.Heading4Gray  {font-weight:bold; font-size:12pt; font-family:Arial,Verdana; color:#333333; font-style: Normal;}
+.Heading4Red   {font-weight:bold; font-size:12pt; font-family:Arial,Verdana; color:#FF0000; font-style: Normal;}
+.Heading4Gold  {font-weight:bold; font-size:12pt; font-family:Arial,Verdana; color:#FFCC00; font-style: Normal;}
+.Heading4White {font-weight:bold; font-size:12pt; font-family:Arial,Verdana; color:#FFFFFF; font-style: Normal;}
+
+.Heading5      {font-weight:bold; font-size:11pt; font-family:Arial,Verdana; color:#000000; font-style: Normal;}
+.Heading6      {font-weight:bold; font-size:10pt; font-family:Arial,Verdana; color:#000000; font-style: Normal;}
+
+.TableBorder {background-color:#666666;background:#666666;color:#666666;}
+.NavBorder   {background-color:#0D3664;background:#0D3664;color:#666666;}
+.TopColorBar{background-color:#0D3664;background:#003399;color:#FFCC00;}
+.TopBlackBar{background-color:white;background:white;color:#0D3664
+	}
+ 
+
+
+
+
+.tablebackground{background-color:#E0E0E0;background:#E0E0E0;color:#FFCC00;}
+.LineBackGround{background-color:#FFCC00;background:#FFCC00;color:#FFCC00;}
+.NavLeftTablebackground{background-color:white;background:white;color:White;}
+.NavTop{font-size:8.5pt;font-weight:bold;color:White;text-decoration:none;font-family:Arial,Verdana;}
+.NavTopHighLight{font-size:8.5pt;font-weight:bold;color:black;text-decoration:none;font-family:Arial,Verdana;background-color:#CCCCCC;background:#CCCCCC;}
+.NavtopTDhighlight{background-color:#CCCCCC;color:black;}
+.Navleft1         {font-size:8.5pt;font-weight:bold;color:White;background:#0D3664;text-decoration:none;font-family:Arial,Verdana;}
+.NavleftSelected1 {font-size:8.5pt;font-weight:bold;color:Black;background:DCDCCE;text-decoration:none;font-family:Arial,Verdana;}
+.Navlefthighlight1{font-size:8.5pt;font-weight:bold;color:black;background:#DCDCCE;text-decoration:none;font-family:Arial,Verdana;}
+.NavLeftButtonHover{font-size:8.5pt;font-weight:bold;color:black;background:gray;text-decoration:none;font-family:Arial,Verdana;}
+.NavleftTDhighlight1{background-color:#FFCC00;background:#FFCC00;font-size:8.5pt;font-weight:bold;color:Black;text-decoration:none;font-family:Arial,Verdana;}
+.Navleft3{color:Black;font-size:8.5pt;}
+.Navleft3highlight{color:#FF0000;font-size:8.5pt;}
+.NavRecord          {font-size:8.5pt;font-weight:bold;color:White;background:#666666;text-decoration:none;font-family:Arial,Verdana;}
+.NavRecordLight     {font-size:8.5pt;font-weight:bold;color:White;background:#AAAAAA;text-decoration:none;font-family:Arial,Verdana;}
+.NavRecordHighlight {font-size:8.5pt;font-weight:bold;color:Black;background:#FFCC00;text-decoration:none;font-family:Arial,Verdana;}
+.Product{font-size:8.5pt;font-weight:bold;color:white;background:#666666;text-decoration:none;font-family:Arial,Verdana;}
+.Review{background-color:Yellow;background:Yellow;}
+.Live{background-color:#00CC00;background:#00CC00;}
+.Archive{background-color:#AAAAFF;background:#AAAAFF;}
+
+.ShowTranslation {font-size:8.5pt;font-weight:normal;color:Black;background:#FFC0C0;text-decoration:none;font-family:Arial,Verdana;}
+.Translate {background-color:#FFC0C0;background:#FFC0C0;}
+
+.RegionX {background-color:Silver;background:Silver;}
+.Region0 {background-color:#0000CC;background:#0000CC;}
+.Region1 {background-color:#99FFCC;background:#99FFCC;}
+.Region2 {background-color:#66CCFF;background:#66CCFF;}
+.Region3 {background-color:#FFCCFF;background:#FFCCFF;}
+
+.RegionXNavNormal {font-size:10pt;font-weight:Normal;color:Black;background:Silver;text-decoration:none;font-family:Arial,Verdana;}
+.Region0NavNormal {font-size:10pt;font-weight:Normal;color:Black;background:#0000CC;text-decoration:none;font-family:Arial,Verdana;}
+.Region1NavNormal {font-size:10pt;font-weight:Normal;color:Black;background:#99FFCC;text-decoration:none;font-family:Arial,Verdana;}
+.Region2NavNormal {font-size:10pt;font-weight:Normal;color:Black;background:#66CCFF;text-decoration:none;font-family:Arial,Verdana;}
+.Region3NavNormal {font-size:10pt;font-weight:Normal;color:Black;background:#FFCCFF;text-decoration:none;font-family:Arial,Verdana;}
+.Region4NavNormal {font-size:10pt;font-weight:Normal;color:White;background:Red;text-decoration:none;font-family:Arial,Verdana;}
+.Region5NavNormal {font-size:10pt;font-weight:Normal;color:Black;background:Yellow;text-decoration:none;font-family:Arial,Verdana;}
+
+.RegionXNavMedium {font-size:9pt;font-weight:Normal;color:Black;background:Silver;text-decoration:none;font-family:Arial,Verdana;}
+.Region0NavMedium {font-size:9pt;font-weight:Normal;color:Black;background:#0000CC;text-decoration:none;font-family:Arial,Verdana;}
+.Region1NavMedium {font-size:9pt;font-weight:Normal;color:Black;background:#99FFCC;text-decoration:none;font-family:Arial,Verdana;}
+.Region2NavMedium {font-size:9pt;font-weight:Normal;color:Black;background:#66CCFF;text-decoration:none;font-family:Arial,Verdana;}
+.Region3NavMedium {font-size:9pt;font-weight:Normal;color:Black;background:#FFCCFF;text-decoration:none;font-family:Arial,Verdana;}
+.Region4NavMedium {font-size:9pt;font-weight:Normal;color:White;background:Red;text-decoration:none;font-family:Arial,Verdana;}
+.Region5NavMedium {font-size:9pt;font-weight:Normal;color:Black;background:Yellow;text-decoration:none;font-family:Arial,Verdana;}
+
+.RegionXNavSmall  {font-size:8.5pt;font-weight:Normal;color:Black;background:Silver;text-decoration:none;font-family:Arial,Verdana;}
+.Region0NavSmall  {font-size:8.5pt;font-weight:Normal;color:Black;background:#0000CC;text-decoration:none;font-family:Arial,Verdana;}
+.Region1NavSmall  {font-size:8.5pt;font-weight:Normal;color:Black;background:#99FFCC;text-decoration:none;font-family:Arial,Verdana;}
+.Region2NavSmall  {font-size:8.5pt;font-weight:Normal;color:Black;background:#66CCFF;text-decoration:none;font-family:Arial,Verdana;}
+.Region3NavSmall  {font-size:8.5pt;font-weight:Normal;color:Black;background:#FFCCFF;text-decoration:none;font-family:Arial,Verdana;}
+.Region4NavSmall  {font-size:8.5pt;font-weight:Normal;color:White;background:Red;text-decoration:none;font-family:Arial,Verdana;}
+.Region5NavSmall  {font-size:8.5pt;font-weight:Normal;color:Black;background:Yellow;text-decoration:none;font-family:Arial,Verdana;}
+
+.NavLeftAlert{font-size:8.5pt;font-weight:bold;color:White;background:Red;text-decoration:none;font-family:Arial,Verdana;}
+
+TH {color:#FFCC00; background:Black; font-weight:bold;font-size:10pt;}
+
+A.NavTop:hover{color:#FFCC00;}
+A.NavLeft1:hover{color:gray;}
+A.NavLeftHighlight1:hover{color:gray;}
+A.NavLeftSelected1:hover{color:gray;}
+A.NavRecord:hover{color:#FFCC00;}
+A.HeaderCategory:hover{color:#3366CC;text-decoration:underline;}
+
+PRE {font-size:90%; font-family: "Lucida Console,Courier New,Courier";}
+
+.SW_Forum_formbody
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_formbodylabel
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_formdateelement
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_formemailaddress
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_formemailaddresslabel
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_formemailresponses
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_formemailresponseslabel
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_formfullname
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_formfullnamelabel
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_formmonthelement
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_formpostedby
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_formpostedbylabel
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_formsearch
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_formsearchsmall
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_formsubject
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_formsubjectlabel
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_formyearelement
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_msgbody
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_msgbodylabel
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+  text-decoration: underline
+}
+
+.SW_Forum_msgpostedby
+{
+  color: green;
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_msgpostedbylabel
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_msgpostedon
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_msgpostedonlabel
+{
+  color: gray;
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_viewauthor
+{
+  font-weight: bold;
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+  text-decoration: none
+}
+
+.SW_Forum_viewdate
+{
+  color: gray;
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_viewmanychildren
+{
+  font-style: oblique;
+  font-size: 8.5px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_viewnochildren
+{
+  font-size: 8.5px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_viewonechild
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+.SW_Forum_viewsubject
+{
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+a.SW_Forum_formemailresponses:link
+{
+  color: black;
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+  text-decoration: none
+}
+
+a.SW_Forum_formemailresponses:visited
+{
+  color: #fc6;
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+  text-decoration: none
+}
+
+a.SW_Forum_formemailresponses:hover
+{
+  color: #309;
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+  text-decoration: none
+}
+
+a.SW_Forum_msgpostedby:link
+{
+  color: #309;
+  font-weight: bold;
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+  text-decoration: underline
+}
+
+a.SW_Forum_msgpostedby:hover
+{
+  color: black;
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+a.SW_Forum_viewsubject:link
+{
+  color: #309;
+  font-weight: bold;
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+  text-decoration: underline
+}
+
+a.SW_Forum_viewsubject:visited
+{
+  color: gray;
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+a.SW_Forum_viewsubject:hover
+{
+  color: black;
+  font-size: 9px;
+  font-family: Arial, Helvetica;
+}
+
+h1
+{
+  font-size: 14px;
+  font-family: Arial, Helvetica;
+}
+
+h2
+{
+  font-size: 12px;
+  font-family: Arial, Helvetica;
+}

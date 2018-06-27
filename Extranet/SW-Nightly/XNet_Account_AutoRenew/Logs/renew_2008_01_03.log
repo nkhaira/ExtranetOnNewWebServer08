@@ -1,0 +1,53 @@
+
+----- 1/3/2008 4:00:02 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: JEFFSEEFELD 60 PARAGONI@EXECPC.COM Mail sent
+	User: jackdog 30 brad@halfpennysales.com Mail sent
+	User: lannymccormack 60 lanny.mccormack@fluke.com Mail sent
+	User: JustusFehling 30 justus.fehlig@unielektro.deconflict on CMS_Region
+	User: eurekaelect 30 eurek@telsur.cl Mail sent
+
+Handling site Pomona-Sales
+	User: JEFFSEEFELD 60 PARAGONI@EXECPC.COM Mail sent
+
+Handling site Meterman-Sales
+	User: JEFFSEEFELD 60 PARAGONI@EXECPC.COM Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+
+Handling site Educators
+	User: kmfreel 14 kmfreel@iastate.edu Mail sent
+	User: ajc6644 30 tony.caruso@duke.edu Mail sent
+	User: Nicholas Neo 30 NicholasNeo@smrt.com.sg Mail sent
+	User: Chinhinpok 30 chinhp@charteredsemi.com Mail sent
+	User: garyAcoleman 14 gary_coleman@hotmail.com Mail sent
+	User: villacuestacol 30 gvilla@cuesta.edu Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		5	4
+Pomona-Sales		1	1
+Meterman-Sales		1	1
+Ircon-Sales		0	0
+Hart-Sales		0	0
+Educators		6	6
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

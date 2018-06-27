@@ -1,0 +1,56 @@
+
+----- 2/14/2008 4:00:02 AM
+
+Handling site Calibration-Sales
+	User: carol pelletier 30 carol.pelletier@fluke.com Mail sent
+
+Handling site FInd-Sales
+	User: REDDYEDDIE 30 EADAMS@APPLIED.COM Mail sent
+	User: carol pelletier 30 carol.pelletier@fluke.com Mail sent
+	User: anne-marie 30 anne-marie.chmilnitzky@sonepardis.ca Mail sent
+	User: David McHardy 30 dmchardy@wesco.com Mail sent
+
+Handling site Pomona-Sales
+	User: REDDYEDDIE 30 EADAMS@APPLIED.COM Mail sent
+	User: deanmanix 30 dean.manix@mouser.com Mail sent
+
+Handling site Meterman-Sales
+	User: REDDYEDDIE 30 EADAMS@APPLIED.COM Mail sent
+	User: carol pelletier 30 carol.pelletier@fluke.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: kevinhart 30 kevin.mcclure@fluke.com Mail sent
+
+Handling site Educators
+	User: rich colton 14 rcolt3@juno.com Mail sent
+	User: ahendricks@kctcs 30 arthura.hendricks@kctcs.edu Mail sent
+	User: felipefluke 30 felipe.hernandez@harlingen.tstc.edu Mail sent
+	User: tlharman 60 harman@uhcl.edu Mail sent
+	User: TonyAlvarado 30 alvaraa@email.uc.edu  Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+	User: carol pelletier 30 carol.pelletier@fluke.com Mail sent
+Site		Expirers	Emails
+Calibration-Sales		1	1
+FInd-Sales		4	4
+Pomona-Sales		2	2
+Meterman-Sales		2	2
+Ircon-Sales		0	0
+Hart-Sales		1	1
+Educators		5	5
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		1	1
+Total sites = 12

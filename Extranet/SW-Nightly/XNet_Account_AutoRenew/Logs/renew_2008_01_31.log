@@ -1,0 +1,62 @@
+
+----- 1/31/2008 4:00:02 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: NancyMartin 14 nmartin@martinsales.com Mail sent
+	User: fmicheli 30 frida.micheli@fluke.comconflict on CMS_Region
+	User: petteri 60 petteri.raninen@nedis.ficonflict on CMS_Region
+	User: mbarata 60 comercial@servelec.ptconflict on CMS_Region
+
+Handling site Pomona-Sales
+
+Handling site Meterman-Sales
+	User: NancyMartin 14 nmartin@martinsales.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: dharrell 30 dharrell@meas-inst.com Mail sent
+
+Handling site Educators
+	User: pweikert 14 pweikert@wctc.edu Mail sent
+	User: dfragnito 30 ext@xornet.net Mail sent
+	User: LowellUWRF 30 lowell.mccann@uwrf.edu Mail sent
+	User: zqzhai11 14 john.zhai@colorado.edu Mail sent
+	User: wkshipe 30 bshipe@sun-tech.org Mail sent
+	User: DJATC29 30 djatc29@aol.com Mail sent
+	User: panolacollege 30 ghughes@panola.edu Mail sent
+	User: garcia7854 30 garcia7854@bellsouth.net Mail sent
+	User: dbecker 30 dbecker@jsasd.k12.pa.us Mail sent
+	User: Glen Hammonds 30 glenhammo@aol.com Mail sent
+	User: eceparts 30 WIRKES@ENGR.WISC.EDU Mail sent
+	User: davegilson 14 tera-byte@earthlink.net Mail sent
+	User: smcarthur 60 smcarthur@yorktech.com Mail sent
+	User: francis vigil 30 francis@csejatc.org Mail sent
+	User: American Trainco 30 jims@americantrainco.com Mail sent
+	User: mdommer 14 mdommer@indianhills.edu Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		4	1
+Pomona-Sales		0	0
+Meterman-Sales		1	1
+Ircon-Sales		0	0
+Hart-Sales		1	1
+Educators		16	16
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

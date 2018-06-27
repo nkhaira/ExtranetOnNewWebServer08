@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\SW-Read_File.dll
+bin\Debug\SW-Read_File.pdb
+obj\Debug\SW-Read_File.dll
+obj\Debug\SW-Read_File.pdb

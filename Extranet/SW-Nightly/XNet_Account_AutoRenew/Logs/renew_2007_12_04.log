@@ -1,0 +1,70 @@
+
+----- 12/4/2007 4:00:01 AM
+
+Handling site Calibration-Sales
+	User: asoentbb 30 info@asoent.com Mail sent
+
+Handling site FInd-Sales
+	User: jackdog 60 brad@halfpennysales.com Mail sent
+	User: lebolin 14 lbolin@texasreps.com Mail sent
+	User: JustusFehling 60 justus.fehlig@unielektro.deconflict on CMS_Region
+	User: lasielectronica 14 mgarrocho@lasi.ptconflict on CMS_Region
+	User: eurekaelect 60 eurek@telsur.cl Mail sent
+
+Handling site Pomona-Sales
+
+Handling site Meterman-Sales
+	User: lebolin 14 lbolin@texasreps.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: asoentbb 30 info@asoent.com Mail sent
+
+Handling site Educators
+	User: jwatson52 14 jwatson@northmetrotech.edu Mail sent
+	User: ProfPACT 30 steve.michener@mhcc.edu Mail sent
+	User: ajc6644 60 tony.caruso@duke.edu Mail sent
+	User: JBCode1 14 JBCode1@yahoo.com Mail sent
+	User: jreeder 14 james.reeder@target.com Mail sent
+	User: ckbuckham 14 bucky5@qwest.net Mail sent
+	User: rebrixen 30 brixen@smccd.edu Mail sent
+	User: BWrightSamaritan 30 bwright@samaritan.org Mail sent
+	User: ehughesidg 60 ernest.hughes@idg-corp.com Mail sent
+	User: jhyacint 14 john.hyacinthe@fluke.com Mail sent
+	User: sheila bayne 14 sheila.bayne@va.gov Mail sent
+	User: Nicholas Neo 60 NicholasNeo@smrt.com.sg Mail sent
+	User: mamundson 14 amundsonmb@netscape.net Mail sent
+	User: mjfoley 30 mfoley@technicalconsultantsgroup.com Mail sent
+	User: Chinhinpok 60 chinhp@charteredsemi.com Mail sent
+	User: Marlonzzz 14 mcarson@porterbrown.com Mail sent
+	User: 56Mrssparky 30 102054norm@cox.net Mail sent
+	User: Charles Yeater 14 cryeater@mjctc.org Mail sent
+	User: mmeuer03 14 michael.meuer@med.ge.com Mail sent
+	User: villacuestacol 60 gvilla@cuesta.edu Mail sent
+	User: physuncch 14 fredb@physics.unc.edu Mail sent
+	User: scalfortney 14 tfortney@scroc.k12.ca.us Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		1	1
+FInd-Sales		5	3
+Pomona-Sales		0	0
+Meterman-Sales		1	1
+Ircon-Sales		0	0
+Hart-Sales		1	1
+Educators		22	22
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

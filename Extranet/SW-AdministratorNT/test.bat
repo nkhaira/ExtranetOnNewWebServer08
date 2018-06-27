@@ -1,0 +1,1 @@
+d:\extranet\sw-administrator\IISAccess.vbs > d:\extranet\sw-administrator\log.txt

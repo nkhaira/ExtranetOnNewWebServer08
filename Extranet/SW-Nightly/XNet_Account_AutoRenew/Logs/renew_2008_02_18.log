@@ -1,0 +1,53 @@
+
+----- 2/18/2008 4:00:02 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: glenn@masline.com 30 glenn@masline.com Mail sent
+	User: gasteiz 60 electronica@gasteiz-ce.comconflict on CMS_Region
+
+Handling site Pomona-Sales
+	User: masline 30 glenn@masline.com Mail sent
+	User: glenn@masline.com 30 glenn@masline.com Mail sent
+
+Handling site Meterman-Sales
+	User: glenn@masline.com 30 glenn@masline.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+
+Handling site Educators
+	User: ShawnAgent007 14 shawn.ward@chaffey.edu Mail sent
+	User: eiseledl 60 deisele@atsor.com Mail sent
+	User: FlukeEater 30 rduke@iuoe.org Mail sent
+	User: trucks7387 60 trucks7387@yahoo.com Mail sent
+	User: keithgascon 60 kgascon@ccboe.com Mail sent
+	User: beyoungjr 30 blaine.young@us.army.mil Mail sent
+	User: Sgtchad18 60 cyorke@bohlco.com Mail sent
+	User: dgonser 60 dgonser@clark.edu Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		2	1
+Pomona-Sales		2	2
+Meterman-Sales		1	1
+Ircon-Sales		0	0
+Hart-Sales		0	0
+Educators		8	8
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

@@ -1,0 +1,3 @@
+<%
+response.redirect "/default.asp"
+%>

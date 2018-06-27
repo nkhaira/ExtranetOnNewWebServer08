@@ -1,0 +1,7 @@
+lcd D:\Extranet\SW-Administrator\Fileupload_Temp
+open ftp://Fluke.ingest.cdn.level3.net
+fluke
+KaxETa6vsg
+prompt
+put Download/Asset/9825251_ENG_A_W.PDF
+bye

@@ -1,0 +1,77 @@
+
+----- 1/14/2008 4:00:02 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: Mitchell 14 mike@mitchellinstrument.com Mail sent
+	User: mgoloback 14 mgoloback@mcauliffesales.com Mail sent
+	User: bstollberg 14 Bstollberg@wernerelectric.com Mail sent
+	User: HughesMR 14 susan.peterson@hughessupply.com Mail sent
+	User: ERIK.STOCX 30 ERIK.STOCX@FLUKE.NLconflict on CMS_Region
+	User: flustasup 14 sales@standardsupply.com Mail sent
+	User: vaskojukka 30 jukka.vasko@yeint.ficonflict on CMS_Region
+	User: BONNARD 30 chb@wanadoo.frconflict on CMS_Region
+	User: Electro-5-2 60 claude.denis@electro5.com Mail sent
+	User: mecotronic 30 info@mecotronic.beconflict on CMS_Region
+	User: ssawyer 14 steve.sawyer@westburne.ca Mail sent
+	User: Carsten 30 carsten.barth@schmidt-lebach.deconflict on CMS_Region
+	User: Carsten 30 carsten.barth@schmidt-lebach.deconflict on CMS_Region
+
+Handling site Pomona-Sales
+	User: moogotron 14 bwest@marlac.com Mail sent
+
+Handling site Meterman-Sales
+	User: Mitchell 14 mike@mitchellinstrument.com Mail sent
+	User: mgoloback 14 mgoloback@mcauliffesales.com Mail sent
+	User: HughesMR 14 susan.peterson@hughessupply.com Mail sent
+	User: bstollberg 14 Bstollberg@wernerelectric.com Mail sent
+	User: flustasup 14 sales@standardsupply.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: VanKainen 14 davidvk@meas-inst.com Mail sent
+	User: dssyntek 14 dssyntek@aol.com Mail sent
+	User: gillipper 60 glipper@verizon.net Mail sent
+
+Handling site Educators
+	User: bnienhouse 30 bnienhouse@sau16.org Mail sent
+	User: whiteshark 14 lwflash1@comcast.net Mail sent
+	User: Electech 60 rwilliams@stny.rr.com Mail sent
+	User: rdbrock 60 rdbrock@waketech.edu Mail sent
+	User: rsundermeyer@qwest.n 60 rsundermeyer@qwest.net Mail sent
+	User: johnaden 14 jaden@alltel.net Mail sent
+	User: Donald Sawyers 14 dws474@earthlink.net Mail sent
+	User: MMiersSR 60 mmierssr@aol.com Mail sent
+	User: kwittner 60 keith.wittner@tstc.edu Mail sent
+	User: wcccdhem 30 mlivsey1@wcccd.edu Mail sent
+	User: phoenixpipe 30 mwall@pipetrades.org Mail sent
+	User: drscott 30 s_schneider@ltu.edu Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+	User: msukley@advent 14 msukley@advent-elect.com Mail sent
+	User: carol  j pelletier 14 carol.pelletier@fluke.com Mail sent
+	User: davidlong 14 dlong@advent-elect.com Mail sent
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		13	7
+Pomona-Sales		1	1
+Meterman-Sales		5	5
+Ircon-Sales		0	0
+Hart-Sales		3	3
+Educators		12	12
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		3	3
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

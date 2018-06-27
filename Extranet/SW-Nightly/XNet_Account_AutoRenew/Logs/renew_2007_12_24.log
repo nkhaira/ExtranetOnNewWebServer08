@@ -1,0 +1,71 @@
+
+----- 12/24/2007 4:00:02 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: tomgerm 14 tgerm@leffelectric.com Mail sent
+	User: bvellema 14 bert.vellema@fluke.nlconflict on CMS_Region
+	User: twilcox@pelec.com 14 twilcox@pelec.com Mail sent
+	User: dtbdan1 30 dwerthamer@onesa.com Mail sent
+	User: jflagg7 60 gmppartsco@yahoo.com Mail sent
+	User: Len Naylor 30 len@cuthbertsonlaird.co.ukconflict on CMS_Region
+	User: paaubry 30 pa.aubry@distrame.frconflict on CMS_Region
+	User: davidfuentes 60 dfuentes@abm.esconflict on CMS_Region
+	User: davidfuentes 60 dfuentes@abm.esconflict on CMS_Region
+
+Handling site Pomona-Sales
+	User: twilcox@pelec.com 14 twilcox@pelec.com Mail sent
+	User: jflagg7 60 gmppartsco@yahoo.com Mail sent
+
+Handling site Meterman-Sales
+	User: twilcox@pelec.com 14 twilcox@pelec.com Mail sent
+	User: tomgerm 14 tgerm@leffelectric.com Mail sent
+	User: bvellema 14 bert.vellema@fluke.nl Mail sent
+	User: dtbdan1 30 dwerthamer@onesa.com Mail sent
+	User: jflagg7 60 gmppartsco@yahoo.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: mcabrera 14 marco@inymet.com.mx Mail sent
+
+Handling site Educators
+	User: cmattus 30 ex-fluke@gdansk.bradley.edu Mail sent
+	User: janeenj 60 jan.jacobs@fluke.com Mail sent
+	User: wpointer@umd.edu 14 wpointer@umd.edu Mail sent
+	User: ROlmstead 30 Richard.Olmstead@ucla.edu Mail sent
+	User: sschauhan 60 sschauhan_sdl@yahoo.com Mail sent
+	User: Redwood Empire JATC 14 Williamjcampbell@sbcglobal.net Mail sent
+	User: arlauder 60 arlauder@kangan.edu.au Mail sent
+	User: Steve Bender 60 sbender@terra.edu Mail sent
+	User: ronland 14 rel9@psu.edu Mail sent
+	User: cartrip 30 cartrip@swvainc.com Mail sent
+	User: kenhughes 14 khughes@identifix.com Mail sent
+	User: rmitchell 60 rmitchell@stilesmachinery.com Mail sent
+	User: rfarkas 30 rfarkas@lv-dcsi.com Mail sent
+	User: Avionica 14 fmachucho477@hotmail.com Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		9	4
+Pomona-Sales		2	2
+Meterman-Sales		5	5
+Ircon-Sales		0	0
+Hart-Sales		1	1
+Educators		14	14
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

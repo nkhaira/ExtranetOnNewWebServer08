@@ -1,0 +1,74 @@
+
+----- 12/3/2007 4:00:02 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: lisacurry 14 lcurry@graybarcanada.com Mail sent
+	User: custsvc 30 wkrimm@cesales.com Mail sent
+	User: VPElectronics 60 vp@vpelec.comconflict on CMS_Region
+	User: 20selmatec04 60 m.selent@selmatec.deconflict on CMS_Region
+	User: sigrid1 60 dankel@elektronik-kontor.deconflict on CMS_Region
+	User: tvwbuende 60 info@tvwbuende.deconflict on CMS_Region
+	User: porsche 60 seegers@elektronik-kontor.deconflict on CMS_Region
+	User: JohannesMeyer 60 j.meyer@meyer-messtechnik.deconflict on CMS_Region
+	User: andreastheil 60 info@mu-v.deconflict on CMS_Region
+	User: celestino1 14 enrica.nova@rs-components.comconflict on CMS_Region
+
+Handling site Pomona-Sales
+	User: LouiseL 30 louise.luciani@fluke.com Mail sent
+	User: custsvc 30 wkrimm@cesales.com Mail sent
+
+Handling site Meterman-Sales
+	User: custsvc 30 wkrimm@cesales.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+
+Handling site Educators
+	User: robinmay 60 robing.may@ky.gov Mail sent
+	User: JamesMLucas 60 lucas@oakton.edu Mail sent
+	User: ysrcflyer 60 ysrcflyer@yahoo.com Mail sent
+	User: joeyleonard 60 joey.leonard@nscc.edu Mail sent
+	User: les1979 60 yei@cox.net Mail sent
+	User: jregester 30 jregester@greensboroday.org Mail sent
+	User: virtual1 60 leo@omicinski.com Mail sent
+	User: rangerflsh 60 sgarman45@aim.com Mail sent
+	User: zalatiff 30 acoi@engineer.com Mail sent
+	User: micheal emberton 60 micheal.emberton@monroe.kyschools.us Mail sent
+	User: joetedesco 60 joetedesco@comcast.net Mail sent
+	User: dmccollum 30 dmccollum@columbustech.edu Mail sent
+	User: jeffery_smith2 30 jeffery_smith2@owens.edu Mail sent
+	User: region1cptester 30 beappolloni@sunocologistics.com Mail sent
+	User: jahoudek 30 jahoudek@aol.com Mail sent
+	User: mfrancis 60 mfrancis@nridgeville.org Mail sent
+	User: JON WALESKI 60 jon.waleski@ct.gov Mail sent
+	User: Trane Bryon 30 bwilfong@trane.com Mail sent
+	User: MDenslow 30 matthew.denslow@AFMETCAL.AF.MIL Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+	User: raytekddg 30 david@westconinc.com Mail sent
+	User: pmatone 30 pmatone@advent-elect.com Mail sent
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		10	2
+Pomona-Sales		2	2
+Meterman-Sales		1	1
+Ircon-Sales		0	0
+Hart-Sales		0	0
+Educators		19	19
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		2	2
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

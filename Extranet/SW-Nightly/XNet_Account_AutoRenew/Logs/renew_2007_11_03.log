@@ -1,0 +1,102 @@
+
+----- 11/3/2007 4:00:02 AM
+
+Handling site Calibration-Sales
+	User: jimkliner 14 jkliner@southernmarketing.com Mail sent
+
+Handling site FInd-Sales
+	User: plunanemg 60 pluna@northeastmarketing.com Mail sent
+	User: Alpha North 14 diane@alpha-electronics.comconflict on CMS_Region
+	User: shanemiller 14 shane@gmillercompany.com Mail sent
+	User: TIMHARDESTY 60 thardesty@pelec.com Mail sent
+	User: frankie 14 frank@cuthbertsonlaird.co.ukconflict on CMS_Region
+	User: Winderam 14 john.winderam@fluke.comconflict on CMS_Region
+	User: lrodger3 14 larry3@synergyelectricalsales.com Mail sent
+	User: custsvc 60 wkrimm@cesales.com Mail sent
+	User: bmann@wescodist.com 60 bmann@wesco.com Mail sent
+	User: nic.cuthbertson 14 nic.cuthbertson@cuthbertsonlaird.co.ukconflict on CMS_Region
+	User: brittinh 14 brittinh@alliedgroupsales.com Mail sent
+	User: jordans 30 jordan.schlichting@fluke.com Mail sent
+	User: mdbailey3 60 mbailey@clgelectronics.com Mail sent
+	User: ferriersa 60 ahuatuco@ferriersa.com.pe Mail sent
+
+Handling site Pomona-Sales
+	User: LouiseL 60 louise.luciani@fluke.com Mail sent
+	User: TIMHARDESTY 60 thardesty@pelec.com Mail sent
+	User: lorraine 60 lmn@route22electronics.com Mail sent
+	User: custsvc 60 wkrimm@cesales.com Mail sent
+	User: MBARRY0223 60 margarb@peerlesselectronics.com Mail sent
+	User: bgelectron@cs.com 60 bgelectron@cs.com Mail sent
+
+Handling site Meterman-Sales
+	User: plunanemg 60 pluna@northeastmarketing.com Mail sent
+	User: brittinh 14 brittinh@alliedgroupsales.com Mail sent
+	User: shanemiller 14 shane@gmillercompany.com Mail sent
+	User: TIMHARDESTY 60 thardesty@pelec.com Mail sent
+	User: mdbailey3 60 mbailey@clgelectronics.com Mail sent
+	User: custsvc 60 wkrimm@cesales.com Mail sent
+	User: MBARRY0223 60 margarb@peerlesselectronics.com Mail sent
+	User: lrodger3 14 larry3@synergyelectricalsales.com Mail sent
+	User: ferriersa 60 ahuatuco@ferriersa.com.pe Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: dallenbaugh 30 dallen.baugh@hartscientific.com Mail sent
+
+Handling site Educators
+	User: Stankovic 30 a.stankovic@csuohio.edu Mail sent
+	User: pkynerd 14 pkynerd@dadeschools.net Mail sent
+	User: rommelec2000 14 rommelec2000@yahoo.com Mail sent
+	User: jswenson 60 jeraldswenson@hotmail.com Mail sent
+	User: jmitchell22 14 james.mitchell@sdhc.k12.fl.us Mail sent
+	User: mecfd67 30 mecfd67@yahoo.com Mail sent
+	User: ann kleinfelter 60 ann_kleinfelter@owens.edu Mail sent
+	User: Art Fox 60 art.fox@gilbarco.com Mail sent
+	User: washinfo 60 washinfo@comcast.net Mail sent
+	User: smcpherson 30 mcphers@svcc.edu Mail sent
+	User: DanJATC 60 jatc538@yahoo.com Mail sent
+	User: jregester 60 jregester@greensboroday.org Mail sent
+	User: Dick Pashby 60 Richard.E.Pashby@xcelenergy.com Mail sent
+	User: bmahoney@coxeng.com 60 bmahoney@coxeng.com Mail sent
+	User: lwalker 30 lwalker@cherokeek12.org Mail sent
+	User: zalatiff 60 acoi@engineer.com Mail sent
+	User: Dale Goerge 60 dale@lejatc.org Mail sent
+	User: jdashley 14 donashleyjr@yahoo.com Mail sent
+	User: md80conehead 30 MD80CONEHEAD@VERIZON.NET Mail sent
+	User: Warout5619 60 warren.dejardin@nwtc.edu Mail sent
+	User: dmccollum 60 dmccollum@columbustech.edu Mail sent
+	User: jeffery_smith2 60 jeffery_smith2@owens.edu Mail sent
+	User: region1cptester 60 beappolloni@sunocologistics.com Mail sent
+	User: jahoudek 60 jahoudek@aol.com Mail sent
+	User: lkimmons 60 larry.kimmons@fluke.com Mail sent
+	User: jklooper 14 jeff.looper@tstc.edu Mail sent
+	User: clmurphy 14 clmurphy@davidsonccc.edu Mail sent
+	User: passdom 30 PASSdom@aol.com Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+	User: raytekddg 60 david@westconinc.com Mail sent
+	User: terhart 60 terhart@hightechsys.com Mail sent
+	User: pmatone 60 pmatone@advent-elect.com Mail sent
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		1	1
+FInd-Sales		14	10
+Pomona-Sales		6	6
+Meterman-Sales		9	9
+Ircon-Sales		0	0
+Hart-Sales		1	1
+Educators		28	28
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		3	3
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

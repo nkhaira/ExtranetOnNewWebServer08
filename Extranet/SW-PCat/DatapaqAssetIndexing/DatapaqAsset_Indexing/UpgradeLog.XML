@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DatapaqAssetIndexing">
+</Property><Property Name="Solution File" Value="D:\DatapaqAssetIndexing\DatapaqAssetIndexing.sln">
+</Property><Property Name="User Options File" Value="D:\DatapaqAssetIndexing\DatapaqAssetIndexing.suo">
+</Property><Property Name="Date" Value="Wednesday, June 27, 2007">
+</Property><Property Name="Time" Value="4:20 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="DatapaqAssetIndexing.sln" Description="File successfully backed up as D:\DatapaqAssetIndexing\Backup\DatapaqAssetIndexing.sln">
+</Event><Event ErrorLevel="0" Project="" Source="DatapaqAssetIndexing.suo" Description="File successfully backed up as D:\DatapaqAssetIndexing\Backup\DatapaqAssetIndexing.suo">
+</Event><Event ErrorLevel="0" Project="DatapaqAssetIndexing" Source="DatapaqAssetIndexing.csproj" Description="Project file successfully backed up as D:\DatapaqAssetIndexing\Backup\DatapaqAssetIndexing.csproj">
+</Event><Event ErrorLevel="0" Project="DatapaqAssetIndexing" Source="DatapaqAssetIndexing.csproj.user" Description="Project user file successfully backed up as D:\DatapaqAssetIndexing\Backup\DatapaqAssetIndexing.csproj.user">
+</Event><Event ErrorLevel="0" Project="DatapaqAssetIndexing" Source="AssemblyInfo.cs" Description="File successfully backed up as D:\DatapaqAssetIndexing\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DatapaqAssetIndexing" Source="ListAssets.cs" Description="File successfully backed up as D:\DatapaqAssetIndexing\Backup\ListAssets.cs">
+</Event><Event ErrorLevel="0" Project="DatapaqAssetIndexing" Source="App.ico" Description="File successfully backed up as D:\DatapaqAssetIndexing\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="DatapaqAssetIndexing" Source="DatapaqAssetIndexing.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DatapaqAssetIndexing" Source="DatapaqAssetIndexing.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="DatapaqAssetIndexing.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="DatapaqAssetIndexing.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DatapaqAssetIndexing" Source="DatapaqAssetIndexing.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

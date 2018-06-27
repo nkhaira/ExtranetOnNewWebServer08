@@ -1,0 +1,90 @@
+
+----- 9/1/2007 4:00:02 AM
+
+Handling site Calibration-Sales
+	User: lquesnel 14 luke@testforce.com Mail sent
+	User: e.vagner 30 e.vagner@mbelectronique.fr Mail sent
+
+Handling site FInd-Sales
+	User: nedisbv 60 hermanlokhorst@nedis.nlconflict on CMS_Region
+	User: Joannaji 30 joanna.ji@fluke.com.cn Mail sent
+	User: janders 14 joe.anders@fluke.com Mail sent
+	User: dstocks 30 dickie.stocks@eeco-net.com Mail sent
+	User: janrundquist 14 jan@westconinc.com Mail sent
+	User: nathanf 30 nathan.fergusson@betacom.co.nz Mail sent
+	User: tstuart 14 tstuart@rselectronics.com Mail sent
+	User: mikemorone 30 mmorone@meunierusa.com Mail sent
+	User: AnneKokko 60 anne.kokko@harrico.comconflict on CMS_Region
+	User: reboulsa 14 reboul.sa@wanadoo.frconflict on CMS_Region
+	User: teknotest 14 info@pinto.itconflict on CMS_Region
+	User: leiritronica 60 cmarques@leiritronica.comconflict on CMS_Region
+	User: pciappa 30 p.ciappa@gmail.com Mail sent
+
+Handling site Pomona-Sales
+	User: tstuart 14 tstuart@rselectronics.com Mail sent
+	User: jerryb66 30 jerryb@moyerelectronics.com Mail sent
+	User: janders 14 joe.anders@fluke.com Mail sent
+	User: nathanf-PE 30 nathan.fergusson@betacom.co.nz Mail sent
+	User: mikemorone 30 mmorone@meunierusa.com Mail sent
+	User: pciappa 30 p.ciappa@gmail.com Mail sent
+
+Handling site Meterman-Sales
+	User: tstuart 14 tstuart@rselectronics.com Mail sent
+	User: dstocks 30 dickie.stocks@eeco-net.com Mail sent
+	User: mikemorone 30 mmorone@meunierusa.com Mail sent
+	User: cajames2 60 cjames@carlco.com Mail sent
+	User: janders 14 joe.anders@fluke.com Mail sent
+	User: jerryb66 30 jerryb@moyerelectronics.com Mail sent
+	User: janrundquist 14 jan@westconinc.com Mail sent
+	User: pciappa 30 p.ciappa@gmail.com Mail sent
+
+Handling site Hart-Sales
+
+Handling site Educators
+	User: malcolms 30 malcolms@idl.net.au Mail sent
+	User: Al Cohen 30 cohenal@aol.com Mail sent
+	User: itucker 14 ian.tucker@tafe.nsw.edu.au Mail sent
+	User: garypemble 14 gwpem@mt.net Mail sent
+	User: ebstrickland 30 eb@avconusa.com Mail sent
+	User: dfragnito 14 ext@xornet.net Mail sent
+	User: JennyJia 30 jenny.jia@fluke.com.cn Mail sent
+	User: sharris@nummi.com 14 sharris@nummi.com Mail sent
+	User: lchapman 30 lchapman@nhgs.tec.va.us Mail sent
+	User: stover269 14 jm.stover@comcast.net Mail sent
+	User: megloff 14 megloff@resodyn.com Mail sent
+	User: ThomasBowes 30 tomb@det-ejatc.org Mail sent
+	User: mlindemann 60 markl@alextech.edu Mail sent
+	User: micheal emberton 30 micheal.emberton@monroe.kyschools.us Mail sent
+	User: genomatt 14 genomatt@hotmail.com Mail sent
+	User: tradewindsappliance 30 service@tradewindsappliance.com Mail sent
+	User: Glen Hammonds 14 glenhammo@aol.com Mail sent
+	User: rrcoleman 14 rcoleman@seminole-electric.com Mail sent
+	User: TBruder 60 tbruder@martinez.k12.ca.us Mail sent
+	User: HarryIrvin 14 Harry.Irvin@correctionscorp.com Mail sent
+	User: bhshaffer 30 blair.shaffer@crucible.com Mail sent
+	User: mark nichelson 30 mnichelson@sctc.edu Mail sent
+	User: msallen2 30 sallen@clcillinois.edu Mail sent
+	User: andréroy 60 androy@cegep-rdl.qc.ca Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		2	2
+FInd-Sales		13	8
+Pomona-Sales		6	6
+Meterman-Sales		8	8
+Hart-Sales		0	0
+Educators		24	24
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 11

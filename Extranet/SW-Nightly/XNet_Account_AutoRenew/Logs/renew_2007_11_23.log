@@ -1,0 +1,56 @@
+
+----- 11/23/2007 4:00:02 AM
+
+Handling site Calibration-Sales
+	User: FTWROFPM 30 mchenft@seed.net.tw Mail sent
+
+Handling site FInd-Sales
+	User: dgorton 14 daniel.gorton@fluke.comconflict on CMS_Region
+	User: Buyersind 60 kerry@buyersind.com Mail sent
+	User: BONFANTINI 60 roberto.bonfantini@amperespa.itconflict on CMS_Region
+
+Handling site Pomona-Sales
+	User: CDonham 60 cdonham@restronics.com Mail sent
+
+Handling site Meterman-Sales
+	User: Buyersind 60 kerry@buyersind.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: FTWROFPM 30 mchenft@seed.net.tw Mail sent
+
+Handling site Educators
+	User: wd6borfluke 14 wd6bor@vom.com Mail sent
+	User: kmikemoo 30 mmoore@baldor.com Mail sent
+	User: charlesbaker 60 charlesb@terra-electric.com Mail sent
+	User: scottmss 14 scott@mssteel.com Mail sent
+	User: cejatc38 60 director@cejatc.org Mail sent
+	User: wasifam 60 wasifam@yahoo.com Mail sent
+	User: emrogers 14 emrogers@wsu.edu Mail sent
+	User: chrisj2003 14 chrisjag@ptd.net Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+	User: FTWROFPM 30 mchenft@seed.net.tw Mail sent
+Site		Expirers	Emails
+Calibration-Sales		1	1
+FInd-Sales		3	1
+Pomona-Sales		1	1
+Meterman-Sales		1	1
+Ircon-Sales		0	0
+Hart-Sales		1	1
+Educators		8	8
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		1	1
+Total sites = 12

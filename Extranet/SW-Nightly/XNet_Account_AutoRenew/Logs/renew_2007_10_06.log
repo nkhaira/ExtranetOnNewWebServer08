@@ -1,0 +1,90 @@
+
+----- 10/6/2007 4:00:03 AM
+
+Handling site Calibration-Sales
+	User: Jim Bateman 30 jim@proteqsolutions.com Mail sent
+	User: cnnekphor 14 phor@cnn.com.my Mail sent
+	User: Yves Levesque 60 yves.levesque@testforce.com Mail sent
+
+Handling site FInd-Sales
+	User: bahani_yoni 14 yonib@rdt.co.ilconflict on CMS_Region
+	User: rellimlrak 14 kmiller@fmponline.com Mail sent
+	User: stevennelson 14 smills@itcelectronics.com Mail sent
+	User: cheidenreich 14 c.heidenreich@beha.deconflict on CMS_Region
+	User: ANDYCROW 14 acrow@cdielectronics.com Mail sent
+	User: David P Sand 14 davids@alphacontrols.com Mail sent
+	User: Dmazzocco 60 DaveM@apsiusa.com Mail sent
+	User: Jan Jacobs 30 jan.jacobs@fluke.com Mail sent
+	User: Julie Kriz 60 jmkriz@swbell.net Mail sent
+	User: delta3nltd 14 baksaig@delta3n.huconflict on CMS_Region
+	User: delta3nltd 14 baksaig@delta3n.huconflict on CMS_Region
+	User: molinario 60 marco.molinario@dqm.itconflict on CMS_Region
+
+Handling site Pomona-Sales
+	User: stevennelson 14 smills@itcelectronics.com Mail sent
+
+Handling site Meterman-Sales
+	User: stevennelson 14 smills@itcelectronics.com Mail sent
+	User: ANDYCROW 14 acrow@cdielectronics.com Mail sent
+	User: Dmazzocco 60 DaveM@apsiusa.com Mail sent
+	User: Julie Kriz 60 jmkriz@swbell.net Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: David Sand 14 davids@alphacontrols.com Mail sent
+
+Handling site Educators
+	User: jwilkes 14 jwilkes@centralgatech.edu Mail sent
+	User: kevin.hall 14 kevin.hall@wintec.ac.nz Mail sent
+	User: jwarhola 14 jwarhola@cttransit.com Mail sent
+	User: Michael Boyle 14 mboyle@kangan.edu.au Mail sent
+	User: j coyle 30 reggie213@comcast.net Mail sent
+	User: CRCTCLMC 60 ccrain@louisianamachinery.com Mail sent
+	User: Thomas Love 30 THLove@Chevron.com Mail sent
+	User: andsievicjt 60 sherry.anderson@pennfoster.edu Mail sent
+	User: drdanon 30 danony@rpi.edu Mail sent
+	User: denisgreen 60 greend@linnbenton.edu Mail sent
+	User: wpierce3 30 wilfred.pierce@slcc.edu Mail sent
+	User: johnpjenkins 60 johnpjenki@cs.com Mail sent
+	User: Roger Kozera1 60 roger.kozera@gbe.com Mail sent
+	User: whendrix 60 w.hendrix@cei-electric.com Mail sent
+	User: bmayhak 14 bert.mayhak@mstc.edu Mail sent
+	User: froeder 60 froeder@rish.com Mail sent
+	User: JIM DRAVAGE 30 CANDY33999@MSN.COM Mail sent
+	User: howardl 30 lawrence.howard@tyson.com Mail sent
+	User: mulligane 14 mulligane@lcti.org Mail sent
+	User: kspragins 60 kensprag@middlegatech.edu Mail sent
+	User: larsonj 14 larsonj@pearlandisd.org Mail sent
+	User: joe_maintenance 30 Boppisue@bellsouth.net Mail sent
+	User: superbee 60 mhayes@sunline.org Mail sent
+	User: s002160 30 jrg9@alltel.net Mail sent
+	User: pcbelarge 60 techtrainsolutions@msn.com Mail sent
+	User: emech-tec 30 welchw@westerntc.edu Mail sent
+	User: jack.bailey 30 jack.bailey@eac.edu Mail sent
+	User: rmsegarra 14 rmsegarra@excite.com Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+	User: JohnDMiller 14 john.miller@raytek.com Mail sent
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		3	3
+FInd-Sales		12	7
+Pomona-Sales		1	1
+Meterman-Sales		4	4
+Ircon-Sales		0	0
+Hart-Sales		1	1
+Educators		28	28
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		1	1
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

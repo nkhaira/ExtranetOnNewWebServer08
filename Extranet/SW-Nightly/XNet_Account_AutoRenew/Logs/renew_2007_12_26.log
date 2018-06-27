@@ -1,0 +1,63 @@
+
+----- 12/26/2007 4:00:02 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: daniel goldsmith 60 dgoldsmith@newarkinone.com Mail sent
+	User: jbachman 14 jeremy.bachman@mcswebsite.com Mail sent
+	User: Cristina Bermudez 30 cristina.bermudez@fluke.comconflict on CMS_Region
+	User: BOUTETSA 30 philippe.tombeux@boutet.beconflict on CMS_Region
+	User: ARATRONIKAZGZ 30 miguel.ochoa@aratronika.comconflict on CMS_Region
+	User: ARATRONIKAZGZ 30 miguel.ochoa@aratronika.comconflict on CMS_Region
+	User: oscarduran 30 oduran@rexel.esconflict on CMS_Region
+
+Handling site Pomona-Sales
+	User: daniel goldsmith 60 dgoldsmith@newarkinone.com Mail sent
+
+Handling site Meterman-Sales
+	User: daniel goldsmith 60 dgoldsmith@newarkinone.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: jhartson 14 jhartson@frontiernet.net Mail sent
+	User: charles.verget 30 charles.verget@cmaltd.com Mail sent
+
+Handling site Educators
+	User: cien_mando 14 cien_mando@yahoo.com.mx Mail sent
+	User: yorktraining 14 david.w.sullivan@jci.com Mail sent
+	User: Chickman1959 30 hickmcm@hotmail.com Mail sent
+	User: ddriscoll 30 ddriscoll@fullsail.com Mail sent
+	User: Martin Handley 60 handley@msoe.edu Mail sent
+	User: grover49 60 jerry.noordenbos@pampaisd.net Mail sent
+	User: John Sloan 14 jsloan@shawver.net Mail sent
+	User: keithcasey 14 keith.casey@wilkescc.edu Mail sent
+	User: crescent409 60 crescentsales@marinersplaza.com Mail sent
+	User: wwittmus 30 wade.wittmus@gotoltc.edu Mail sent
+	User: bebaird 60 brett.baird@slcc.edu Mail sent
+	User: NicoleU 60 nustanik@in-techonline.org Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		7	2
+Pomona-Sales		1	1
+Meterman-Sales		1	1
+Ircon-Sales		0	0
+Hart-Sales		2	2
+Educators		12	12
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

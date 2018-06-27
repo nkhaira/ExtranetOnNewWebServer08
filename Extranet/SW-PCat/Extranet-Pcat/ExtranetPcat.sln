@@ -1,0 +1,17 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtranetPcat", "ExtranetPcat\ExtranetPcat.csproj", "{80954D58-8323-4BDA-8832-FAB50E4B9750}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80954D58-8323-4BDA-8832-FAB50E4B9750}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{80954D58-8323-4BDA-8832-FAB50E4B9750}.Release|Default.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

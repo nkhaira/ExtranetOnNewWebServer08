@@ -1,0 +1,177 @@
+<!--#include virtual="/sw-administrator/SW-PCAT_FNET_IISSERVER.asp"-->
+<!--#include virtual="/connections/connection_SiteWide.asp"-->
+<!--#include virtual="/include/functions_string.asp"-->
+<!--#include virtual="/include/functions_translate.asp"-->
+<%
+'on error resume next
+Dim errorText
+Dim Site_ID, optiontext
+Call Connect_SiteWide
+Site_ID=Request.Form("Site_ID")
+
+optiontext = false
+'' PCAT Interface
+'' Called by Calendar_Edit_Add.asp or Calendar_Edit_Update.asp depending on PCAT_System value.
+
+if (Site_ID = 3 Or Site_ID = 46) then
+    if IsNumeric(Calendar_ID) then
+        SQL = "SELECT Item_Number, Count(*) AS Counts FROM dbo.Calendar WHERE (Item_Number = '" & CStr(request.form("Item_Number")) & "') GROUP BY Item_Number"
+        Set rsAllItems = Server.CreateObject("ADODB.Recordset")
+        rsAllItems.Open SQL, conn, 3, 3
+
+        if not rsAllItems.EOF then
+	        optiontext = true
+        end if
+
+        rsAllItems.close
+        set rsAllItems = nothing
+    end if
+end if
+
+if clng(request.form("PCat"))>= 0 then
+	if (trim(request.form("opr"))="U" AND optiontext = false)   then 
+			Dim objCommand	
+			Dim rsResult
+			Dim strResult
+			Dim arrResult
+			Dim errCount
+			if isnumeric(request.form("ID")) then
+			    'RI-668
+			    Id=CLng(request.form("ID"))
+            else
+                Id=0
+            end if		
+            
+			ProcSql="exec PCAT_FNET_VALIDATEDATA " & "'" & replace(request.form("Title"),"'","&acute;") & _
+			"'," & Id & "," & cint(request.form("Category_ID")) & "," & CInt(Site_ID) & _
+			",'" & request.form("Content_Language") & "','" & request.form("Item_Number") & "'," & _
+			clng(request.form("PCat"))
+			Set rsResult = Conn.execute(ProcSql)
+			
+			if not(rsResult.eof or rsResult.bof) then
+				strResult=rsResult.fields(0).value 
+				if isnull(strResult)=false then
+				    arrResult=split(strResult,"$")
+				    For errCount=0 to UBound(arrResult)
+					    if errCount= UBound(arrResult) then
+					        strLanguage= arrResult(errCount)
+					    else
+					        if trim(arrResult(errCount)) <> "" then
+						        errorText = errorText & Translate(arrResult(errCount) & vbCrLf,Login_Language,conn)
+					        end if
+					    end if    
+					    
+				    next
+				end if
+			else
+				errorText = errorText & Translate("Error occured while validating record." & vbCrLf,Login_Language,conn)
+			end if
+			
+			Country=Request.Form("Country")
+			
+			if Not isblank(Request.form("Country")) and instr(1,Request.form("Country_Reset"),"none") = 0 then
+				if instr(1,Request.form("Country_Reset"),"0") > 0 then  'Exclude these countries
+					Country= "0," & killquote(Country) 
+				else ' Include these countries
+					Country= "1," & killquote(Country) 
+				end if  
+			else 'No Restrictions 
+				Country= "none"
+			end if
+				
+			set Validate=server.CreateObject("Msxml2.SERVERXMLHTTP.6.0")
+			'Pass the actual url here
+			call Validate.open("POST",striisserverpath,0,0,0)
+			call Validate.setRequestHeader("Content-Type", "application/x-www-form-urlencoded")
+			call Validate.send("operation=V&IncludeExclude=" & Country & "&language=" & strLanguage & _
+			"&prodSubType=" & Request.form("Category_ID") & _
+			"&assetpid=" & Request.form("PCat") & "&SiteID=" & Site_ID & _
+			"&oraclenumber=" & Request.form("Item_Number")) 
+			strResult=Validate.responseXML.XML
+			set objxml=Server.CreateObject("msxml2.domdocument")
+			call objxml.loadxml(strResult)
+			set objcol=objxml.selectsingleNode("Validate")
+			if not(objcol is nothing) then
+			    if trim(objcol.text)="FALSE" then
+				    errorText = errorText & Translate("Catalog or Locale not present for this language." & vbCrLf,Login_Language,conn) 
+			    elseif trim(objcol.text)="SUBTYPE" then
+					errorText = errorText & Translate("Product Subtype not available in PCat. Please check “Do not show on web” for this asset type." & vbCrLf,Login_Language,conn) 
+				elseif trim(lefT(objcol.text,6))="LOCALE" then
+					errorText = errorText & Translate(mid(objcol.text,8) & vbCrLf,Login_Language,conn) 		
+			    end if 
+			end if 
+			if trim(errorText) = "" then
+                   'Modified for Pcat-Asset Relationship on 26-01-2006
+	                if isnumeric(request.form("ID")) then
+	                    PcatValidateSql="select Id,Title,PID from calendar where clone=" & request.form("ID")  & _
+	                    " and site_id= " & CInt(Site_ID)
+	                    '''Validation for clones.
+	                    set rsValidate=conn.execute(PcatValidateSql)
+	                    if not(rsValidate.eof) then
+	                            errorText="confirm" & "Following child records exist for this record.Do you want to continue?" & vbCrLf
+	                            Do while not(rsvalidate.eof)
+			                        errorText=errorText & "Id = " & rsvalidate.fields("Id").value & " | Title= " & replace(rsvalidate.fields("Title").value,"&acute;","'") & vbCrLf
+			                        rsvalidate.movenext
+	                            loop
+		                        rsValidate.close
+		                        set rsvalidate=nothing
+	                    else
+		                    rsValidate.close
+		                    set rsvalidate=nothing
+	                    end if
+	                end if			
+			end if
+    elseif (trim(request.form("opr"))="D")   then 
+	        'Modified for Pcat-Asset Relationship on 26-01-2006
+	        if isnumeric(request.form("ID")) then
+	            PcatValidateSql="select Id,Title from calendar where clone=" & request.form("ID")  & _
+	            " and site_id= " & CInt(Site_ID)
+	            '''Validation for clones.
+	            set rsValidate=conn.execute(PcatValidateSql)
+	            if not(rsValidate.eof) then
+	                errorText="confirm" & "Following child records already exist for this record.Do you want to continue?" & vbCrLf
+	                Do while not(rsvalidate.eof)
+			            errorText=errorText & "Id = " & rsvalidate.fields("Id").value & " | Title= " & replace(rsvalidate.fields("Title").value,"&acute;","'") & vbCrLf
+			            rsvalidate.movenext
+	                loop
+		            rsValidate.close
+		            set rsvalidate=nothing
+	            else
+		            rsValidate.close
+		            set rsvalidate=nothing
+	            end if
+	        end if
+	end if		
+else
+    'Modified for Pcat-Asset Relationship on 26-01-2006
+	        if isnumeric(request.form("ID")) then
+	            PcatValidateSql="select Id,Title from calendar where clone=" & request.form("ID")  & _
+	            " and site_id= " & CInt(Site_ID)
+	            '''Validation for clones.
+	            set rsValidate=conn.execute(PcatValidateSql)
+	            if not(rsValidate.eof) then
+	                errorText="confirm" & "Following child records already exist for this record.Do you want to continue?" & vbCrLf
+	                Do while not(rsvalidate.eof)
+			            errorText=errorText & "Id = " & rsvalidate.fields("Id").value & " | Title= " & replace(rsvalidate.fields("Title").value,"&acute;","'") & vbCrLf
+			            rsvalidate.movenext
+	                loop
+		            rsValidate.close
+		            set rsvalidate=nothing
+	            else
+		            rsValidate.close
+		            set rsvalidate=nothing
+	            end if
+	        end if
+end if	
+
+if trim(errorText) <> "" then
+        Response.ContentType = "text/xml"
+        Response.Charset     = "utf-16"
+        Response.BinaryWrite errorText
+elseif  err.number <> 0 then   
+        Response.ContentType = "text/xml"
+        Response.Charset     = "utf-16"
+        Response.BinaryWrite "Error - " & err.Description
+end if
+%>
+

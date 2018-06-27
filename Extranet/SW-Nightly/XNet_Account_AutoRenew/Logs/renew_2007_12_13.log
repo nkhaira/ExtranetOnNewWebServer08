@@ -1,0 +1,75 @@
+
+----- 12/13/2007 4:00:02 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: sarco1234 30 jphan@123edistribution.com Mail sent
+	User: bayoublack 30 charlie@bayoublackelec.com Mail sent
+	User: RentalLabs 30 loren@testequip.com Mail sent
+	User: summitclute 60 alincoln@summit.com Mail sent
+	User: crobbins 30 crobbins@rselectronics.com Mail sent
+	User: ITCELECTRONICS 60 INFO@ITCELECTRONICS.COM Mail sent
+	User: annelincoln 60 alincoln@summit.com Mail sent
+
+Handling site Pomona-Sales
+	User: sarco1234 30 jphan@123edistribution.com Mail sent
+	User: bchiappi 30 bob.chiappi@mouser.com Mail sent
+	User: crobbins 30 crobbins@rselectronics.com Mail sent
+	User: ITCELECTRONICS 60 INFO@ITCELECTRONICS.COM Mail sent
+
+Handling site Meterman-Sales
+	User: sarco1234 30 jphan@123edistribution.com Mail sent
+	User: crobbins 30 crobbins@rselectronics.com Mail sent
+	User: ITCELECTRONICS 60 INFO@ITCELECTRONICS.COM Mail sent
+	User: bayoublack 30 charlie@bayoublackelec.com Mail sent
+	User: RentalLabs 30 loren@testequip.com Mail sent
+	User: sermag1 30 sergio@sermagsa.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+
+Handling site Educators
+	User: RichLKing 30 King@fvtc.edu Mail sent
+	User: wbsanford 14 Walter.Sanford@fcps.edu Mail sent
+	User: campbell 30 glen.campbell@tafensw.edu.au Mail sent
+	User: richard zion 30 zman4657@aol.com Mail sent
+	User: swheels37 30 stevew@stltrades.com Mail sent
+	User: letric1 14 carlos.rita@usa.net Mail sent
+	User: i2lguy@msn.com 30 i2lguy@verizon.net Mail sent
+	User: mcnalchr 60 mcnalchr@hvcc.edu Mail sent
+	User: vhadley 30 kvelectric@msn.com Mail sent
+	User: wjhutzel 14 hutzelw@purdue.edu Mail sent
+	User: rmills5 30 ramm@comcast.net Mail sent
+	User: sandusky@usc.edu 30 sandusky@usc.edu Mail sent
+	User: don.sykora 30 don.sykora@morton.edu Mail sent
+	User: aneshansley 30 dja4@cornell.edu Mail sent
+	User: johnhagelstein 30 johnhagelstein@ibew313.org Mail sent
+	User: mikew@allenph.com 30 mikew@allenph.com Mail sent
+	User: batipton 30 batipton@aol.com Mail sent
+	User: khawblitz 60 khawblitz@rjbagan.com Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		7	7
+Pomona-Sales		4	4
+Meterman-Sales		6	6
+Ircon-Sales		0	0
+Hart-Sales		0	0
+Educators		18	18
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

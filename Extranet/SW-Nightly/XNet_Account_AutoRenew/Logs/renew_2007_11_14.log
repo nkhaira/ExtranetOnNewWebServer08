@@ -1,0 +1,71 @@
+
+----- 11/14/2007 4:00:02 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: omnicont 14 bob@omnicontrols.com Mail sent
+	User: Gary Ingram 60 gingram@ewingfoley.com Mail sent
+	User: jmaone1 60 jason.hanson@jmaone.com Mail sent
+	User: sjbruno 60 sbruno@fromm.com Mail sent
+	User: jwebster 60 korg1@optusnet.com.au Mail sent
+	User: jeffdello 60 jdello@thermo-kinetics.com Mail sent
+
+Handling site Pomona-Sales
+
+Handling site Meterman-Sales
+	User: Gary Ingram 60 gingram@ewingfoley.com Mail sent
+	User: sjbruno 60 sbruno@fromm.com Mail sent
+	User: jmaone1 60 jason.hanson@jmaone.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: soniacc 60 sonia@inymet.com.mx Mail sent
+
+Handling site Educators
+	User: sparkie001 30 stevek@treisd.com Mail sent
+	User: rjshanor 60 rjshanor@ix.netcom.com Mail sent
+	User: barryhallsted 60 bhallsted@gmail.com Mail sent
+	User: alexyeo 60 Yeo_Siak_Teong@ite.edu.sg Mail sent
+	User: eerskin 30 eerskin@ivytech.edu Mail sent
+	User: ddrobnic1 30 ddrobnic@visteon.com Mail sent
+	User: Sbrown0221 30 Stephen.brown@target.com Mail sent
+	User: jramming 30 jimramming@gmail.com Mail sent
+	User: garryf@sandiego.edu 60 garryf@sandiego.edu Mail sent
+	User: profshaw 30 profshaw@hotmail.com Mail sent
+	User: rob@directelectricnc 30 rob@directelectricnc.com Mail sent
+	User: aibonline 60 scasey@aibonline.org Mail sent
+	User: tmetcalf 60 tmetcalf@hvacrtraininginstitute.com Mail sent
+	User: rob_ackermann 30 rackermann@mmm.com Mail sent
+	User: Eidenlp 60 laurence.eiden@ct.gov Mail sent
+	User: gsears1 30 gsears@sau16.org Mail sent
+	User: eric lund 30 eric.lund@fluke.com Mail sent
+	User: billkinkle 14 billkinkle@aol.com Mail sent
+	User: patrick reilley 14 preilley@verizon.net Mail sent
+	User: LewNeeb 60 jatcneeb@aol.com Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+	User: jwebster 60 korg1@optusnet.com.au Mail sent
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		6	6
+Pomona-Sales		0	0
+Meterman-Sales		3	3
+Ircon-Sales		0	0
+Hart-Sales		1	1
+Educators		20	20
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		1	1
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

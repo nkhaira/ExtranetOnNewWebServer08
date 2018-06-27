@@ -1,0 +1,55 @@
+
+----- 1/6/2008 4:00:01 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: BjørnClausen 30 bjocla@bd.dkconflict on CMS_Region
+	User: dsandlin 30 dsandlin@alltel.net Mail sent
+	User: HWBinc. 14 singlis@motumb2b.com Mail sent
+	User: Mark L. Miller 14 m.miller@capeelectric.com Mail sent
+	User: danreynolds 60 dan.reynolds@fluke.com Mail sent
+	User: electro5 60 martin.therrien@electro5.com Mail sent
+
+Handling site Pomona-Sales
+	User: danreynolds 60 dan.reynolds@fluke.com Mail sent
+
+Handling site Meterman-Sales
+	User: Mark L. Miller 14 m.miller@capeelectric.com Mail sent
+	User: danreynolds 60 dan.reynolds@fluke.com Mail sent
+	User: HWBinc. 14 singlis@motumb2b.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+
+Handling site Educators
+	User: pearson 60 steve.pearson@linnbenton.edu Mail sent
+	User: racmas1 14 racmas@comcast.net Mail sent
+	User: ebaltrip 30 ebaltrip@aol.com Mail sent
+	User: edemerick 30 eemerick@mtjatc.org Mail sent
+	User: JDRosson 30 jrosson@campingworld.com Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		6	5
+Pomona-Sales		1	1
+Meterman-Sales		3	3
+Ircon-Sales		0	0
+Hart-Sales		0	0
+Educators		5	5
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

@@ -1,0 +1,63 @@
+
+----- 12/27/2007 4:00:02 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: Chuck Barbarulo Jr. 30 Chuckaloneathome@aol.com Mail sent
+	User: mlagosa 30 comercial.vigo2@mlago.comconflict on CMS_Region
+	User: oliver.ax@sonepar.de 30 oliver.ax@sonepar.deconflict on CMS_Region
+	User: cteipel 30 christian.teipel@sonepar.deconflict on CMS_Region
+	User: f.zanco 30 industry@elcoteam.comconflict on CMS_Region
+	User: renato1 30 info@distek.itconflict on CMS_Region
+	User: gouldgn 30 info@gouldgnsistemi.itconflict on CMS_Region
+	User: venotek 14 ivar@venotek.noconflict on CMS_Region
+	User: fluogas 30 fluogas@ciudad.com.ar Mail sent
+
+Handling site Pomona-Sales
+
+Handling site Meterman-Sales
+	User: Chuck Barbarulo Jr. 30 Chuckaloneathome@aol.com Mail sent
+	User: laboratorio 60 service@lab.intronica.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+
+Handling site Educators
+	User: ClayCenter 14 lance@theclaycenter.com Mail sent
+	User: jburkeinva 30 jburke21@cox.net Mail sent
+	User: elevatorman 14 elevatorman124@yahoo.com Mail sent
+	User: marcr56 14 marcr56@yahoo.com Mail sent
+	User: saleh_ma 30 saleh_ma@tsu.edu Mail sent
+	User: tmartin@phonet.com 60 temartin2@cox.net Mail sent
+	User: colinda@acitech.org 30 colinda@acitech.org Mail sent
+	User: amarillo college 30 thorpe-ar@actx.edu Mail sent
+	User: Indplsprogram 14 union@iejatc.org Mail sent
+	User: rexkent 14 rex.kent@sinclair.edu Mail sent
+	User: Hot Stick 30 cvic120175@aol.com Mail sent
+	User: Ciscoinstructor1 30 dthompso@btboces.org Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		9	2
+Pomona-Sales		0	0
+Meterman-Sales		2	2
+Ircon-Sales		0	0
+Hart-Sales		0	0
+Educators		12	12
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

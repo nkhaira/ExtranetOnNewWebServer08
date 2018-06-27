@@ -1,0 +1,75 @@
+
+----- 12/19/2007 4:00:02 AM
+
+Handling site Calibration-Sales
+	User: luvmypugs 60 linda.street@fluke.com Mail sent
+
+Handling site FInd-Sales
+	User: HSORRELLS1 60 hsorrells@rgreene.com Mail sent
+	User: Searcher 60 JMJohnson@newark.com Mail sent
+	User: Ron Brown 60 ronbrown@on.aibn.com Mail sent
+	User: grant chad 30 grant@prime-electronics.com.au Mail sent
+	User: christieross 60 cross@graybarcanada.com Mail sent
+	User: Witronic 30 owinkler@witronic.chconflict on CMS_Region
+	User: servilecsa 30 dgross@servilec.chconflict on CMS_Region
+	User: harrystahel 30 stahel@recom.chconflict on CMS_Region
+	User: sintrel10 30 shuber@sintrel.chconflict on CMS_Region
+
+Handling site Pomona-Sales
+	User: LouiseL 14 louise.luciani@fluke.com Mail sent
+	User: iluvpugs1 60 linda.street@fluke.com Mail sent
+	User: HSORRELLS1 60 hsorrells@rgreene.com Mail sent
+
+Handling site Meterman-Sales
+	User: Ron Brown 60 ronbrown@on.aibn.com Mail sent
+	User: Searcher 60 JMJohnson@newark.com Mail sent
+	User: HSORRELLS1 60 hsorrells@rgreene.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+	User: luvmypugs 60 linda.street@fluke.com Mail sent
+
+Handling site Educators
+	User: Lie Fu Bun 60 fubun@uninet.net.id Mail sent
+	User: klopcict 60 klopcict@kenyon.edu Mail sent
+	User: uncatalogued 30 2006@itsystems-inc.com Mail sent
+	User: Jerry Esselman 60 jeesselman@ranken.edu Mail sent
+	User: jregester 14 jregester@greensboroday.org Mail sent
+	User: pdillard 30 mvdillard@comcast.net Mail sent
+	User: penderte 30 terry.pendergraft@pgnmail.com Mail sent
+	User: dmccollum 14 dmccollum@columbustech.edu Mail sent
+	User: judycole 30 judycole@water.ca.gov Mail sent
+	User: jeffery_smith2 14 jeffery_smith2@owens.edu Mail sent
+	User: jahoudek 14 jahoudek@aol.com Mail sent
+	User: tjwoods 60 tj_woods@wyojatc.org Mail sent
+	User: abdelayre 60 abda@yahoo.com Mail sent
+	User: Trane Bryon 14 bwilfong@trane.com Mail sent
+	User: harrycpowelljr 60 hcp7ad@virginia.edu Mail sent
+	User: jakeball 60 snarterr@isu.edu Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+	User: pmatone 14 pmatone@advent-elect.com Mail sent
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+	User: luvmypugs 60 linda.street@fluke.com Mail sent
+Site		Expirers	Emails
+Calibration-Sales		1	1
+FInd-Sales		9	5
+Pomona-Sales		3	3
+Meterman-Sales		3	3
+Ircon-Sales		0	0
+Hart-Sales		1	1
+Educators		16	16
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		1	1
+Amprobe-Sales		0	0
+DHI-Sales		1	1
+Total sites = 12

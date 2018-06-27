@@ -1,0 +1,44 @@
+BODY {font-size:10pt;font-family: Arial,Verdana;}
+
+TD {font-size:10pt;font-family: Arial,Verdana;}
+TH {font-size:8pt;font-family: Arial,Verdana;font-weight:bold;}
+
+.Normal        {font-size:10pt;font-family: Arial,Verdana;}
+.NormalBold    {font-weight:bold; font-size:10pt;font-family: Arial,Verdana;}
+.NormalBoldRed {font-weight:bold; font-size:10pt;font-family: Arial,Verdana;color:red;}
+.NormalBoldGold{font-weight:bold; font-size:10pt;font-family: Arial,Verdana;color:#FFCC00;}
+.NormalRed     {font-size:10pt;font-family: Arial,Verdana;color:red;}
+.NormalGold    {font-size:10pt;font-family: Arial,Verdana;color:#FFCC00;}
+.NormalWhite   {font-size:10pt;font-family: Arial,Verdana;color:white;}
+.NormalItalic  {font-size:10pt;font-family: Arial,Verdana; font-style: italic;}
+
+.Medium         {font-weight:Normal; font-size:9pt;font-family: Arial,Verdana; color:#000000; font-style: Normal;}
+.MediumBold     {font-weight:Bold;   font-size:9pt;font-family: Arial,Verdana; color:#000000; font-style: Normal;}
+.MediumItalic   {font-weight:Normal; font-size:9pt;font-family: Arial,Verdana; color:#000000; font-style: Italic;}
+.MediumRed      {font-weight:Normal; font-size:9pt;font-family: Arial,Verdana; color:#FF0000; font-style: Normal;}
+.MediumGold     {font-weight:Normal; font-size:9pt;font-family: Arial,Verdana; color:#FFCC00; font-style: Normal;}
+.MediumBoldRed  {font-weight:Bold;   font-size:9pt;font-family: Arial,Verdana; color:#FF0000; font-style: Normal;}
+.MediumBoldGold {font-weight:Bold;   font-size:9pt;font-family: Arial,Verdana; color:#FFCC00; font-style: Normal;}
+.MediumWhite    {font-weight:Normal; font-size:9pt;font-family: Arial,Verdana; color:#FFFFFF; font-style: Normal;}
+
+.Small         {font-weight:Normal; font-size:8.5pt;font-family: Arial,Verdana; color:#000000; font-style: Normal;}
+.SmallBold     {font-weight:Bold;   font-size:8.5pt;font-family: Arial,Verdana; color:#000000; font-style: Normal;}
+.SmallItalic   {font-weight:Normal; font-size:8.5pt;font-family: Arial,Verdana; color:#000000; font-style: Italic;}
+.SmallRed      {font-weight:Normal; font-size:8.5pt;font-family: Arial,Verdana; color:#FF0000; font-style: Normal;}
+.SmallGold     {font-weight:Normal; font-size:8.5pt;font-family: Arial,Verdana; color:#FFCC00; font-style: Normal;}
+.SmallBoldRed  {font-weight:Bold;   font-size:8.5pt;font-family: Arial,Verdana; color:#FF0000; font-style: Normal;}
+.SmallBoldGold {font-weight:Bold;   font-size:8.5pt;font-family: Arial,Verdana; color:#FFCC00; font-style: Normal;}
+.SmallBoldBar  {font-weight:Bold;   font-size:8.5pt;font-family: Arial,Verdana; color:#FFCC00; font-style: Normal;}
+.SmallBoldWhite{font-weight:Bold;   font-size:8.5pt;font-family: Arial,Verdana; color:#FFFFFF; font-style: Normal;}
+
+.SmallWhite    {font-weight:Normal; font-size:8.5pt;font-family: Arial,Verdana; color:#FFFFFF; font-style: Normal;}
+.Smallest      {font-size:7.5pt;color:black;}
+
+.Heading1      {font-weight:bold; font-size:22pt; font-family: Arial,Verdana; font-style: Normal;}
+.Heading2      {font-weight:bold; font-size:17pt; font-family: Arial,Verdana; font-style: Normal;}
+.Heading3      {font-weight:bold; font-size:14pt; font-family: Arial,Verdana; font-style: Normal;}
+.Heading4      {font-weight:bold; font-size:12pt; font-family: Arial,Verdana; font-style: Normal;}
+.Heading5      {font-weight:bold; font-size:11pt; font-family: Arial,Verdana; color:#000000; font-style: Normal;}
+.Heading6      {font-weight:bold; font-size:10pt; font-family: Arial,Verdana; color:#000000; font-style: Normal;}
+
+PRE {font-size:90%; font-family: "Lucida Console,Courier New,Courier";}

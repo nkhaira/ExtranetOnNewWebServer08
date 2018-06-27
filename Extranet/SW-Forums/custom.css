@@ -1,0 +1,263 @@
+/* Sample style-sheet thanks to John Graham */
+
+.aspforumsformbody
+{
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsformbodylabel
+{
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsformdateelement
+{
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsformemailaddress
+{
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsformemailaddresslabel
+{
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsformemailresponses
+{
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsformemailresponseslabel
+{
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsformfullname
+{
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsformfullnamelabel
+{
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsformmonthelement
+{
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsformpostedby
+{
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsformpostedbylabel
+{
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsformsearch
+{
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsformsearchsmall
+{
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsformsubject
+{
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsformsubjectlabel
+{
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsformyearelement
+{
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsmsgbody
+{
+  font-size: 10px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsmsgbodylabel
+{
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+  text-decoration: underline
+}
+
+.aspforumsmsgpostedby
+{
+  color: green;
+  font-style: italic;
+  font-size: 24px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsmsgpostedbylabel
+{
+  font-size: 18px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsmsgpostedon
+{
+  font-style: italic;
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsmsgpostedonlabel
+{
+  color: gray;
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsviewauthor
+{
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+  text-decoration: none
+}
+
+.aspforumsviewdate
+{
+  color: gray;
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsviewmanychildren
+{
+  font-style: oblique;
+  font-size: 10px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsviewnochildren
+{
+  font-style: italic;
+  font-size: 8px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsviewonechild
+{
+  font-style: italic;
+  font-size: 10px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+.aspforumsviewsubject
+{
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+a.aspforumsformemailresponses:link
+{
+  color: black;
+  font-style: italic;
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+  text-decoration: none
+}
+
+a.aspforumsformemailresponses:visited
+{
+  color: #fc6;
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+  text-decoration: none
+}
+
+a.aspforumsformemailresponses:hover
+{
+  color: #309;
+  font-style: italic;
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+  text-decoration: none
+}
+
+a.aspforumsmsgpostedby:link
+{
+  color: #309;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+  text-decoration: underline
+}
+
+a.aspforumsmsgpostedby:hover
+{
+  color: black;
+  font-size: 14px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+a.aspforumsviewsubject:link
+{
+  color: #309;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+  text-decoration: underline
+}
+
+a.aspforumsviewsubject:visited
+{
+  color: gray;
+  font-size: 14px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+a.aspforumsviewsubject:hover
+{
+  color: black;
+  font-size: 14px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+h1
+{
+  font-size: 16px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+h2
+{
+  font-size: 14px;
+  font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}

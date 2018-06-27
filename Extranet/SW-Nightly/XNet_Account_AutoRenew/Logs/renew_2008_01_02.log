@@ -1,0 +1,63 @@
+
+----- 1/2/2008 4:00:07 AM
+
+Handling site Calibration-Sales
+
+Handling site FInd-Sales
+	User: deweeser 60 bob@westconinc.com Mail sent
+	User: allenboney 14 allen.boney@rs-components.comconflict on CMS_Region
+	User: VPElectronics 30 vp@vpelec.comconflict on CMS_Region
+	User: 20selmatec04 30 m.selent@selmatec.deconflict on CMS_Region
+	User: sigrid1 30 dankel@elektronik-kontor.deconflict on CMS_Region
+	User: tvwbuende 30 info@tvwbuende.deconflict on CMS_Region
+	User: porsche 30 seegers@elektronik-kontor.deconflict on CMS_Region
+	User: JohannesMeyer 30 j.meyer@meyer-messtechnik.deconflict on CMS_Region
+	User: andreastheil 30 info@mu-v.deconflict on CMS_Region
+
+Handling site Pomona-Sales
+	User: deweeser 60 bob@westconinc.com Mail sent
+
+Handling site Meterman-Sales
+	User: cajames2 60 cjames@carlco.com Mail sent
+	User: deweeser 60 bob@westconinc.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+
+Handling site Educators
+	User: JamesMLucas 30 lucas@oakton.edu Mail sent
+	User: joeyleonard 30 joey.leonard@nscc.edu Mail sent
+	User: techdawg 14 phyillaier@stevenstech.org Mail sent
+	User: les1979 30 yei@cox.net Mail sent
+	User: virtual1 30 leo@omicinski.com Mail sent
+	User: jmillion 60 jmillion@alaska.net Mail sent
+	User: micheal emberton 30 micheal.emberton@monroe.kyschools.us Mail sent
+	User: TBroome1100 14 tommie.broome@mgccc.edu Mail sent
+	User: giuliani480 14 bohica120@gmail.com Mail sent
+	User: sandusky@usc.edu 14 sandusky@usc.edu Mail sent
+	User: andréroy 60 androy@cegep-rdl.qc.ca Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+Site		Expirers	Emails
+Calibration-Sales		0	0
+FInd-Sales		9	1
+Pomona-Sales		1	1
+Meterman-Sales		2	2
+Ircon-Sales		0	0
+Hart-Sales		0	0
+Educators		11	11
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		0	0
+Total sites = 12

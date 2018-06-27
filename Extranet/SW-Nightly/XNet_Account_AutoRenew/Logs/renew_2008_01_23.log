@@ -1,0 +1,56 @@
+
+----- 1/23/2008 4:00:05 AM
+
+Handling site Calibration-Sales
+	User: Jens Arne Larsen 60 jens@instrutek.no Mail sent
+
+Handling site FInd-Sales
+	User: Standard Meter Lab 60 rj@sml-inc.com Mail sent
+	User: joserra 60 joserragarcia@aelvasa.esconflict on CMS_Region
+	User: info@tsmera 14 info@tsmera.ruconflict on CMS_Region
+	User: davidfuentes 30 dfuentes@abm.esconflict on CMS_Region
+	User: davidfuentes 30 dfuentes@abm.esconflict on CMS_Region
+
+Handling site Pomona-Sales
+	User: Standard Meter Lab 60 rj@sml-inc.com Mail sent
+
+Handling site Meterman-Sales
+	User: Standard Meter Lab 60 rj@sml-inc.com Mail sent
+
+Handling site Ircon-Sales
+
+Handling site Hart-Sales
+
+Handling site Educators
+	User: lewiswd 14 lewiswd_42@msn.com Mail sent
+	User: ronaldo 14 forrvs@gmail.com Mail sent
+	User: eartschwager 14 eartschwager@centurytel.net Mail sent
+	User: arlauder 30 arlauder@kangan.edu.au Mail sent
+	User: leathwood 60 tleathwood@rogers.com Mail sent
+	User: mkremer68 14 michael.kremer@novar.com Mail sent
+	User: cateyedude 60 cateyedude@hotmail.com Mail sent
+
+Handling site SandBox
+
+Handling site Sales-Training
+
+Handling site Raytek-Sales
+
+Handling site Amprobe-Sales
+
+Handling site DHI-Sales
+	User: Jens Arne Larsen 60 jens@instrutek.no Mail sent
+Site		Expirers	Emails
+Calibration-Sales		1	1
+FInd-Sales		5	1
+Pomona-Sales		1	1
+Meterman-Sales		1	1
+Ircon-Sales		0	0
+Hart-Sales		0	0
+Educators		7	7
+SandBox		0	0
+Sales-Training		0	0
+Raytek-Sales		0	0
+Amprobe-Sales		0	0
+DHI-Sales		1	1
+Total sites = 12

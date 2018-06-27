@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+<xmlObject>
+	<chapter audio_path=''>
+		<text x='205' y='140' time='0'>
+			<![CDATA[Fluke FoodPro Online Sales Presentation]]>
+		</text>
+		<image x='250' y='160' time='0' path='images/25.jpg' clearImg="true" clearTxt="false" />
+	</chapter>
+	<!-- Sales begins here -->
+	<chapter audio_path='audio/FPP_01b_Sales.mp3'>
+		<image x='160' y='120' time='0' path='images/23 copy.jpg' clearImg="false" clearTxt="false" />
+		<image x='450' y='250' time='1' path='images/15.jpg' clearImg="false" clearTxt="false" />
+		<text x='470' y='110' time='9'> 
+			<![CDATA[<li>How to sell this product</li>]]>
+		</text>
+		<text x='470' y='150' time='11'>
+			<![CDATA[<li>Who to sell it to</li>]]>
+		</text>
+		<text x='150' y='370' time='14'>
+			<![CDATA[<li>HACCP guidelines</li>]]>
+		</text>
+		<text x='150' y='410' time='15'>
+			<![CDATA[<li>Critical Control Points</li>]]>
+		</text>
+		<text x='150' y='450' time='18'>
+			<![CDATA[<li>Operation: FoodPro and FoodPro Plus</li>]]>
+		</text>
+	</chapter>
+	<chapter audio_path='audio/FPP_02b_Sales.mp3'>
+	<image x='150' y='120' time='0' path='images/9.jpg' clearImg="false" clearTxt="false" />
+		<text x='430' y='130' time='2'>
+			<![CDATA[FoodPro vs Thermometer]]>
+		</text>
+		<text x='410' y='170' time='5'>
+			<![CDATA[<li>A total temperature solution</li>]]>
+		</text>
+		
+		<text x='410' y='210' time='8'>
+			<![CDATA[<li>Better food safety</li>]]>
+		</text>
+		
+		<text x='410' y='250' time='9'>
+			<![CDATA[<li>Better HACCP compliance</li>]]>
+		</text>
+		
+		<text x='410' y='290' time='11'>
+			<![CDATA[<li>Two year product warranty</li>]]>
+		</text>
+		<image x='160' y='115' time='14' path='images/12.jpg' clearImg="true" clearTxt="yes" />
+		<text x='410' y='110' time='14'>
+			<![CDATA[<li>Restaurants</li>]]>
+		</text>
+		<text x='410' y='150' time='15'>
+			<![CDATA[<li>Casinos</li>]]>
+		</text>
+		<text x='410' y='190' time='17'>
+			<![CDATA[<li>Commercial food producers</li>]]>
+		</text>
+		<text x='410' y='230' time='18'>
+			<![CDATA[<li>Institutions</li>]]>
+		</text>
+		<text x='410' y='270' time='19'>
+			<![CDATA[<li>Schools/Colleges/Universities</li>]]>
+		</text>
+		<text x='410' y='310' time='21'>
+			<![CDATA[<li>Corporations</li>]]>
+		</text>		
+		<text x='410' y='350' time='22'>
+			<![CDATA[<li>Military bases</li>]]>
+		</text>
+		<text x='410' y='390' time='23'>
+			<![CDATA[<li>Prisons</li>]]>
+		</text>
+		<text x='410' y='430' time='24'>
+			<![CDATA[<li>Local government health inspectors</li>]]>
+		</text>
+
+	</chapter>
+	<chapter audio_path='audio/FPP_03b_Sales.mp3'>
+		<video x='250' y='150' time='1' path='videos/2-Sales.flv' clearImg="true" />
+		<text x='250' y='400' time='23'>
+			<![CDATA[<li>NSF Approved</li>]]>
+		</text>
+		
+		<text x='250' y='440' time='26'>
+			<![CDATA[<li>Designed by Fluke</li>]]>
+		</text>
+		
+		<text x='250' y='480' time='28'>
+			<![CDATA[<li>Durable</li>]]>
+		</text>
+	</chapter>
+	<chapter audio_path='audio/FPP_04b_Sales.mp3'>
+		
+		<image x='185' y='100' time='0' path='images/_MG_3953_green.jpg' clearImg="false" clearTxt="false" />
+
+		<image x='185' y='350' time='2.5' path='images/_MG_3953_red.jpg' clearImg="false" clearTxt="false" />
+
+		<text x='450' y='130' time='7.5' color="00FF00">
+			<![CDATA[Green Zone:]]>
+		</text>
+
+		<text x='450' y='380' time='8.5' color="FF0000">
+			<![CDATA[Red Zone:]]>
+		</text>
+
+		<image x='185' y='100' time='10' path='images/_MG_3953_green2.jpg' clearImg="false" clearTxt="false" />
+
+		<text x='470' y='170' time='11' color="000000">
+			<![CDATA[Less than 40° F]]>
+		</text>
+		
+		<image x='185' y='350' time='12' path='images/_MG_3953_red.jpg' clearImg="false" clearTxt="false" />
+		
+		<text x='470' y='210' time='16.5' color="000000">
+			<![CDATA[More than 140° F]]>
+		</text>
+
+		<image x='185' y='100' time='18' path='images/_MG_3953_green.jpg' clearImg="false" clearTxt="false" />
+
+		<text x='470' y='420' time='22' color="000000">
+			<![CDATA[Between 40° and 140° F]]>
+		</text>
+
+	</chapter>
+
+	<chapter audio_path='audio/FPP_05b_Sales.mp3'>
+		<image x='150' y='160' time='0' path='images/_MG_3988 copy.jpg' clearImg="false" clearTxt="false" />
+		<text x='350' y='110' time='0'>
+			<![CDATA[FoodPro vs FoodPro Plus]]>
+		</text>
+
+		<text x='175' y='400' time='2'>
+			<![CDATA[Same functions in infrared mode]]>
+		</text>
+
+		<text x='400' y='160' time='9'>
+			<![CDATA[FoodPro does not show highest reading]]>
+		</text>
+
+		<image x='150' y='160' time='9' path='images/_MG_3971_2b copy.jpg' clearImg="false" clearTxt="false" />
+
+		<text x='450' y='520' time='13'>
+			<![CDATA[FoodPro has no probe or timer]]>
+		</text>
+
+		<image x='450' y='280' time='13' path='images/_MG_3960_2 copy.jpg' clearImg="false" clearTxt="false" />
+
+		<text x='400' y='180' time='16'>
+			<![CDATA[HAACP light is the same]]>
+		</text>
+
+	</chapter>
+	<chapter audio_path='audio/FPP_06_Sales.mp3'>
+		<text x='380' y='110' time='0'>
+			<![CDATA[Advantages of Using Both:]]>
+		</text>
+		<image x='160' y='120' time='0' path='images/9.jpg' clearImg="false" clearTxt="false" />
+		<text x='450' y='160' time='1'>
+			<![CDATA[Food Pro]]>
+		</text>
+		<text x='450' y='200' time='8'>
+			<![CDATA[<li>Check in food</li>]]>
+		</text>
+		<text x='450' y='240' time='10'>
+			<![CDATA[<li>Food Storage</li>]]>
+		</text>
+		<text x='450' y='280' time='11'>
+			<![CDATA[<li>Calibrations</li>]]>
+		</text>
+		<text x='450' y='320' time='13'>
+			<![CDATA[<li>Temperature Checks</li>]]>
+		</text>
+
+		<image x='160' y='120' time='15' path='images/16.jpg' clearImg="true" clearTxt="false" />
+		<text x='450' y='380' time='16'>
+			<![CDATA[FoodPro Plus]]>
+		</text>
+		<text x='450' y='420' time='17'>
+			<![CDATA[<li>Line Checking</li>]]>
+		</text>
+		<text x='450' y='460' time='18'>
+			<![CDATA[<li>For Cook, Chef or Manager</li>]]>
+		</text>
+	</chapter>
+	<chapter audio_path='audio/FPP_07b_Sales.mp3'>
+		<image x='160' y='120' time='0' path='images/16.jpg' clearImg="false" clearTxt="false" />
+		<text x='480' y='160' time='6'>
+			<![CDATA[<li>Most cost effective</li>]]>
+		</text>
+		<text x='480' y='200' time='11'>
+			<![CDATA[<li>Versatile</li>]]>
+		</text>
+
+		<text x='480' y='240' time='14'>
+			<![CDATA[<li>Check literature</li>]]>
+		</text>
+
+		<text x='480' y='280' time='23'>
+			<![CDATA[<li>Finish the demo</li>]]>
+		</text>
+
+	</chapter>
+	<!-- Sales ends here -->
+	<chapter audio_path='audio/FPP_EU_08b.mp3'>
+		<text x='10' y='100' time='0.2' align='center'>
+			<![CDATA[Food Safety<br />Monitoring Food]]>
+		</text>
+		<image x='160' y='200' time='4' path='images/11 copy.jpg' clearImg="true" clearTxt="false" />
+		<image x='510' y='150' time='8' path='images/19.jpg' clearImg="false" clearTxt="false" />
+		<text x='475' y='360' time='29'>
+		<![CDATA[<li>Cold Foods: Less than 40° F</li>]]>
+		</text>
+		<text x='475' y='380' time='31'>
+		<![CDATA[<li>Hot Foods:     At least 140° F</li>]]>
+		</text>
+		<image x='100' y='200' time='11.5' path='FDALogo' clearImg="false" clearTxt="false" />
+	</chapter>
+	<chapter audio_path='audio/FPP_EU_09.mp3'>
+		<text x='320' y='150' time='0.2'>
+			<![CDATA[Infrared vs Contact Thermometers]]>
+		</text>
+		<image x='160' y='220' time='0.2' path='images/_MG_3956_2_1 copy.jpg' clearImg="true" clearTxt="false" />
+		<image x='510' y='220' time='5.4' path='images/_MG_3960_2 copy.jpg' clearImg="false" clearTxt="false" />
+	</chapter>
+	<chapter audio_path='audio/FPP_EU_10.mp3'>
+		<text x='50' y='130' time='0.2' align='center'>
+			<![CDATA[HACCP<br />(Hazard Analysis of Critical Control Points)]]>
+		</text>
+		<image x='160' y='220' time='6' path='images/10.jpg' clearImg="true" clearTxt="false" />
+		<text x='510' y='230' time='19'>
+			<![CDATA[<li>Risk of bacteria</li>]]>
+		</text>
+		<text x='510' y='270' time='24.5'>
+			<![CDATA[<li>Risk of illness</li>]]>
+		</text>
+		<text x='510' y='310' time='28.5'>
+			<![CDATA[<li>Between 40° - 140° F</li>]]>
+		</text>
+	</chapter>
+	<chapter audio_path='audio/FPP_EU_11b.mp3'>
+		<text x='350' y='130' time='0.2' >
+			<![CDATA[6 Critical Control Points:]]>
+		</text>
+		<text x='345' y='160' time='8' >
+			<![CDATA[FoodPro and FoodPro Plus]]>
+		</text>
+		<image x='150' y='210' time='8.1' path='images/_MG_3994_2b copy.jpg' clearImg="false" clearTxt="false" />
+		<image x='510' y='210' time='13.0' path='images/_MG_3950_green.jpg' clearImg="false" clearTxt="false" />
+		<image x='510' y='210' time='13.75' path='images/_MG_3950_red.jpg' clearImg="false" clearTxt="false" />
+		<image x='510' y='210' time='15.3' path='images/_MG_3960_2 copy.jpg' clearImg="false" clearTxt="false" />
+	</chapter>
+	<chapter audio_path='audio/FPP_EU_12b.mp3'>
+		<text x='360' y='120' time='0.2'>
+			<![CDATA[Critical Control Point - Receiving]]>
+		</text>
+		<image x='160' y='210' time='0.1' path='images/5.jpg' clearImg="false" clearTxt="false" />
+		<image x='150' y='300' time='11.5' path='images/_MG_3971_2b copy.jpg' clearImg="false" clearTxt="false" />
+		<text x='510' y='210' time='15.5'>
+			<![CDATA[Frozen Foods<br/>0° - 15° F Accept<br/>15° +     F Reject]]>
+		</text>
+		<text x='510' y='350' time='28'>
+			<![CDATA[Refrigerated Foods<br/>- 40° F Accept<br/>+ 40° F Reject]]>
+		</text>
+	</chapter>
+	<chapter audio_path='audio/FPP_EU_13b.mp3'>
+		<text x='360' y='120' time='0.2'>
+			<![CDATA[Critical Control Point - Storage]]>
+		</text>
+		<image x='160' y='210' time='0.2' path='images/7.jpg' clearImg="false" clearTxt="false" />
+		<image x='450' y='210' time='7.5' path='images/1 copy.jpg' clearImg="false" clearTxt="false" />
+	</chapter>
+	<chapter audio_path='audio/FPP_EU_14.mp3'>
+		<text x='380' y='120' time='0.2'>
+			<![CDATA[Critical Control Point - Cooking]]>
+		</text>
+		<image x='290' y='200' time='0.2' path='images/23 copy.jpg' clearImg="false" clearTxt="false" />
+		<image x='290' y='200' time='13' path='images/22.jpg' clearImg="true" clearTxt="false" />
+		<image x='290' y='200' time='21' path='images/20.jpg' clearImg="false" clearTxt="false" />
+		<image x='160' y='200' time='32' path='images/21 copy.jpg' clearImg="true" clearTxt="false" />
+		<image x='485' y='200' time='36' path='images/probe_tip.jpg' clearImg="false" clearTxt="false" />
+		<image x='290' y='200' time='42' path='images/probe_select.jpg' clearImg="true" clearTxt="false" />
+		<image x='290' y='200' time='47' path='images/probe_green.jpg' clearImg="true" clearTxt="false" />
+		<image x='290' y='200' time='54.5' path='images/probe_still.jpg' clearImg="true" clearTxt="false" />
+		<image x='290' y='200' time='59' path='images/probe_select.jpg' clearImg="true" clearTxt="false" />
+		<image x='290' y='200' time='63' path='images/_MG_4000b copy.jpg' clearImg="false" clearTxt="false" />
+
+		<text x='300' y='440' time='58.5'>
+			<![CDATA[Replacement probe kits are available]]>
+		</text>
+	</chapter>
+	<chapter audio_path='audio/FPP_EU_15b.mp3'>
+		<image x='160' y='180' time='0.2' path='images/2.jpg' clearImg="true" clearTxt="false" />
+		<image x='160' y='300' time='0.2' path='images/3.jpg' clearImg="false" clearTxt="false" />
+		<text x='350' y='120' time='0.2'>
+			<![CDATA[Critical Control Point - Holding & Serving]]>
+		</text>
+		<text x='470' y='180' time='3'>
+			<![CDATA[TEMPERATURE DANGER ZONE]]>
+		</text>
+		<text x='470' y='200' time='7'>
+			<![CDATA[40° - 140° F]]>
+		</text>
+		<text x='470' y='220' time='11'>
+			<![CDATA[Line checks every 1 - 2 hours]]>
+		</text>
+		<text x='470' y='240' time='14'>
+			<![CDATA[Under 40° F or above 140° F]]>
+		</text>
+		<image x='160' y='180' time='20' path='images/11.jpg' clearImg="true" clearTxt="true" />
+
+		<text x='160' y='400' time='24'>
+			<![CDATA[1 inch or deeper]]>
+		</text>
+
+		<image x='460' y='250' time='26.5' path='images/18.jpg' clearImg="false" clearTxt="false" />
+		<image x='160' y='180' time='33' path='images/10.jpg' clearImg="true" clearTxt="true" />
+
+		<text x='160' y='420' time='33'>
+			<![CDATA[For hot line checks]]>
+		</text>
+
+		<text x='160' y='440' time='38'>
+			<![CDATA[Shoot food on spoon]]>
+		</text>
+
+		<image x='515' y='270' time='38' path='images/19.jpg' clearImg="false" clearTxt="false" />
+		
+		
+		<video x='270' y='180' time='43.24' path='videos/9C.flv' clearImg="true" clearTxt="true" clearVid="true"/>
+	</chapter>
+	<chapter audio_path='audio/FPP_EU_17b.mp3'>
+		<text x='350' y='120' time='0.2'>
+			<![CDATA[Critical Control Point - Reheating]]>
+		</text>
+		<image x='270' y='150' time='2' path='images/16.jpg' clearImg="true" clearTxt="false" />
+			<text x='500' y='400' time='0.2'>
+			<![CDATA[Reheat food to at least 165° F]]>
+		</text>
+	</chapter>
+	<chapter audio_path='audio/FPP_EU_18b_EU_Edit.mp3'>
+		<image x='270' y='100' time='0.2' path='images/25.jpg' clearImg="true" clearTxt="false" />
+		<image x='500' y='200' time='9' path='images/_MG_3950_green.jpg' clearImg="false" clearTxt="false" />
+		<image x='500' y='200' time='10.75' path='images/_MG_3950_red.jpg' clearImg="false" clearTxt="false" />
+		<image x='140' y='385' time='17' path='arrow.swf' clearImg="false" clearTxt="false" />
+	</chapter>
+
+
+</xmlObject>
