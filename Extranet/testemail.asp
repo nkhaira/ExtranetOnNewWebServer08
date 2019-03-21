@@ -16,7 +16,7 @@ confURL = "http://schemas.microsoft.com/cdo/configuration/"
 with conf
     .Fields.Item(confURL & "sendusing") = 2
     .Fields.Item(confURL & "smtpserverport") = 25
-    .Fields.Item(confURL & "smtpserver") = "mail.evt.danahertm.com"
+    .Fields.Item(confURL & "smtpserver") = "smtp.fortivemail.com"
     .Fields.Update
 end with
 %>
