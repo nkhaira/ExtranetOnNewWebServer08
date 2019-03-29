@@ -1,6 +1,6 @@
 <%
 ' ESCROW changes:
-' line 24 to: if len(GetEmailServer) = 0 then GetEmailServer = "mail.fluke.com"
+' line 24 to: if len(GetEmailServer) = 0 then GetEmailServer = "smtp.fortivemail.com"
 
 function GetEmailServer()
 	Dim sDomain,aNodes,myenv
@@ -19,12 +19,12 @@ function GetEmailServer()
 				GetEmailServer = "mailhost.tc.fluke.com"
 				exit for
 			case "TST", "TEST", "PRD"
-				GetEmailServer = "mail.evt.danahertm.com:25"
+				GetEmailServer = "smtp.fortivemail.com:25"
 				exit for
 		end select
     Next
     
-	if len(GetEmailServer) = 0 then GetEmailServer = "mail.evt.danahertm.com:25"
+	if len(GetEmailServer) = 0 then GetEmailServer = "smtp.fortivemail.com:25"
   
 end function
 %>
